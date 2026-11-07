@@ -1,22 +1,21 @@
 <!doctype html>
-<html lang="id" data-theme="auto">
+<html lang="id" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Michi N3 — 道</title>
 <meta name="description" content="Belajar JLPT N3: simulasi ujian, tata bahasa, kosakata, dan ulasan kesalahan.">
-<meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#15161A" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#141415">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500;600&family=Shippori+Mincho:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/app.css">
 <script>
   // apply saved theme before paint to avoid flash
   try { const s = JSON.parse(localStorage.getItem('michi.v1') || '{}').settings || {};
-        if (s.theme) document.documentElement.dataset.theme = s.theme;
+        document.documentElement.dataset.theme = s.themeChosen && s.theme ? s.theme : 'dark';
         if (s.lang) document.documentElement.lang = s.lang; } catch (e) {}
 </script>
 </head>
@@ -26,8 +25,10 @@
   <aside class="sidebar" aria-label="Navigasi utama">
     <a class="brand" href="#/">
       <span class="brand-mark" aria-hidden="true">道</span>
-      <span class="brand-text"><b>Michi</b><small>JLPT N3</small></span>
+      <span class="brand-text">Michi</span>
+      <span class="brand-level">N3</span>
     </a>
+    <p class="nav-label" id="nav-label"></p>
     <nav class="nav" id="nav"></nav>
     <div class="sidebar-foot" id="sidebar-foot"></div>
   </aside>

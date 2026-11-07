@@ -19,24 +19,27 @@ export function questionHtml(q, { chosen, reveal, label } = {}) {
   const isListen = q.section === 'listening';
   const blank = q.options.every(o => !o.trim());
   const maxLen = Math.max(...q.options.map(o => stripHtml(o).length));
-  const cols = blank ? 'cols-4' : maxLen <= 8 ? 'cols-4' : maxLen <= 18 ? 'cols-2' : '';
+  const cols = blank ? 'cols-4' : maxLen <= 7 ? 'cols-4' : maxLen <= 16 ? 'cols-2' : '';
   const opts = q.options.map((o, i) => {
     const n = i + 1;
-    let cls = '';
-    if (reveal) { if (n === q.answer) cls = 'correct'; else if (n === chosen) cls = 'wrong'; }
-    const mark = reveal && n === q.answer ? icon('check') : reveal && n === chosen ? icon('x') : '';
+    let cls = '', mark = '';
+    if (reveal) {
+      if (n === q.answer) { cls = 'correct'; mark = `<span class="mark ok-t">${t('correct')}</span>`; }
+      else if (n === chosen) { cls = 'wrong'; mark = `<span class="mark ng-t">${t('wrong')}</span>`; }
+    }
     return `<button type="button" class="opt ${cls}" data-q="${q.id}" data-n="${n}" aria-pressed="${chosen === n}" ${reveal ? 'aria-disabled="true"' : ''}>
-      <span class="n">${optNum[i]}</span><span lang="ja">${blank ? '' : o}</span><span class="mark">${mark}</span></button>`;
+      <span class="oval" aria-hidden="true">${optNum[i]}</span><span class="sr-only">${optNum[i]}</span><span lang="ja">${blank ? '' : o}</span>${mark}</button>`;
   }).join('');
+  const res = reveal ? (chosen === q.answer ? `<span class="res ok-t">${t('correct')}</span>`
+    : `<span class="res ${chosen ? 'ng-t' : 'faint'}">${t('answer_is', { n: q.answer })}</span>`) : '';
   const explain = q.explanation && reveal
-    ? `<details class="explain-wrap" ${isListen ? '' : 'open'}><summary class="small" style="cursor:pointer;font-weight:600;color:var(--ai)">${isListen ? t('show_script') : t('explanation')}</summary>
-       <div class="explain" lang="ja" style="margin-top:8px">${transcriptHtml(q.explanation)}</div></details>` : '';
+    ? `<details class="explain" ${isListen ? '' : 'open'}><summary>${isListen ? t('show_script') : t('explanation')}</summary>
+       <div class="body" lang="ja">${transcriptHtml(q.explanation)}</div></details>` : '';
   return `<article class="q ${reveal ? 'locked' : ''}" id="q-${q.id.replaceAll('.', '-')}" data-qid="${q.id}">
-    <div class="q-meta"><span class="q-num">${label || ('Q' + q.n)}</span>${q.points > 1 ? `<span class="chip xs">${q.points}pt</span>` : ''}
-      ${reveal ? `<span class="chip ${chosen === q.answer ? 'ok' : 'ng'}">${chosen === q.answer ? t('correct') : chosen ? t('wrong') : t('answer_is', { n: q.answer })}</span>` : ''}</div>
+    <div class="q-meta"><span>${label || String(q.n).padStart(2, '0')}</span>${q.points > 1 ? `<span>${q.points} pt</span>` : ''}${res}</div>
     ${isListen && q.explanation ? listenHtml(q) : ''}
     <div class="q-stem" lang="ja">${q.stem}</div>
-    ${blank ? `<p class="xs muted">${t('listen_options')}</p>` : ''}
+    ${blank ? `<p class="small faint">${t('listen_options')}</p>` : ''}
     <div class="opts ${cols}" role="group" aria-label="${esc(label || 'Q' + q.n)}">${opts}</div>
     ${explain}
   </article>`;
@@ -45,8 +48,7 @@ export function questionHtml(q, { chosen, reveal, label } = {}) {
 function listenHtml(q) {
   return `<div class="listen" data-listen="${q.id}">
     <button type="button" class="btn sm" data-play="${q.id}">${icon('play')}<span>${t('play')}</span></button>
-    <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-    <span class="xs muted" style="flex:1">${t('replay_hint')}</span></div>`;
+    <span class="hint">${t('replay_hint')}</span></div>`;
 }
 
 /** Wire up play buttons inside root. getQ(id) returns the question. */

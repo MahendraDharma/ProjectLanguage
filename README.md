@@ -46,11 +46,15 @@ python3 scripts/scrape_dethitiengnhat.py --no-cache --only exams
 
 ## Desain
 
-Dibuat dengan alur **Define → Build → Review → Refine** dari plugin `design-mastery`
-([LibreUIUX-Claude-Code](https://github.com/Ormus-Solutions/LibreUIUX-Claude-Code)):
-skill `premium-saas-design` (artefak konteks), `design-principles` (hierarki, Gestalt, kontras WCAG)
-dan `design-movements` (Swiss International Style). Arah visual: grid Swiss × 間 (ruang kosong),
-kertas washi, tinta sumi, satu aksen merah cap hanko. Lihat `docs/design/`.
+Versi pertama dibuat dengan alur **Define → Build → Review → Refine** dari plugin `design-mastery`
+([LibreUIUX-Claude-Code](https://github.com/Ormus-Solutions/LibreUIUX-Claude-Code)).
+
+Versi sekarang dibangun ulang dengan skill **[unslop](https://github.com/heydamir/unslop)** oleh
+Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), CC BY 4.0: audit tanda-tanda "AI slop", lalu
+sembilan pass (spasi, warna, ikon, copy, huruf, layout, detail, visual, gerak). Arahnya "malam sebelum ujian":
+abu-abu gelap yang tenang (tema terang tetap ada), satu aksen kuning lampu meja, teks soal dicetak huruf
+Mincho seperti buku soal asli, kartu peserta 受験票 dari kertas sebagai satu-satunya benda terang di beranda,
+dan oval lembar jawaban マークシート sebagai detail khas. Audit dan arah lengkap ada di `docs/design/03-unslop-audit.md`.
 
 ## Struktur
 

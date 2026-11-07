@@ -1,41 +1,71 @@
-/* Design tokens — see docs/design/02-style-guide.md */
-:root {
-  --bg: #F7F4EE; --surface: #FFFFFF; --surface-2: #EFEBE3; --line: #E2DCD0; --line-strong: #CFC7B8;
-  --ink: #1B1B1F; --ink-2: #5A5A63; --ink-3: #7B7B84;
-  --shu: #C8372D; --shu-soft: #FBE9E6; --on-shu: #FFFFFF;
-  --ai: #27408B; --ai-soft: #E7ECF8;
-  --ok: #2E7D4F; --ok-soft: #E4F3EA; --ng: #B3261E; --ng-soft: #FBE7E5; --warn: #A15C00; --warn-soft: #FDF0DC;
-  --shadow: 0 1px 2px rgba(27,27,31,.04), 0 4px 16px rgba(27,27,31,.05);
-  --shadow-lift: 0 2px 4px rgba(27,27,31,.06), 0 10px 28px rgba(27,27,31,.08);
-  --r-sm: 6px; --r-md: 10px; --r-lg: 16px; --r-full: 999px;
-  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px;
-  --f-ui: "Inter", "Noto Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --f-jp: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
-  --f-display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  --t-xs: 12px; --t-sm: 14px; --t-md: 16px; --t-lg: 20px; --t-xl: 25px; --t-2xl: 31px; --t-3xl: 39px; --t-4xl: 49px;
-  --ease: cubic-bezier(.2,.7,.2,1); --fast: 120ms; --mid: 200ms;
-  --sidebar: 248px; --content: 880px;
+/* Design tokens — direction in docs/design/03-unslop-audit.md
+   Dark graphite is the default; light is available from Settings. */
+:root,
+:root[data-theme="dark"] {
+  --bg-0: #0f0f10;            /* sidebar, deepest */
+  --bg: #141415;              /* page */
+  --card: #19191b;
+  --raised: #232325;          /* active row, input, hover */
+  --line: rgba(237, 237, 237, .08);
+  --line-2: rgba(237, 237, 237, .14);
+  --ink: #ededed;
+  --ink-2: #a1a1a6;
+  --ink-3: #85858b;
+  --accent: #f0b44c;          /* desk-lamp amber */
+  --accent-ink: #f0b44c;      /* accent used as text */
+  --on-accent: #1a1306;
+  --btn: #ededed;             /* primary button: off-white */
+  --on-btn: #141415;
+  --pencil: #d4d4d8;          /* filled mark-sheet oval */
+  --ok: #4cc38a; --ok-bg: rgba(76, 195, 138, .10);
+  --ng: #e5484d; --ng-bg: rgba(229, 72, 77, .10);
+  --hi: inset 0 1px 0 rgba(255, 255, 255, .06);
+  --float: 0 8px 24px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg-0: #f4f4f5;
+  --bg: #fafafa;
+  --card: #ffffff;
+  --raised: #f4f4f5;
+  --line: rgba(23, 23, 23, .08);
+  --line-2: rgba(23, 23, 23, .14);
+  --ink: #171717;
+  --ink-2: #525252;
+  --ink-3: #737373;
+  --accent: #e0a12f;
+  --accent-ink: #8a5800;
+  --on-accent: #1a1306;
+  --btn: #171717;
+  --on-btn: #ffffff;
+  --pencil: #3f3f46;
+  --ok: #16a34a; --ok-bg: rgba(22, 163, 74, .08);
+  --ng: #dc2626; --ng-bg: rgba(220, 38, 38, .07);
+  --hi: none;
+  --float: 0 8px 24px rgba(0, 0, 0, .06);
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #15161A; --surface: #1E2026; --surface-2: #262932; --line: #343844; --line-strong: #464B59;
-    --ink: #ECEAE4; --ink-2: #A6A8B2; --ink-3: #8A8C96;
-    --shu: #F0675B; --shu-soft: #3A2220; --on-shu: #1B0F0E;
-    --ai: #8EA6F0; --ai-soft: #222B44;
-    --ok: #5BC48A; --ok-soft: #1C3226; --ng: #F2857C; --ng-soft: #3A2120; --warn: #E8A33D; --warn-soft: #3A2C17;
-    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
-    --shadow-lift: 0 2px 4px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.35);
-    color-scheme: dark;
+@media (prefers-color-scheme: light) {
+  :root[data-theme="auto"] {
+    --bg-0: #f4f4f5; --bg: #fafafa; --card: #ffffff; --raised: #f4f4f5;
+    --line: rgba(23, 23, 23, .08); --line-2: rgba(23, 23, 23, .14);
+    --ink: #171717; --ink-2: #525252; --ink-3: #737373;
+    --accent: #e0a12f; --accent-ink: #8a5800; --on-accent: #1a1306;
+    --btn: #171717; --on-btn: #ffffff; --pencil: #3f3f46;
+    --ok: #16a34a; --ok-bg: rgba(22, 163, 74, .08); --ng: #dc2626; --ng-bg: rgba(220, 38, 38, .07);
+    --hi: none; --float: 0 8px 24px rgba(0, 0, 0, .06);
+    color-scheme: light;
   }
 }
-:root[data-theme="dark"] {
-  --bg: #15161A; --surface: #1E2026; --surface-2: #262932; --line: #343844; --line-strong: #464B59;
-  --ink: #ECEAE4; --ink-2: #A6A8B2; --ink-3: #8A8C96;
-  --shu: #F0675B; --shu-soft: #3A2220; --on-shu: #1B0F0E;
-  --ai: #8EA6F0; --ai-soft: #222B44;
-  --ok: #5BC48A; --ok-soft: #1C3226; --ng: #F2857C; --ng-soft: #3A2120; --warn: #E8A33D; --warn-soft: #3A2C17;
-  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
-  --shadow-lift: 0 2px 4px rgba(0,0,0,.35), 0 10px 28px rgba(0,0,0,.35);
-  color-scheme: dark;
+
+:root {
+  /* 4px grid */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px; --s6: 24px; --s8: 32px; --s10: 40px; --s12: 48px; --s16: 64px;
+  --r-xs: 4px; --r-sm: 6px; --r-md: 8px; --r-lg: 12px; --r-xl: 16px;
+  --f-ui: "IBM Plex Sans JP", "IBM Plex Sans", system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --f-mincho: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 140ms; --t-menu: 200ms; --t-enter: 400ms;
+  --sidebar: 256px;
 }
