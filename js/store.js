@@ -14,7 +14,7 @@ function nextJlptDate() {
 }
 
 const DEFAULT = () => ({
-  settings: { lang: 'id', theme: 'auto', examDate: nextJlptDate(), furigana: true, rate: 0.95, voice: '', dailyGoal: 20 },
+  settings: { lang: 'id', theme: 'dark', examDate: nextJlptDate(), furigana: true, rate: 0.95, voice: '', dailyGoal: 20 },
   sessions: {},    // "exam/section/mode" -> { answers: {qid: n}, startedAt, deadline, submitted }
   attempts: [],    // { exam, section, mode, date, correct, total, points, max, parts }
   mistakes: {},    // qid -> { count, last }
@@ -28,6 +28,8 @@ let state;
 try { state = Object.assign(DEFAULT(), JSON.parse(localStorage.getItem(KEY) || '{}')); }
 catch { state = DEFAULT(); }
 state.settings = Object.assign(DEFAULT().settings, state.settings);
+// v2 design: dark is the default unless the theme was picked by hand
+if (!state.settings.themeChosen) state.settings.theme = 'dark';
 
 const listeners = new Set();
 export const store = {

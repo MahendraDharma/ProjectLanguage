@@ -44,12 +44,13 @@ function mistakeCount() { return Object.keys(store.s.mistakes).length; }
 function renderNav(path) {
   const active = p => (p === '/' ? path === '/' : path.startsWith(p.replace(/s$/, ''))) ? 'aria-current="page"' : '';
   const mc = mistakeCount();
-  $('#nav').innerHTML = NAV.map(([p, ic, k]) =>
-    `<a href="#${p}" ${active(p)}>${icon(ic)}<span>${t(k)}</span>${p === '/mistakes' && mc ? `<span class="badge">${mc > 99 ? '99+' : mc}</span>` : ''}</a>`).join('');
-  $('#tabbar').innerHTML = NAV.filter(n => n[0] !== '/settings').map(([p, ic, k]) =>
-    `<a href="#${p}" ${active(p)}>${icon(ic)}<span>${t(k)}</span>${p === '/mistakes' && mc ? `<span class="badge">${mc > 99 ? '99+' : mc}</span>` : ''}</a>`).join('');
-  $('#sidebar-foot').innerHTML = `<div class="seg" role="group" aria-label="Language">${['ja', 'id', 'en'].map(l =>
-    `<button type="button" data-lang="${l}" aria-pressed="${store.s.settings.lang === l}">${{ ja: '日本語', id: 'ID', en: 'EN' }[l]}</button>`).join('')}</div>`;
+  const link = ([p, ic, k]) => `<a href="#${p}" ${active(p)}>${icon(ic)}<span>${t(k)}</span>${p === '/mistakes' && mc ? `<span class="count">${mc}</span>` : '<span></span>'}</a>`;
+  $('#nav-label').textContent = t('nav_study');
+  $('#nav').innerHTML = NAV.filter(n => n[0] !== '/settings').map(link).join('');
+  $('#tabbar').innerHTML = NAV.filter(n => n[0] !== '/settings').map(link).join('');
+  $('#sidebar-foot').innerHTML = `<nav class="nav">${link(NAV.find(n => n[0] === '/settings'))}</nav>
+    <div class="seg" role="group" aria-label="Language" style="align-self:flex-start">${['ja', 'id', 'en'].map(l =>
+    `<button type="button" data-lang="${l}" aria-pressed="${store.s.settings.lang === l}" lang="${l}">${{ ja: '日本語', id: 'Indonesia', en: 'English' }[l]}</button>`).join('')}</div>`;
   document.querySelector('.skip').textContent = t('skip');
 }
 
@@ -64,15 +65,15 @@ export async function render() {
   renderNav(path);
   const main = $('#main');
   const route = ROUTES.find(([re]) => re.test(path));
-  if (!route) { main.innerHTML = `<div class="page"><div class="empty"><div class="display-jp">迷</div><p>${t('not_found')}</p><a class="btn" href="#/">${t('nav_home')}</a></div></div>`; return; }
+  if (!route) { main.innerHTML = `<div class="page doc"><div class="empty"><p>${t('not_found')}</p><a class="btn" href="#/">${t('nav_home')}</a></div></div>`; return; }
   const m = path.match(route[0]);
-  main.innerHTML = `<div class="page"><p class="muted">${t('loading')}</p></div>`;
+  main.innerHTML = `<div class="page"><p class="faint small">${t('loading')}</p></div>`;
   try {
     const r = await route[1](main, m.slice(1), params);
     if (typeof r === 'function') cleanup = r;
   } catch (e) {
     console.error(e);
-    main.innerHTML = `<div class="page"><div class="empty"><div class="display-jp">誤</div><p>${t('load_error')}</p><code class="xs">${esc(e.message)}</code></div></div>`;
+    main.innerHTML = `<div class="page doc"><div class="empty"><p>${t('load_error')}</p><code class="meta">${esc(e.message)}</code></div></div>`;
   }
   const titleEl = main.querySelector('h1');
   document.title = (titleEl ? titleEl.textContent.trim() + ' · ' : '') + 'Michi N3';
