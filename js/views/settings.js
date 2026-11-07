@@ -1,4 +1,5 @@
 import { t, LANGS } from '../i18n.js';
+import { LEVEL_IDS } from '../courses.js';
 import { store } from '../store.js';
 import { toast, esc } from '../util.js';
 import { jaVoices, speak, ttsSupported } from '../tts.js';
@@ -9,6 +10,8 @@ export async function settings(main) {
   main.innerHTML = `<div class="page doc" style="max-width:640px">
     <header class="page-head"><h1 class="title">${t('settings_title')}</h1></header>
     <section class="panel stack">
+      <div class="field"><label for="level">${t('level')} · ${t('course_ja')}</label>
+        <select id="level" class="input">${LEVEL_IDS.map(L => `<option ${s.level === L ? 'selected' : ''}>${L}</option>`).join('')}</select></div>
       <div class="field"><label for="lang">${t('language')}</label>
         <select id="lang" class="input">${Object.entries(LANGS).map(([k, v]) => `<option value="${k}" ${s.lang === k ? 'selected' : ''}>${v}</option>`).join('')}</select></div>
       <div class="field"><span class="label">${t('theme')}</span>
@@ -39,6 +42,7 @@ export async function settings(main) {
   $('#lang').onchange = e => { s.lang = e.target.value; store.save(); window.dispatchEvent(new HashChangeEvent('hashchange')); };
   main.querySelectorAll('[data-theme-set]').forEach(b => b.onclick = () => { s.theme = b.dataset.themeSet; s.themeChosen = true; document.documentElement.dataset.theme = s.theme;
     main.querySelectorAll('[data-theme-set]').forEach(x => x.setAttribute('aria-pressed', x === b)); save(); });
+  $('#level').onchange = e => { s.level = e.target.value; store.save(); window.dispatchEvent(new HashChangeEvent('hashchange')); };
   $('#date').onchange = e => { if (e.target.value) { s.examDate = e.target.value; save(); } };
   $('#goal').onchange = e => { s.dailyGoal = Math.max(5, Math.min(200, +e.target.value || 20)); save(); };
   $('#furi').onchange = e => { s.furigana = e.target.checked; document.body.classList.toggle('hide-furigana', !s.furigana); save(); };

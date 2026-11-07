@@ -1,0 +1,73 @@
+{
+ "level": "N1",
+ "exams": [
+  {
+   "id": "1",
+   "kind": "jlpt",
+   "n": 1,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 25,
+    "listening": 30
+   }
+  },
+  {
+   "id": "2",
+   "kind": "jlpt",
+   "n": 2,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 24,
+    "listening": 36
+   }
+  },
+  {
+   "id": "3",
+   "kind": "jlpt",
+   "n": 3,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 23,
+    "listening": 36
+   }
+  },
+  {
+   "id": "29",
+   "kind": "jlpt",
+   "n": 29,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 22
+   }
+  },
+  {
+   "id": "30",
+   "kind": "jlpt",
+   "n": 30,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 22
+   }
+  },
+  {
+   "id": "31",
+   "kind": "jlpt",
+   "n": 31,
+   "counts": {
+    "vocab": 44,
+    "grammar_reading": 21,
+    "listening": 30
+   }
+  },
+  {
+   "id": "32",
+   "kind": "jlpt",
+   "n": 32,
+   "counts": {
+    "vocab": 43,
+    "grammar_reading": 22,
+    "listening": 30
+   }
+  }
+ ]
+}

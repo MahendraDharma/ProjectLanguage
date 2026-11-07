@@ -1,0 +1,45 @@
+{
+ "courses": [
+  {
+   "id": "ja",
+   "name": {
+    "ja": "日本語",
+    "id": "Bahasa Jepang",
+    "en": "Japanese"
+   },
+   "exam": "JLPT",
+   "levels": [
+    {
+     "id": "N5",
+     "tests": 2,
+     "questions": 189,
+     "grammar": 61
+    },
+    {
+     "id": "N4",
+     "tests": 2,
+     "questions": 170,
+     "grammar": 80
+    },
+    {
+     "id": "N3",
+     "tests": 19,
+     "questions": 1896,
+     "grammar": 73
+    },
+    {
+     "id": "N2",
+     "tests": 15,
+     "questions": 1535,
+     "grammar": 141
+    },
+    {
+     "id": "N1",
+     "tests": 7,
+     "questions": 628,
+     "grammar": 172
+    }
+   ]
+  }
+ ]
+}

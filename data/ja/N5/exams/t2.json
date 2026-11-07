@@ -1,0 +1,1322 @@
+{
+ "id": "t2",
+ "level": "N5",
+ "kind": "practice",
+ "n": 2,
+ "sections": {
+  "vocab": {
+   "title": "Free JLPT N5 Vocabulary mock test with answers - Test 2 - dethitiengnhat.com",
+   "passages": [],
+   "groups": [
+    {
+     "instruction": "もんだい1 ___のことばは どう よみますか。 1・2・3・4から いちばん いい ものを ひとつ えらんでください。",
+     "questions": [
+      {
+       "stem": "1. かばんのなかに　<u>五万円</u>の　とけいが　あります。",
+       "options": [
+        "ごまんねん",
+        "ごまんえん",
+        "ごぜんねん",
+        "ごぜんえん"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2. としょかんで にほんごの　ほんを　<u>読みます</u>。",
+       "options": [
+        "よみます",
+        "やみます",
+        "こみます",
+        "あみます。"
+       ],
+       "answer": 1,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3. <u>毎日</u>　晩ご飯のあと　さんぽします。",
+       "options": [
+        "まいひ",
+        "こんじつ",
+        "まいにち",
+        "こんにち"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4 この　こうえんには とりが　<u>多い</u>です。",
+       "options": [
+        "おい",
+        "おおきい",
+        "おいい",
+        "おおい"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5. <u>今朝</u>、あめがふりました。",
+       "options": [
+        "あさ",
+        "けっさ",
+        "けさ",
+        "はさ"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "6. ねるまえに　<u>風呂</u>に　はいります。",
+       "options": [
+        "ふろう",
+        "ふうろ",
+        "ふどう",
+        "ふろ"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "7.ふゆやすみに　<u>北海道</u>へ　あそびに　いきました。",
+       "options": [
+        "ほっかいど",
+        "ほっかいどう",
+        "ほかいど",
+        "ほかいどう"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "8. この <u>道</u>を みぎに まがります。",
+       "options": [
+        "かど",
+        "はし",
+        "みち",
+        "へん"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "9. あの　ひとは　とても　<u>有名</u>です。",
+       "options": [
+        "ゆうめ",
+        "ゆめい",
+        "ゆうまい",
+        "ゆうめい"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "10. つくえの<u>下</u>に ねこがいます。",
+       "options": [
+        "うえ",
+        "すた",
+        "した",
+        "かた"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "11. <u>可愛い</u> 　おんなのこが　うまれました。",
+       "options": [
+        "かわい",
+        "かわいい",
+        "かはい",
+        "かはいい"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "12. <u>六日</u>の　ごごに 　あいましょう。",
+       "options": [
+        "いつつ",
+        "いつか",
+        "むつか",
+        "むいか"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "lang",
+     "card": "reading"
+    },
+    {
+     "instruction": "もんだい2の ことばは どう かきますか。1・2・3・4から いちばん いいものを ひとつ えらんでください。",
+     "questions": [
+      {
+       "stem": "13. <u>こんしゅう</u>は　やすみです。",
+       "options": [
+        "今周",
+        "本周",
+        "今過",
+        "今週"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "14. まことさんと　でぱあとで　あいました。",
+       "options": [
+        "ディパト",
+        "ディパド",
+        "デパート",
+        "デパード"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "15. この いぬは あしが　<u>しろい</u>です。",
+       "options": [
+        "黒い",
+        "白い",
+        "由い",
+        "長い"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "16. としょかんで　にほんごを　<u>べんきょう</u>します。",
+       "options": [
+        "頑学",
+        "勉学",
+        "頑強",
+        "勉強"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "17. その<u>ちいさい</u>　ノートを　ください。",
+       "options": [
+        "小さい",
+        "小い",
+        "少さい",
+        "少ない"
+       ],
+       "answer": 1,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "18. かれは　だんだん　かっこう　よくなってきた。",
+       "options": [
+        "各校",
+        "体格",
+        "格好",
+        "各行"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "19. あには　ゆうびんきょくに　<u>つとめて</u>います。",
+       "options": [
+        "働めて",
+        "動めて",
+        "勤めて",
+        "難めて"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "20. わたしは　うるさいところには　<u>すみ</u>たくありません。",
+       "options": [
+        "済み",
+        "澄み",
+        "住み",
+        "注み"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "lang",
+     "card": "writing"
+    },
+    {
+     "instruction": "もんだい3 ( )に なにを いれますか。 1・2・3・4から いちばん いい ものを ひとつ えらんでください",
+     "questions": [
+      {
+       "stem": "21. あめが　ふっているが、どうして　( )　をささないか。",
+       "options": [
+        "かさ",
+        "かみ",
+        "セーター",
+        "シャツ"
+       ],
+       "answer": 1,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "22. このへやは　ストーブが　ついていて、( )です。",
+       "options": [
+        "すずしい",
+        "つめたい",
+        "あたたかい",
+        "あたらしい"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "23. あねは　日本語の　( ) 　きょうしを　しています。",
+       "options": [
+        "いえ",
+        "かてい",
+        "うち",
+        "やね"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "24. 日本語の　( )は　むずかしいですね。",
+       "options": [
+        "いろ",
+        "よみ",
+        "かんじ",
+        "えいご"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "25. このケーキに　( ) を　たくさん　つかいました。",
+       "options": [
+        "しょうゆ",
+        "おさけ",
+        "さとう",
+        "す"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "26. テキストを　うちに　( )　こまりました。",
+       "options": [
+        "みせて",
+        "あげて",
+        "おくって",
+        "わすれて"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "27. ひとりで　しずかにほんを　 ( )のが　すきです。",
+       "options": [
+        "のむ",
+        "よむ",
+        "あそぶ",
+        "ぬぐ"
+       ],
+       "answer": 2,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "28.まだ　はやいですから　(  ) すこし　 あそんで　ください。",
+       "options": [
+        "すぐ",
+        "もし",
+        "もう",
+        "でも"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "29. わたしは　( ) 　しちじに　おきます。",
+       "options": [
+        "だれも",
+        "とても",
+        "たしか",
+        "いつも"
+       ],
+       "answer": 4,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "30. その　( )は　えきのちかくに　あります。",
+       "options": [
+        "スカート",
+        "スリッパ",
+        "アパート",
+        "パーティー"
+       ],
+       "answer": 3,
+       "points": 1.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "lang",
+     "card": "context"
+    },
+    {
+     "instruction": "もんだい4___のぶんと だいたい おなじいみのぶんがあります。1・2・3・4から いち\nばん いいものをひとつ えらんでください。",
+     "questions": [
+      {
+       "stem": "31. <u>わたしの先生はとても熱心な先生です</u>。",
+       "options": [
+        "わたしの　先生は　とても　ユーモアが　ある先生です。",
+        "わたしの　先生は　一生懸命　教えて　くれる先生です。",
+        "わたしの　先生は　まじめな　先生です。",
+        "わたしの　先生は　とても　りっぱな　先生です。"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "32. <u>さいふに一円も入っていません</u>。",
+       "options": [
+        "さいふに　おかねが　たくさん　あります。",
+        "さいふに　おかねが　ありません。",
+        "さいふに　おかねが　いちえんしか　ありません。",
+        "さいふに　おかねが　すこし　あります。"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "33. <u>田中さんはげんかんをでました</u>。",
+       "options": [
+        "田中さんは　でんわに　でました。",
+        "田中さんは　かいしゃに　でました。",
+        "田中さんは　いえを　でました。",
+        "田中さんは　テストに　でました。"
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "34. <u>すずしい　かぜを　いれましょう</u>。",
+       "options": [
+        "まどを　しめましょう。",
+        "まどを　あけましょう。",
+        "ストーブを　けしましょう。",
+        "ストーブを　つけましょう。"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "35. <u>わたしは　先生に　レポートを　わたしました</u>。",
+       "options": [
+        "レポートを　ききました。",
+        "レポートを　かきました。",
+        "レポートを　わすれました。",
+        "レポートを　だしました。"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "lang",
+     "card": "synonym"
+    }
+   ],
+   "source": "https://dethitiengnhat.com/en/de_thi_thu/N5/2/1"
+  },
+  "grammar_reading": {
+   "title": "Free JLPT N5 Grammar and reading mock test with answers - Test 2 - dethitiengnhat.com",
+   "passages": [
+    "学校の近くに【22】スーパーができました。日曜日、わたしは木村さんといっしに　そこ【23】買い物に　行きました。とても　広いスーパーです。わたしは　ノートを　二冊と　ボールペンを　10本　買いました。木村さんも　ボールペンを　5本買いました。 <br> ノートは買いませんでした。それから、【24】。わたしは　小説を　2冊買いました。み んな　ベストセラーです。【25】。 わたしは　高校のときは 　よく　小説を　読みました。週に 　五冊【26】でした。今は　あまり　時間が　ありません。一ヶ月に　2冊ぐらい　読みます。今日は　買い物を　たくさん　しました。",
+    "ジョンさん <br><br>\n来週の土曜日　(5月26日)　は　ひまですか。<br> ○○市で　アカシア祭りが　ありますから、いっしょに　いきませんか。<br>\n田中<br><br>田中さん<br><br>\nごめんなさい。 <br>その日は、クラスメートと　一緒に　サッカーの　試合を　見に行きます。<br> また今度　あそびましょう。<br>ジョン",
+    "(2) <br>最近、「PK」や「KO」　といった　あたらしい　ことばが　でましたね。その　いみを　知ってしますか。また、「ハイビジョンテレビ」という　あたらしい　テレビが　でま した。\n<br><br>言葉は　みえないものです。テレビは　みえるものです。わたしたちは　いつも　ふるいものを　すてて、あたらしくて　べんりな　ものを　つくります。わたしたちは　<u>こんな どうぶつ</u>です。",
+    "(3) <br>川村:「すみません、皆さん。」 <br>大家:「はい、なんですか。」 <br>川村:「ペットを かいたいんですが、ねこを　かっても　いいですか。」<br> 大家:「ねこでも　いぬでも　だいじょうぶですよ。」",
+    "いま、わたしたちは　インターネットをつかって、うちに　いながら、いろいろなことが　できます。イーメールを送ったり、しりょうを　調べたり、かいものを　したりします。<u>インターネットは　ほんとうに　べんりな　もの</u>ですね。<br><br>しかし、インターネットは　いいこと　だけ　ではありません。まいにち、インターネットに　でて、がっこうに　いきたくなる　がくせいが　おおく　いると　みなさんは　しって　いますね。また、インターネットを　つかって、わるい　ことを　するひとも　すくなく　ありません。 <br><br>インターネットを　どうつかうか、もういちど　かんがえましょう。",
+    "<center>社長のスケジュール</center> <br><br>\n2月23日(木)<br>\n●10:00~12:00　横浜支社で会議 <br>●12:00~13:00　昼食<br> ●13:30~15:00　佐藤商社の田中さんと会う<br> ●15:30~16:00　空港へ　中国からの　お客さんを　迎えに行く<br> ●17:00~　東京のレストフンで夕食"
+   ],
+   "groups": [
+    {
+     "instruction": "もんだい1 ( )に　何を　入れますか。 1・2・3・4から いちばん　いいものを　一つ えらんでください。",
+     "questions": [
+      {
+       "stem": "(れい)　これ 　( )　えんぴつです。 <br>\n(かいとうようし)(れい)　 3　です",
+       "options": [
+        "に",
+        "を",
+        "は",
+        "や"
+       ],
+       "answer": 3,
+       "points": 0.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "1. りんご　 ( )　 三つ 　かいました。",
+       "options": [
+        "の",
+        "に",
+        "が",
+        "を"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2. ひこうきと　しんかんせんと、( )が　速いですか。",
+       "options": [
+        "どれ",
+        "どの",
+        "どこ",
+        "どちら"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3. おなかが　いたいですから、はんぶん　( )　食べました。",
+       "options": [
+        "だけ",
+        "しか",
+        "も",
+        "と"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4. 今日のテストは( )なかったです。",
+       "options": [
+        "むずかし",
+        "むずかしい",
+        "むずかしくて",
+        "むずかしく"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5. わたしの　部屋は あまり　( )。",
+       "options": [
+        "きれくないです",
+        "きれいじゃありません",
+        "きれいありません",
+        "きれくありません"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "6. ご飯を　( )から、お風呂に　入ります。",
+       "options": [
+        "たべます",
+        "たべ",
+        "たべて",
+        "たべません"
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "7. 友だちから　借りたカメラを　弟に　( )　しまった。",
+       "options": [
+        "こわして",
+        "こわれている",
+        "こわされて",
+        "こわさせて"
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "8. 「あさ」という　かんじの　( )を　教えてください。",
+       "options": [
+        "かきかた",
+        "かきたい",
+        "かきもの",
+        "かくかた"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "9. こんど　あなたと　あう日は　( )に　しますか。",
+       "options": [
+        "いくつ",
+        "いつ",
+        "どう",
+        "いかが"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "10. 食事のまえには　かならず　手を　( )なければなりません。",
+       "options": [
+        "洗う",
+        "洗い",
+        "洗わ",
+        "洗おう"
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "11. わたし　はいつも　 ( )　 まえに　はを　みがきます。",
+       "options": [
+        "ねる",
+        "ねて",
+        "ねます",
+        "ねた"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "12. ストーブを　つけて　へやを　暖かくし( )。",
+       "options": [
+        "なりました",
+        "しました",
+        "いました",
+        "ありました。"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "13. A: 「住所は( )　いいですか」<br>\nB:「いいえ、お願い します」",
+       "options": [
+        "書かなくては",
+        "書かなくても",
+        "書かない",
+        "書かないで"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "14. 危ないから、そんなことを　( )　いけません。",
+       "options": [
+        "しては",
+        "しないで",
+        "しても",
+        "しなくては"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "15. これは　山本さんが　わたしに　( )　本です。",
+       "options": [
+        "さしあげた",
+        "いただいた",
+        "なさった",
+        "くださった"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "16. 留学　( )　日本語が　だんだん　じょうずに　なりました。",
+       "options": [
+        "して",
+        "した",
+        "になって",
+        "あって"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "lang"
+    },
+    {
+     "instruction": "もんだい2 _★_に入るものは　どれですか。 1・2・3・4から いちばん　いい ものを　1 つえらんで ください。",
+     "questions": [
+      {
+       "stem": "(もんだいれい) A:「___ ___ _★_ ___か」<br>B:「山田さんです。」 <br><br> (こたえかた) <br>\nA: 「<u>あの 人</u> 　は 　 だれ  ですか 」<br>\nB: 「山田さんです。」<br><br>\n★ に 入る ばんごうを くろく ぬります。",
+       "options": [
+        "です",
+        "は",
+        "あの 人",
+        "だれ"
+       ],
+       "answer": 4,
+       "points": 0.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "17. 学校まで___ ___ _★_ ___。",
+       "options": [
+        "バス",
+        "かよって",
+        "います",
+        "で"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": "バスで<b><u>かよって</u></b> います"
+      },
+      {
+       "stem": "18.日本の カメラは  ___ _★_ ___ ___　おおい。",
+       "options": [
+        "もの",
+        "いい",
+        "が",
+        "安くて"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": "安くて  <b><u>いい</u></b>  ものが"
+      },
+      {
+       "stem": "19. 弟は　いつも　_★_ ___ ___ __います。",
+       "options": [
+        "あかるい",
+        "で",
+        "声",
+        "笑って"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": "<b><u>あかるい</u></b> 声 で 笑って"
+      },
+      {
+       "stem": "20. ちちは　___ ___ _★_ ___しています。",
+       "options": [
+        "せんせい",
+        "の",
+        "だいがく",
+        "を"
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": "だいがく の  <b><u>せんせい</u></b>を"
+      },
+      {
+       "stem": "21. 自転車に乗って　_★_ ___ ___ __　行きたい。",
+       "options": [
+        "遠い",
+        "ところ",
+        "へ",
+        "どこか"
+       ],
+       "answer": 4,
+       "points": 2.0,
+       "passage": null,
+       "explanation": "<b><u>どこか</u></b>  遠いところ へ"
+      }
+     ],
+     "part": "lang"
+    },
+    {
+     "instruction": "もんだい3 【22】から【26】に何を入れますか。 1・2・3・4から いちばん いい ものを一つえらんでください",
+     "questions": [
+      {
+       "stem": "【22】",
+       "options": [
+        "新し",
+        "新しな",
+        "新しい",
+        "新しく"
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": 0,
+       "explanation": null
+      },
+      {
+       "stem": "【23】",
+       "options": [
+        "で",
+        "から",
+        "まで",
+        "へ"
+       ],
+       "answer": 4,
+       "points": 3.0,
+       "passage": 0,
+       "explanation": null
+      },
+      {
+       "stem": "【24】",
+       "options": [
+        "わたしたちは　本屋へ 　行きます。",
+        "わたしたちは　本屋へ　行きません。",
+        "わたしたちは　本屋へ　行きました。",
+        "わたしたちは　本屋へ 　行きませんでした。"
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": 0,
+       "explanation": null
+      },
+      {
+       "stem": "【25】",
+       "options": [
+        "680円かしました。",
+        "680円なくしました。",
+        "680円かいました。",
+        "680円かかりました。"
+       ],
+       "answer": 4,
+       "points": 3.0,
+       "passage": 0,
+       "explanation": null
+      },
+      {
+       "stem": "【26】",
+       "options": [
+        "ぐらい",
+        "ころ",
+        "あまり",
+        "やく"
+       ],
+       "answer": 1,
+       "points": 3.0,
+       "passage": 0,
+       "explanation": null
+      }
+     ],
+     "part": "lang"
+    },
+    {
+     "instruction": "もんだい4 つぎのぶん を読んで しつもんに こたえてください。こたえは1・2・3・4から\nいちばん いい ものを一つ えらんでください。",
+     "questions": [
+      {
+       "stem": "27. どうして　田中さんは　ジョンさんに　メールを　しましたか。",
+       "options": [
+        "ジョンさんと　アカーア祭りに、もれたから。",
+        "ジョンさんと　アカシア祭りに　行きたいからです。",
+        "ジョンさんと　サッカーの試合を　見たいからです。",
+        "ジョンさんと　サッカーの試合を　見たからです。"
+       ],
+       "answer": 2,
+       "points": 4.0,
+       "passage": 1,
+       "explanation": null
+      },
+      {
+       "stem": "28 . <u>「こんな　どうぶつです」</u>とあるが、どんな　どうぶつですか。",
+       "options": [
+        "テレビを　つくる　どうぶつです。",
+        "ことばを　つくる　どうぶつです。",
+        "べんりな　ものを　つくる　どうぶつです。",
+        "「PK」などを　つくる　どうぶつです。"
+       ],
+       "answer": 3,
+       "points": 4.0,
+       "passage": 2,
+       "explanation": null
+      },
+      {
+       "stem": "29. ペットをかっても　いいですか",
+       "options": [
+        "ねこも　いぬも　だめです。",
+        "ねこが　きらいから、だめです。",
+        "いぬは　かっても　いいです。",
+        "なんでも　いいです。"
+       ],
+       "answer": 4,
+       "points": 4.0,
+       "passage": 3,
+       "explanation": null
+      }
+     ],
+     "part": "lang"
+    },
+    {
+     "instruction": "もんだい5　つぎの　ぶんを　読んで　しつもんに　こたえてください。こたえは 　1・2・3・4から　いちばん　いい　ものを一つ　えらんで　ください。",
+     "questions": [
+      {
+       "stem": "30. どうして「<u>インターネットは　ほんとうに　べんりな　もの</u>」といってし",
+       "options": [
+        "インターネットでべんきょうができますから。",
+        "インターネットでやりたいことができますから。",
+        "インターネットがないと、かいものができません。",
+        "インターネットがあるから、がっこうがもういりませんから。"
+       ],
+       "answer": 2,
+       "points": 4.0,
+       "passage": 4,
+       "explanation": null
+      },
+      {
+       "stem": "31.  ただしい　ものは　どれですか。",
+       "options": [
+        "インターネットには　わるいことしか　ありません。",
+        "インターネットは　とても　べんりです。",
+        "インターネットの　つかいかたは　むずかしいです。",
+        "インターネットの　つかいかたには　もんだいが　あります。"
+       ],
+       "answer": 2,
+       "points": 4.0,
+       "passage": 4,
+       "explanation": null
+      }
+     ],
+     "part": "lang"
+    },
+    {
+     "instruction": "もんだい6 つぎのぶんを 読んで「社長のスケジュール」を自て、しつもんに こたえてくださ い。こたえは1・2・3・4からいちばんいいものを一つえらんでください。",
+     "questions": [
+      {
+       "stem": "32. 午前中の　会議は　どこで　ありますか。",
+       "options": [
+        "佐藤商社です。",
+        "中国です。",
+        "横浜支社です。",
+        "東京のレストランです。"
+       ],
+       "answer": 3,
+       "points": 4.0,
+       "passage": 5,
+       "explanation": null
+      }
+     ],
+     "part": "lang"
+    }
+   ],
+   "source": "https://dethitiengnhat.com/en/de_thi_thu/N5/2/3"
+  },
+  "listening": {
+   "title": "Free JLPT N5 Listening mock test with answers - Test 2 - dethitiengnhat.com",
+   "passages": [],
+   "groups": [
+    {
+     "instruction": "もんだい1でははじめに、しつもんを きいてください。 それから はなしを きいて、もんだ いようしの 1から4の なかから、 ただしい こたえを ひとつ えらんで ください。",
+     "questions": [
+      {
+       "stem": "1ばん<br>\n<img src=\"assets/img/ja/N5/N52-1.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2ばん",
+       "options": [
+        "パンとミルク",
+        "パンと一個の卵とミルク",
+        "卵とミルク",
+        "パンと二個の卵とミルク"
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3ばん",
+       "options": [
+        "6349",
+        "6394",
+        "6943",
+        "6934"
+       ],
+       "answer": 1,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4ばん",
+       "options": [
+        "五枚",
+        "四枚",
+        "三枚",
+        "二枚"
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5ばん",
+       "options": [
+        "65キロ",
+        "60キロ",
+        "55キロ",
+        "50キロ"
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "6ばん",
+       "options": [
+        "温かい紅茶です。",
+        "冷たい紅茶です。",
+        "温かい緑茶です。",
+        "冷たい緑茶です。"
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "7ばん",
+       "options": [
+        "果物です。",
+        "野菜です。",
+        "みかんです。",
+        "りんごです。"
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "listen"
+    },
+    {
+     "instruction": "もんだい2\nもんだい2では はじめに、しつもんを きいてください。 それから はなしをきいて、 もんだ いようしの1から4のなかから、 ただしい こたえを ひとつ えらんでください。",
+     "questions": [
+      {
+       "stem": "1ばん<br> <img src=\"assets/img/ja/N5/N52-2.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2ばん<br> <img src=\"assets/img/ja/N5/N52-3.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3ばん<br> <img src=\"assets/img/ja/N5/N52-4.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4ばん<br> <img src=\"assets/img/ja/N5/N52-5.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 1,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5ばん<br> <img src=\"assets/img/ja/N5/N52-6.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "6ばん",
+       "options": [
+        "女の人のカメラを取ります。",
+        "女の人に写真をあげます。",
+        "女の写真を取ります。",
+        "女の人にカメラを貸します。"
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "listen"
+    },
+    {
+     "instruction": "もんだい3\nまんだい3では、えを　みながら、しつもんを　きいてください。それから、ただしいこたえを　 1から3の　なかから　ひとつ",
+     "questions": [
+      {
+       "stem": "1ばん<br> <img src=\"assets/img/ja/N5/N52-7.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2ばん<br> <img src=\"assets/img/ja/N5/N52-8.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3ばん<br> <img src=\"assets/img/ja/N5/N52-9.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4ばん<br> <img src=\"assets/img/ja/N5/N52-10.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5ばん<br> <img src=\"assets/img/ja/N5/N52-11.webp\" alt=\"\" loading=\"lazy\">",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 3.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "listen"
+    },
+    {
+     "instruction": "もんだい4\nもんだい4には、えなどがありません。 ぶんを きいて、1から3の なかから ただしい こた。 えをひとつ えらんでください。",
+     "questions": [
+      {
+       "stem": "1ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "2ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "3ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "4ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "5ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 3,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      },
+      {
+       "stem": "6ばん",
+       "options": [
+        "",
+        "",
+        ""
+       ],
+       "answer": 2,
+       "points": 2.0,
+       "passage": null,
+       "explanation": null
+      }
+     ],
+     "part": "listen"
+    }
+   ],
+   "source": "https://dethitiengnhat.com/en/de_thi_thu/N5/2/4"
+  }
+ }
+}

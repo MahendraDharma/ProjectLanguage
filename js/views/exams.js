@@ -1,45 +1,50 @@
 import { t } from '../i18n.js';
 import { store, recordAnswer } from '../store.js';
 import { icon, esc, pct, fmtTime, toast, $, $$ } from '../util.js';
-import { examIndex, exam, flatten, score, SECTIONS, KANJI, MINUTES } from '../data.js';
+import { examIndex, exam, flatten, score, SECTIONS } from '../data.js';
+import { level, levelOf, LEVELS, secLabel, secKanji, testName, testNameFromKey, scaled as scaleParts } from '../courses.js';
+import { levelPicker } from '../app.js';
+import { passLine } from './home.js';
 import { questionHtml, bindListening } from './questions.js';
 import { stop as stopTts } from '../tts.js';
 
-const PART_MAX = 60;
 
 /* ───────────────────────── list ───────────────────────── */
 export async function examList(main, _, params) {
+  const L = level();
   const idx = await examIndex();
+  const K = e => `${L}-${e.id}`;
   const s = store.s;
   const filter = params.get('f') || 'all';
   const best = (id, sec) => {
-    const as = s.attempts.filter(a => a.exam === id && a.section === sec);
+    const as = s.attempts.filter(a => a.exam === `${L}-${id}` && a.section === sec);
     return as.length ? Math.max(...as.map(a => pct(a.points, a.max))) : null;
   };
   const exams = idx.exams.filter(e => {
-    const taken = s.attempts.some(a => a.exam === e.id);
+    const taken = s.attempts.some(a => a.exam === K(e));
     return filter === 'all' || (filter === 'done' ? taken : !taken);
   });
   const total = e => SECTIONS.reduce((a, sec) => a + (e.counts[sec] || 0), 0);
   main.innerHTML = `<div class="page">
     <header class="page-head">
-      <h1 class="title">${t('exams_title')} <span class="muted">${idx.exams.length}</span></h1>
+      <div class="mobile-only">${levelPicker()}</div>
+      <h1 class="title">${t('exams_title', { level: L })} <span class="muted">${idx.exams.length}</span></h1>
       <p class="sub">${t('exams_lede')}</p>
     </header>
     <div class="row between">
       <div class="seg" role="group" aria-label="Filter">${['all', 'todo', 'done'].map(f =>
         `<button type="button" data-f="${f}" aria-pressed="${filter === f}">${t('filter_' + f)}</button>`).join('')}</div>
-      <span class="meta">${SECTIONS.map(x => `${t('sec_' + x)} ${MINUTES[x]} ${t('minutes')}`).join(' · ')}</span>
+      <span class="meta">${SECTIONS.map(x => `${secLabel(x)} ${LEVELS[L].minutes[x]} ${t('minutes')}`).join(' · ')}</span>
     </div>
     <div class="exam-grid">
       ${exams.map(e => {
-        const full = SECTIONS.every(sec => !e.counts[sec] || s.attempts.some(a => a.exam === e.id && a.section === sec && a.mode === 'exam'));
+        const full = SECTIONS.every(sec => !e.counts[sec] || s.attempts.some(a => a.exam === K(e) && a.section === sec && a.mode === 'exam'));
         return `<div class="panel exam-card">
-        <div class="head"><b>${t('test_n', { n: e.id })}</b>
-          ${full ? `<a class="small link" href="#/report/${e.id}">${t('full_report')}</a>` : `<span class="meta">${total(e)} ${t('questions')}</span>`}</div>
+        <div class="head"><b>${testName(e)}</b>
+          ${full ? `<a class="small link" href="#/report/${K(e)}">${t('full_report')}</a>` : `<span class="meta">${total(e)} ${t('questions')}</span>`}</div>
         ${SECTIONS.map(sec => { const n = e.counts[sec] || 0; const b = best(e.id, sec);
-          return `<a class="secline ${n ? '' : 'disabled'}" href="#/exam/${e.id}/${sec}" ${n ? '' : 'aria-disabled="true" tabindex="-1"'}>
-            <span class="k" lang="ja">${KANJI[sec]}</span><span>${t('sec_' + sec)}</span>
+          return `<a class="secline ${n ? '' : 'disabled'}" href="#/exam/${K(e)}/${sec}" ${n ? '' : 'aria-disabled="true" tabindex="-1"'}>
+            <span class="k" lang="ja">${secKanji(sec)}</span><span>${secLabel(sec)}</span>
             <span class="meta">${!n ? t('not_available') : b != null ? `${b}% ${t('best')}` : `${n}`}</span></a>`; }).join('')}
       </div>`; }).join('')}
     </div>
@@ -49,7 +54,7 @@ export async function examList(main, _, params) {
 
 /* ───────────────────────── runner ───────────────────────── */
 export async function examRun(main, [id, section], params) {
-  id = +id;
+  const L = levelOf(id);
   const mode = params.get('mode') === 'exam' ? 'exam' : 'practice';
   const ex = await exam(id);
   const qs = flatten(ex, section);
@@ -58,7 +63,7 @@ export async function examRun(main, [id, section], params) {
   const s = store.s;
   let ses = s.sessions[key];
   if (!ses) { ses = s.sessions[key] = { answers: {}, startedAt: Date.now() }; }
-  if (mode === 'exam' && !ses.deadline && !ses.submitted) ses.deadline = Date.now() + MINUTES[section] * 60000;
+  if (mode === 'exam' && !ses.deadline && !ses.submitted) ses.deadline = Date.now() + LEVELS[L].minutes[section] * 60000;
   store.save();
 
   if (!qs.length) {
@@ -76,15 +81,15 @@ export async function examRun(main, [id, section], params) {
     return `<section class="panel result" aria-label="${t('result')}">
       <div class="stack flush"><span class="small muted">${t('result')}</span><span class="fig">${r.correct}<small>/ ${r.total}</small></span><span class="meta">${pct(r.points, r.max)}%</span></div>
       <div class="stack">
-        ${Object.entries(r.parts).map(([k, v]) => { const sc = Math.round(v.points / v.max * PART_MAX);
-          return `<div class="partbar"><span class="small">${t('part_' + k)}</span><span class="mono small">${sc} / ${PART_MAX}</span>
-            <div class="track"><i style="width:${sc / PART_MAX * 100}%"></i><b style="left:${19 / PART_MAX * 100}%" title="19"></b></div></div>`; }).join('')}
+        ${Object.entries(r.parts).map(([k, v]) => { const p = pct(v.points, v.max);
+          return `<div class="partbar"><span class="small">${t('part_' + k)}</span><span class="mono small">${v.c}/${v.t} · ${p}%</span>
+            <div class="track"><i style="width:${p}%"></i></div></div>`; }).join('')}
         <div class="row">
-          ${nextSec ? `<a class="btn primary" href="#/exam/${id}/${nextSec}?mode=${mode}">${t('next_section')}: ${t('sec_' + nextSec)}</a>` : ''}
+          ${nextSec ? `<a class="btn primary" href="#/exam/${id}/${nextSec}?mode=${mode}">${t('next_section')}: ${secLabel(nextSec, L)}</a>` : ''}
           ${mode === 'exam' && allExam ? `<a class="btn" href="#/report/${id}">${t('full_report')}</a>` : ''}
           <button type="button" class="btn ghost" data-restart>${t('restart')}</button>
         </div>
-        <p class="meta">${t('scaled_note')}</p>
+        <p class="meta">${passLine(L)}</p>
       </div></section>`;
   }
 
@@ -100,7 +105,7 @@ export async function examRun(main, [id, section], params) {
     const a = answered();
     return `<div class="inner">
       <a class="btn ghost icon sm" href="#/exams" aria-label="${t('back')}">${icon('back')}</a>
-      <span class="title-s">${t('test_n', { n: id })} · ${t('sec_' + section)}</span>
+      <span class="title-s">${L} · ${testNameFromKey(id)} · ${secLabel(section, L)}</span>
       <span class="meta" data-count>${a}/${qs.length}</span>
       <div class="bar"><i style="transform:scaleX(${a / qs.length})"></i></div>
       ${mode === 'exam' && !ses.submitted ? `<span class="timer" data-timer>${icon('clock')}<span>--:--</span></span>
@@ -129,9 +134,9 @@ export async function examRun(main, [id, section], params) {
     const showSummary = mode === 'practice' ? answered() === qs.length : ses.submitted;
     main.innerHTML = `<div class="qbar" data-bar>${barHtml()}</div>
       <div class="page doc" style="margin-top:24px">
-        <h1 class="sr-only">${t('test_n', { n: id })} ${t('sec_' + section)}</h1>
+        <h1 class="sr-only">${L} ${testNameFromKey(id)} ${secLabel(section, L)}</h1>
         <div class="row between">
-          <nav class="tabs" aria-label="${t('col_section')}">${SECTIONS.map(x => `<a href="#/exam/${id}/${x}?mode=${mode}" ${x === section ? 'aria-current="page"' : ''} class="${ex.sections[x]?.groups.length ? '' : 'disabled'}">${t('sec_' + x)}</a>`).join('')}</nav>
+          <nav class="tabs" aria-label="${t('col_section')}">${SECTIONS.map(x => `<a href="#/exam/${id}/${x}?mode=${mode}" ${x === section ? 'aria-current="page"' : ''} class="${ex.sections[x]?.groups.length ? '' : 'disabled'}">${secLabel(x, L)}</a>`).join('')}</nav>
           <div class="seg" role="group" aria-label="${t('mode')}">${['practice', 'exam'].map(m =>
             `<button type="button" data-mode="${m}" aria-pressed="${mode === m}">${t('mode_' + m)}</button>`).join('')}</div>
         </div>
@@ -222,31 +227,35 @@ export async function examRun(main, [id, section], params) {
 
 /* ───────────────────────── full report ───────────────────────── */
 export async function examReport(main, [id]) {
-  id = +id;
+  const L = levelOf(id);
+  const lv = LEVELS[L];
   const s = store.s;
+  const ex = await exam(id);
+  const secs = SECTIONS.filter(sec => ex.sections[sec]?.groups.length);
   const latest = sec => [...s.attempts].reverse().find(a => a.exam === id && a.section === sec && a.mode === 'exam');
   const atts = SECTIONS.map(latest);
-  const sum = { lang: { p: 0, m: 0 }, read: { p: 0, m: 0 }, listen: { p: 0, m: 0 } };
-  atts.forEach(a => a && Object.entries(a.parts || {}).forEach(([k, v]) => { sum[k].p += v.points; sum[k].m += v.max; }));
-  const scaled = Object.fromEntries(Object.entries(sum).map(([k, v]) => [k, v.m ? Math.round(v.p / v.m * PART_MAX) : null]));
-  const complete = Object.values(scaled).every(v => v != null);
-  const total = Object.values(scaled).reduce((a, b) => a + (b || 0), 0);
-  const pass = complete && total >= 95 && Object.values(scaled).every(v => v >= 19);
+  const sums = {};
+  atts.forEach(a => a && Object.entries(a.parts || {}).forEach(([k, v]) => {
+    const x = sums[k] || (sums[k] = { points: 0, max: 0 }); x.points += v.points; x.max += v.max; }));
+  const rows = scaleParts(L, sums);
+  const complete = secs.every(sec => latest(sec)) && rows.every(r => r.score != null);
+  const total = rows.reduce((a, r) => a + (r.score || 0), 0);
+  const pass = complete && total >= lv.pass && rows.every(r => r.score >= r.min);
   main.innerHTML = `<div class="page doc">
     <a class="small link" href="#/exams">${t('nav_exams')}</a>
-    <header class="page-head"><h1 class="title">${t('full_report')} <span class="muted">${t('test_n', { n: id })}</span></h1></header>
+    <header class="page-head"><h1 class="title">${t('full_report')} <span class="muted">${L} · ${testNameFromKey(id)}</span></h1></header>
     ${complete ? `<section class="panel result">
       <div class="stamp ${pass ? '' : 'fail'}" lang="ja">${pass ? '合格' : '不合格'}</div>
       <div class="stack">
         <div class="stack flush"><span class="fig" style="font:500 56px/1 var(--f-mincho)">${total}<small style="font-size:22px;color:var(--ink-3)"> / 180</small></span>
-          <span class="small ${pass ? 'ok-t' : 'muted'}">${t(pass ? 'pass' : 'fail')} · ${t('pass_line')}</span></div>
-        ${Object.entries(scaled).map(([k, v]) => `<div class="partbar"><span class="small">${t('part_' + k)}</span><span class="mono small">${v} / 60</span>
-          <div class="track"><i style="width:${v / 60 * 100}%"></i><b style="left:${19 / 60 * 100}%"></b></div></div>`).join('')}
+          <span class="small ${pass ? 'ok-t' : 'muted'}">${t(pass ? 'pass' : 'fail')} · ${passLine(L)}</span></div>
+        ${rows.map(r => `<div class="partbar"><span class="small">${t('part_' + r.key)}</span><span class="mono small">${r.score} / ${r.max}</span>
+          <div class="track"><i style="width:${r.score / r.max * 100}%"></i><b style="left:${r.min / r.max * 100}%" title="${r.min}"></b></div></div>`).join('')}
         <p class="meta">${t('scaled_note')}</p>
       </div></section>`
     : `<div class="panel empty"><p>${t('report_missing')}</p></div>`}
-    <section class="panel compact"><div class="rows">${SECTIONS.map((sec, i) => `<a class="rowlink" href="#/exam/${id}/${sec}?mode=exam">
-      <span class="mincho faint" lang="ja">${KANJI[sec]}</span><span class="label small">${t('sec_' + sec)}</span>
-      <span class="meta">${atts[i] ? `${atts[i].correct}/${atts[i].total}` : t('filter_todo')}</span>${icon('chevron')}</a>`).join('')}</div></section>
+    <section class="panel compact"><div class="rows">${secs.map(sec => { const a = latest(sec); return `<a class="rowlink" href="#/exam/${id}/${sec}?mode=exam">
+      <span class="mincho faint" lang="ja">${secKanji(sec, L)}</span><span class="label small">${secLabel(sec, L)}</span>
+      <span class="meta">${a ? `${a.correct}/${a.total}` : t('filter_todo')}</span>${icon('chevron')}</a>`; }).join('')}</div></section>
   </div>`;
 }

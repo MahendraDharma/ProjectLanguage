@@ -1,0 +1,25 @@
+{
+ "level": "N5",
+ "exams": [
+  {
+   "id": "t1",
+   "kind": "practice",
+   "n": 1,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 33,
+    "listening": 28
+   }
+  },
+  {
+   "id": "t2",
+   "kind": "practice",
+   "n": 2,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 34,
+    "listening": 24
+   }
+  }
+ ]
+}

@@ -1,18 +1,20 @@
 import { t } from '../i18n.js';
 import { store, recordAnswer } from '../store.js';
 import { icon, esc, stripHtml, toast } from '../util.js';
-import { exam, flatten, parseQid, KANJI } from '../data.js';
+import { exam, flatten, parseQid } from '../data.js';
+import { secLabel, secKanji, testNameFromKey } from '../courses.js';
 import { questionHtml, bindListening } from './questions.js';
 
 async function loadMistakes() {
   const ids = Object.keys(store.s.mistakes);
   const exams = [...new Set(ids.map(id => parseQid(id).exam))];
-  const loaded = Object.fromEntries(await Promise.all(exams.map(async e => [e, await exam(e)])));
+  const loaded = Object.fromEntries(await Promise.all(exams.map(async e => [e, await exam(e).catch(() => null)])));
   const flat = {};
   const out = [];
   for (const id of ids) {
     const { exam: e, section } = parseQid(id);
     const k = e + section;
+    if (!loaded[e]) continue;
     flat[k] = flat[k] || flatten(loaded[e], section);
     const q = flat[k].find(x => x.id === id);
     if (q) out.push(q); else delete store.s.mistakes[id];
@@ -29,9 +31,9 @@ export async function mistakes(main) {
       <p class="sub">${t('mistakes_lede')}</p></header>
     ${qs.length ? `<section class="panel compact"><div class="rows">${qs.map(q => `
       <a class="rowlink" style="grid-template-columns:18px minmax(0,1fr) auto 18px;min-height:56px" href="#/exam/${q.exam}/${q.section}?mode=practice">
-        <span class="mincho faint" lang="ja">${KANJI[q.section]}</span>
+        <span class="mincho faint" lang="ja">${secKanji(q.section, q.exam.split('-')[0])}</span>
         <span class="stack flush" style="min-width:0"><span class="label mincho" lang="ja">${esc(stripHtml(q.stem).replace(/\s+/g, ' ').slice(0, 80))}</span>
-          <span class="meta">${t('test_n', { n: q.exam })} · ${t('sec_' + q.section)} · ${String(q.n).padStart(2, '0')}</span></span>
+          <span class="meta">${q.exam.split('-')[0]} · ${testNameFromKey(q.exam)} · ${secLabel(q.section, q.exam.split('-')[0])} · ${String(q.n).padStart(2, '0')}</span></span>
         <span class="meta ng-t">${t('missed_times', { n: store.s.mistakes[q.id].count })}</span>${icon('chevron')}</a>`).join('')}</div></section>`
     : `<div class="panel empty"><p>${t('no_mistakes')}</p><a class="btn" href="#/exams">${t('nav_exams')}</a></div>`}
   </div>`;
@@ -44,8 +46,8 @@ export async function mistakesPractice(main) {
   main.innerHTML = `<div class="page doc">
     <a class="small link" href="#/mistakes">${t('mistakes_title')}</a>
     <h1 class="title">${t('practice_all')}</h1>
-    <div>${qs.map((q, i) => `${q.passageHtml ? `<details class="explain" style="padding-top:24px;border-top:1px solid var(--line)"><summary>${t('test_n', { n: q.exam })} · <span lang="ja">本文</span></summary><div class="passage" lang="ja" style="margin-top:12px">${q.passageHtml}</div></details>` : ''}
-      ${questionHtml(q, { label: `${String(i + 1).padStart(2, '0')} · ${t('test_n', { n: q.exam })} ${KANJI[q.section]}` })}`).join('')
+    <div>${qs.map((q, i) => `${q.passageHtml ? `<details class="explain" style="padding-top:24px;border-top:1px solid var(--line)"><summary>${q.exam.split('-')[0]} · ${testNameFromKey(q.exam)} · <span lang="ja">本文</span></summary><div class="passage" lang="ja" style="margin-top:12px">${q.passageHtml}</div></details>` : ''}
+      ${questionHtml(q, { label: `${String(i + 1).padStart(2, '0')} · ${q.exam.split('-')[0]} · ${testNameFromKey(q.exam)} ${secKanji(q.section, q.exam.split('-')[0])}` })}`).join('')
       || `<div class="panel empty"><p>${t('no_mistakes')}</p></div>`}</div>
   </div>`;
   main.onclick = e => {

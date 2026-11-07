@@ -2,6 +2,8 @@ import { t } from '../i18n.js';
 import { store } from '../store.js';
 import { icon, esc, shuffle, stripHtml } from '../util.js';
 import { vocabCards } from '../data.js';
+import { level, testNameFromKey } from '../courses.js';
+import { levelPicker } from '../app.js';
 import { grade, isDue, boxCounts, BOXES } from '../srs.js';
 import { speak, ttsSupported } from '../tts.js';
 
@@ -19,7 +21,7 @@ export async function vocab(main, _, params) {
     const fresh = cards.filter(c => !s.srs[c.id]);
     const boxes = boxCounts(cards);
     main.innerHTML = `<div class="page doc">
-      <header class="page-head"><h1 class="title">${t('vocab_title')} <span class="muted">${all.length}</span></h1><p class="sub">${t('vocab_lede')}</p></header>
+      <header class="page-head"><div class="mobile-only">${levelPicker()}</div><h1 class="title">${t('vocab_title', { level: level() })} <span class="muted">${all.length}</span></h1><p class="sub">${t('vocab_lede')}</p></header>
       <nav class="tabs" aria-label="${t('deck')}" style="overflow-x:auto">${['all', ...TYPES].map(d => `<a href="#/vocab?deck=${d}" ${d === deck ? 'aria-current="page"' : ''} style="white-space:nowrap">${d === 'all' ? t('filter_all') : t('deck_' + d)}</a>`).join('')}</nav>
       <section class="panel result" style="grid-template-columns:repeat(2,minmax(0,1fr))">
         <div class="stack tight"><span class="small muted">${t('cards_due')}</span><span class="fig">${due.length}</span>
@@ -65,7 +67,7 @@ export async function vocab(main, _, params) {
           <div class="row" style="justify-content:center">
             ${ttsSupported ? `<button class="btn sm" data-say>${icon('volume')}${t('play')}</button>` : ''}
             <a class="btn sm" target="_blank" rel="noopener" href="https://jisho.org/search/${encodeURIComponent(lookupWord(c))}">${t('look_up')}${icon('ext')}</a>
-            <a class="btn sm ghost" href="#/exam/${c.exam}/vocab">${t('test_n', { n: c.exam })}</a></div></div>
+            <a class="btn sm ghost" href="#/exam/${c.exam}/vocab">${testNameFromKey(c.exam)}</a></div></div>
       </div></div>
       <div class="fc-actions" ${flipped ? '' : 'hidden'}>
         <button class="btn" data-g="0">${t('srs_again')} <kbd>1</kbd></button>
