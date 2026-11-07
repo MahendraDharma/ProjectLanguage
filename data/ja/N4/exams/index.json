@@ -1,0 +1,24 @@
+{
+ "level": "N4",
+ "exams": [
+  {
+   "id": "t1",
+   "kind": "practice",
+   "n": 1,
+   "counts": {
+    "vocab": 37,
+    "grammar_reading": 35
+   }
+  },
+  {
+   "id": "t2",
+   "kind": "practice",
+   "n": 2,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 35,
+    "listening": 28
+   }
+  }
+ ]
+}

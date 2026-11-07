@@ -1,60 +1,67 @@
 import { t, lang } from '../i18n.js';
 import { store, streak, today } from '../store.js';
 import { icon, pct, esc } from '../util.js';
-import { examIndex, vocabCards, grammar, SECTIONS, KANJI } from '../data.js';
+import { examIndex, vocabCards, grammar, SECTIONS } from '../data.js';
+import { level, LEVELS, secLabel, testName, testNameFromKey, levelOf } from '../courses.js';
+import { levelPicker } from '../app.js';
 import { dueCount } from '../srs.js';
 
-const PASS_PCT = 95 / 180 * 100;
 const locale = () => ({ ja: 'ja-JP', id: 'id-ID', en: 'en-GB' }[lang()]);
 
 export async function home(main) {
   const s = store.s;
+  const L = level();
+  const PASS = LEVELS[L].pass;
   const [idx, cards, gram] = await Promise.all([examIndex(), vocabCards(), grammar()]);
+  const stats = sec => s.stats[`${L}:${sec}`] || { c: 0, t: 0 };
+  const attempts = s.attempts.filter(a => levelOf(a.exam) === L);
   const examDate = new Date(s.settings.examDate + 'T00:00');
   const days = Math.max(0, Math.ceil((examDate - new Date(today() + 'T00:00')) / 86400000));
-  const answered = Object.values(s.stats).reduce((a, x) => a + x.t, 0);
-  const correct = Object.values(s.stats).reduce((a, x) => a + x.c, 0);
+  const answered = SECTIONS.reduce((a, sec) => a + stats(sec).t, 0);
+  const correct = SECTIONS.reduce((a, sec) => a + stats(sec).c, 0);
   const todayCount = s.days[today()] || 0;
   const due = dueCount(cards);
   const fresh = cards.filter(c => !s.srs[c.id]).length;
-  const mistakes = Object.keys(s.mistakes).length;
-  const nextGrammar = gram.find(g => !s.learned[g.id]);
-  const learned = gram.filter(g => s.learned[g.id]).length;
-  const doneSets = idx.exams.filter(e => SECTIONS.every(sec => !e.counts[sec] || s.attempts.some(a => a.exam === e.id && a.section === sec))).length;
-  const taken = new Set(s.attempts.map(a => a.exam));
-  const nextExam = idx.exams.find(e => !taken.has(e.id)) || idx.exams[0];
-  const resume = Object.entries(s.sessions).filter(([, v]) => !v.submitted && Object.keys(v.answers || {}).length)
+  const mistakes = Object.keys(s.mistakes).filter(k => k.startsWith(L + '-')).length;
+  const nextGrammar = gram.find(g => !s.learned[`${L}/${g.id}`]);
+  const learned = gram.filter(g => s.learned[`${L}/${g.id}`]).length;
+  const K = e => `${L}-${e.id}`;
+  const doneSets = idx.exams.filter(e => SECTIONS.every(sec => !e.counts[sec] || attempts.some(a => a.exam === K(e) && a.section === sec))).length;
+  const taken = new Set(attempts.map(a => a.exam));
+  const nextExam = idx.exams.find(e => !taken.has(K(e))) || idx.exams[0];
+  const resume = Object.entries(s.sessions).filter(([k, v]) => k.startsWith(L + '-') && !v.submitted && Object.keys(v.answers || {}).length)
     .sort((a, b) => (b[1].touched || 0) - (a[1].touched || 0))[0];
   const dateLong = new Intl.DateTimeFormat(locale(), { day: 'numeric', month: 'long', year: 'numeric', weekday: 'short' }).format(examDate);
 
   let primary;
   if (resume) {
     const [e, sec, mode] = resume[0].split('/');
-    primary = `<a class="btn primary lg" href="#/exam/${e}/${sec}?mode=${mode}">${t('continue')} · ${t('test_n', { n: e })}, ${t('sec_' + sec)}</a>`;
+    primary = `<a class="btn primary lg" href="#/exam/${e}/${sec}?mode=${mode}">${t('continue')} · ${testNameFromKey(e)}, ${secLabel(sec)}</a>`;
   } else {
-    primary = `<a class="btn primary lg" href="#/exam/${nextExam.id}/vocab">${t('plan_exam')} · ${t('test_n', { n: nextExam.id })}</a>`;
+    primary = `<a class="btn primary lg" href="#/exam/${K(nextExam)}/vocab">${t('plan_exam')} · ${testName(nextExam)}</a>`;
   }
 
   const plan = [
     { href: '#/vocab', ic: 'cards', label: t('plan_cards'), meta: due ? t('due_now', { n: due }) : t('new_avail', { n: fresh }) },
-    nextGrammar && { href: `#/grammar/${nextGrammar.id}`, ic: 'grammar', label: `${t('plan_grammar')} <span class="faint" lang="ja">${esc(nextGrammar.pattern)}</span>`, meta: `${learned}/${gram.length}` },
+    nextGrammar && { href: `#/grammar/${L}/${nextGrammar.id}`, ic: 'grammar', label: `${t('plan_grammar')} <span class="faint" lang="ja">${esc(nextGrammar.pattern)}</span>`, meta: `${learned}/${gram.length}` },
     mistakes && { href: '#/mistakes', ic: 'mistakes', label: t('plan_mistakes'), meta: String(mistakes) },
-    { href: `#/exam/${nextExam.id}/vocab`, ic: 'exam', label: t('plan_exam'), meta: t('test_n', { n: nextExam.id }) },
+    { href: `#/exam/${K(nextExam)}/vocab`, ic: 'exam', label: t('plan_exam'), meta: testName(nextExam) },
   ].filter(Boolean);
 
-  const recent = [...s.attempts].reverse().slice(0, 6);
+  const recent = [...attempts].reverse().slice(0, 6);
   const dfmt = new Intl.DateTimeFormat(locale(), { day: 'numeric', month: 'short' });
 
   main.innerHTML = `
   <div class="page">
     <section class="home-hero" aria-labelledby="hero-title">
       <div class="stack">
-        <p class="meta">${t('hello')}</p>
-        <h1 id="hero-title" lang="${lang()}">${t('hero_title')}</h1>
-        <p class="sub">${t('hero_sub')}</p>
+        <div class="mobile-only">${levelPicker()}</div>
+        <p class="meta">${t('hello', { level: L })}</p>
+        <h1 id="hero-title" lang="${lang()}">${t('hero_title', { level: L })}</h1>
+        <p class="sub">${t('hero_sub', { tests: idx.exams.length, grammar: gram.length, cards: cards.length })}</p>
         <div class="actions">${primary}<a class="btn lg" href="#/exams">${t('nav_exams')}</a></div>
       </div>
-      <div class="ticket-wrap">${ticketHtml({ days, dateLong, doneSets, total: idx.exams.length, learned, gramTotal: gram.length })}</div>
+      <div class="ticket-wrap">${ticketHtml({ L, days, dateLong, doneSets, total: idx.exams.length, learned, gramTotal: gram.length })}</div>
     </section>
 
     <section class="stats" aria-label="${t('nav_home')}">
@@ -66,9 +73,9 @@ export async function home(main) {
     <div class="dash">
       <section class="panel chart" aria-labelledby="chart-h">
         <div class="panel-head"><h2 id="chart-h" class="h3">${t('chart_title')}</h2>
-          <div class="legend">${SECTIONS.map((sec, i) => `<span><i style="background:var(--ink${i ? '-' + (i + 1) : ''})"></i>${t('sec_' + sec)}</span>`).join('')}</div></div>
-        <div data-chart>${chartSvg(s.attempts)}</div>
-        ${s.attempts.length ? '' : `<p class="small faint" style="margin-top:12px">${t('chart_empty')}</p>`}
+          <div class="legend">${SECTIONS.map((sec, i) => `<span><i style="background:var(--ink${i ? '-' + (i + 1) : ''})"></i>${secLabel(sec)}</span>`).join('')}</div></div>
+        <div data-chart>${chartSvg(attempts, 640, PASS)}</div>
+        ${attempts.length ? '' : `<p class="small faint" style="margin-top:12px">${t('chart_empty')}</p>`}
       </section>
       <div class="stack">
         <section class="panel compact" aria-labelledby="plan-h">
@@ -77,10 +84,10 @@ export async function home(main) {
         </section>
         <section class="panel compact" aria-labelledby="sec-h">
           <div class="panel-head" style="margin-bottom:4px"><h2 id="sec-h" class="h3">${t('skills')}</h2><span class="meta">${t('accuracy')}</span></div>
-          <div class="rows">${SECTIONS.map(sec => { const st = s.stats[sec] || { c: 0, t: 0 }; const p = pct(st.c, st.t);
-            return `<div class="secrow"><span class="small">${t('sec_' + sec)}</span><span class="meta">${st.t ? p + '%' : '—'}</span>
+          <div class="rows">${SECTIONS.map(sec => { const st = stats(sec); const p = pct(st.c, st.t);
+            return `<div class="secrow"><span class="small">${secLabel(sec)}</span><span class="meta">${st.t ? p + '%' : '—'}</span>
               <div class="bar"><i style="transform:scaleX(${p / 100})"></i></div></div>`; }).join('')}</div>
-          <p class="meta" style="margin-top:8px">${t('pass_line')}</p>
+          <p class="meta" style="margin-top:8px">${passLine(L)}</p>
         </section>
       </div>
     </div>
@@ -88,14 +95,14 @@ export async function home(main) {
     <section class="panel" aria-labelledby="recent-h">
       <div class="panel-head"><h2 id="recent-h" class="h3">${t('recent')}</h2><a class="small link" href="#/exams">${t('nav_exams')}</a></div>
       ${recent.length ? `<table class="results"><thead><tr><th>${t('col_test')}</th><th>${t('col_section')}</th><th class="hide-m">${t('col_mode')}</th><th class="r">${t('col_score')}</th><th class="r hide-m">${t('col_date')}</th></tr></thead><tbody>
-        ${recent.map(a => `<tr data-href="#/exam/${a.exam}/${a.section}?mode=${a.mode}"><td>${t('test_n', { n: a.exam })}</td><td>${t('sec_' + a.section)}</td>
+        ${recent.map(a => `<tr data-href="#/exam/${a.exam}/${a.section}?mode=${a.mode}"><td>${testNameFromKey(a.exam)}</td><td>${secLabel(a.section)}</td>
           <td class="hide-m faint">${t('mode_' + a.mode)}</td><td class="r mono">${a.correct}/${a.total} · ${pct(a.points, a.max)}%</td><td class="r meta hide-m">${dfmt.format(new Date(a.date))}</td></tr>`).join('')}
         </tbody></table>`
-      : `<div class="empty" style="padding:8px 0"><p class="small">${t('no_attempts')}</p><a class="btn sm" href="#/exam/${nextExam.id}/vocab">${t('plan_exam')}</a></div>`}
+      : `<div class="empty" style="padding:8px 0"><p class="small">${t('no_attempts')}</p><a class="btn sm" href="#/exam/${K(nextExam)}/vocab">${t('plan_exam')}</a></div>`}
     </section>
   </div>`;
   const box = main.querySelector('[data-chart]');
-  const draw = () => { const w = Math.round(box.clientWidth); if (w > 0) box.innerHTML = chartSvg(s.attempts, w); };
+  const draw = () => { const w = Math.round(box.clientWidth); if (w > 0) box.innerHTML = chartSvg(attempts, w, PASS); };
   draw();
   const ro = new ResizeObserver(draw); ro.observe(box);
   main.querySelectorAll('tr[data-href]').forEach(tr => tr.onclick = () => { location.hash = tr.dataset.href; });
@@ -104,11 +111,11 @@ export async function home(main) {
 
 const stat = (label, fig, change) => `<div class="panel compact stat"><span class="label">${label}</span><span class="fig">${fig}</span><span class="meta">${change}</span></div>`;
 
-function ticketHtml({ days, dateLong, doneSets, total, learned, gramTotal }) {
+function ticketHtml({ L, days, dateLong, doneSets, total, learned, gramTotal }) {
   return `<article class="ticket" aria-label="${t('ticket_title')}">
     <div class="ticket-head"><b lang="ja">受験票</b><span>${t('ticket_practice')}</span></div>
     <div class="ticket-grid">
-      <div class="ticket-cell"><small>${t('ticket_level')}</small><b>N3</b></div>
+      <div class="ticket-cell"><small>${t('ticket_level')}</small><b>${L}</b></div>
       <div class="ticket-cell"><small>${t('ticket_date')}</small><b>${esc(dateLong)}</b></div>
     </div>
     <div class="ticket-grid">
@@ -123,7 +130,8 @@ function ticketHtml({ days, dateLong, doneSets, total, learned, gramTotal }) {
 }
 
 /** Line chart: one series per section, % score per attempt, pass line in the accent. */
-function chartSvg(attempts, W = 640) {
+function chartSvg(attempts, W = 640, PASS = 95) {
+  const PASS_PCT = PASS / 180 * 100;
   const H = W < 480 ? 220 : 300, L = 36, R = 12, T = 12, B = 28;
   const list = attempts.slice(-16);
   const n = Math.max(list.length, 2);
@@ -131,7 +139,7 @@ function chartSvg(attempts, W = 640) {
   const y = v => T + (H - T - B) * (1 - v / 100);
   let g = '';
   for (const v of [0, 25, 50, 75, 100]) g += `<line class="grid-line" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
-  g += `<line class="pass" x1="${L}" x2="${W - R}" y1="${y(PASS_PCT)}" y2="${y(PASS_PCT)}"/><text class="pass-label" x="${W - R}" y="${y(PASS_PCT) - 6}" text-anchor="end">${t('chart_pass')} 95/180</text>`;
+  g += `<line class="pass" x1="${L}" x2="${W - R}" y1="${y(PASS_PCT)}" y2="${y(PASS_PCT)}"/><text class="pass-label" x="${W - R}" y="${y(PASS_PCT) - 6}" text-anchor="end">${t('chart_pass')} ${PASS}/180</text>`;
   SECTIONS.forEach((sec, si) => {
     const pts = list.map((a, i) => ({ a, i })).filter(p => p.a.section === sec).map(p => [x(p.i), y(pct(p.a.points, p.a.max))]);
     if (!pts.length) return;
@@ -149,4 +157,9 @@ function smooth(p) {
   let d = `M${p[0][0]},${p[0][1]}`;
   for (let i = 1; i < p.length; i++) { const [x0, y0] = p[i - 1], [x1, y1] = p[i]; const cx = (x0 + x1) / 2; d += ` C${cx},${y0} ${cx},${y1} ${x1},${y1}`; }
   return d;
+}
+
+export function passLine(L) {
+  const lv = LEVELS[L];
+  return t('pass_rule', { pass: lv.pass, parts: lv.scoring.map(x => `${x.min}/${x.max}`).join(', ') });
 }

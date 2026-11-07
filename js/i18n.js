@@ -17,9 +17,9 @@ const S = {
   part_read:       { ja: '読解', id: 'Membaca', en: 'Reading' },
   part_listen:     { ja: '聴解', id: 'Mendengarkan', en: 'Listening' },
 
-  hello: { ja: 'JLPT N3 対策', id: 'Persiapan JLPT N3', en: 'JLPT N3 prep' },
-  hero_title: { ja: 'N3合格まで、毎日一問ずつ', id: 'Latihan harian menuju lulus N3', en: 'Daily practice toward passing N3' },
-  hero_sub: { ja: '模擬試験17回分、文法73項目、問題から作った単語カード594枚', id: '17 ujian simulasi, 73 pola tata bahasa, dan 594 kartu kosakata dari soal-soalnya', en: '17 mock tests, 73 grammar patterns and 594 vocab cards taken from the questions' },
+  hello: { ja: 'JLPT {level} 対策', id: 'Persiapan JLPT {level}', en: 'JLPT {level} prep' },
+  hero_title: { ja: '{level}合格まで、毎日一問ずつ', id: 'Latihan harian menuju lulus {level}', en: 'Daily practice toward passing {level}' },
+  hero_sub: { ja: '模擬試験{tests}回分、文法{grammar}項目、問題から作った単語カード{cards}枚', id: '{tests} ujian simulasi, {grammar} pola tata bahasa, dan {cards} kartu kosakata dari soal-soalnya', en: '{tests} mock tests, {grammar} grammar patterns and {cards} vocab cards taken from the questions' },
   days_left: { ja: '日', id: 'hari', en: 'days' },
   until_exam:      { ja: '試験まで', id: 'menuju ujian', en: 'until the exam' },
   set_exam_date:   { ja: '試験日を設定', id: 'Atur tanggal ujian', en: 'Set exam date' },
@@ -39,7 +39,7 @@ const S = {
   plan_mistakes: { ja: '間違えた問題', id: 'Soal yang salah', en: 'Missed questions' },
   pass_line: { ja: '合格ライン 95/180、各科目19点以上', id: 'Lulus 95/180, min. 19 per bagian', en: 'Pass 95/180, min. 19 per section' },
 
-  exams_title:     { ja: 'JLPT N3 模擬試験', id: 'Ujian Simulasi JLPT N3', en: 'JLPT N3 Mock Tests' },
+  exams_title: { ja: 'JLPT {level} 模擬試験', id: 'Ujian Simulasi JLPT {level}', en: 'JLPT {level} Mock Tests' },
   exams_lede: { ja: '各回3科目。練習モードはすぐに答え合わせ、本番モードは時間を計って最後に採点します', id: 'Tiap set punya 3 bagian. Mode Latihan langsung menilai jawaban, Mode Ujian memakai timer dan menilai di akhir', en: 'Each set has 3 sections. Practice checks every answer right away, Exam is timed and scored at the end' },
   mode:            { ja: 'モード', id: 'Mode', en: 'Mode' },
   mode_practice:   { ja: '練習', id: 'Latihan', en: 'Practice' },
@@ -82,13 +82,13 @@ const S = {
   review_answers:  { ja: '解答を見直す', id: 'Tinjau jawaban', en: 'Review answers' },
   pass:            { ja: '合格', id: 'Lulus', en: 'Pass' },
   fail:            { ja: '不合格', id: 'Belum lulus', en: 'Not yet' },
-  scaled_note: { ja: '得点は配点比率から換算した目安で、公式の尺度得点ではありません', id: 'Skor 0–60 dikonversi dari proporsi poin, perkiraan dan bukan skor resmi JLPT', en: 'Scores out of 60 are converted from point ratios, an estimate rather than the official scaled score' },
-  report_missing: { ja: '本番モードで3科目すべてを受けると総合成績が出ます', id: 'Selesaikan ketiga bagian dalam Mode Ujian untuk melihat rapor lengkap', en: 'Finish all three sections in Exam mode to see the full report' },
+  scaled_note: { ja: '得点は配点比率から換算した目安で、公式の尺度得点ではありません', id: 'Skor dikonversi dari proporsi poin, perkiraan dan bukan skor resmi JLPT', en: 'Scores are converted from point ratios, an estimate rather than the official scaled score' },
+  report_missing: { ja: '本番モードで全科目を受けると総合成績が出ます', id: 'Selesaikan semua bagian dalam Mode Ujian untuk melihat rapor lengkap', en: 'Finish every section in Exam mode to see the full report' },
   by_problem:      { ja: '問題別', id: 'Per jenis soal', en: 'By problem type' },
   next_section:    { ja: '次の科目へ', id: 'Bagian berikutnya', en: 'Next section' },
 
-  grammar_title:   { ja: 'N3 文法', id: 'Tata Bahasa N3', en: 'N3 Grammar' },
-  grammar_lede: { ja: '73の文型を、意味・接続・例文つきで', id: '73 pola dengan arti, cara pembentukan, dan contoh kalimat', en: '73 patterns with meaning, formation and examples' },
+  grammar_title: { ja: '{level} 文法', id: 'Tata Bahasa {level}', en: '{level} Grammar' },
+  grammar_lede: { ja: '{n}の文型を、意味・接続・例文つきで', id: '{n} pola dengan arti, cara pembentukan, dan contoh kalimat', en: '{n} patterns with meaning, formation and examples' },
   search_grammar: { ja: '検索', id: 'Cari', en: 'Search' },
   hide_meanings:   { ja: '意味を隠して練習', id: 'Sembunyikan arti untuk latihan', en: 'Hide meanings to practise' },
   formation:       { ja: '接続', id: 'Pembentukan', en: 'Formation' },
@@ -107,7 +107,7 @@ const S = {
   next:            { ja: '次へ', id: 'Berikutnya', en: 'Next' },
   prev:            { ja: '前へ', id: 'Sebelumnya', en: 'Previous' },
 
-  vocab_title:     { ja: '語彙カード', id: 'Kartu Kosakata', en: 'Vocabulary Cards' },
+  vocab_title: { ja: '{level} 語彙カード', id: 'Kartu Kosakata {level}', en: '{level} Vocabulary Cards' },
   vocab_lede: { ja: '模擬試験の語彙問題から作ったカードを、ライトナー方式で復習します', id: 'Kartu dari soal kosakata ujian simulasi, diulang dengan sistem Leitner', en: 'Cards made from the mock-test vocabulary questions, reviewed with the Leitner system' },
   deck:            { ja: 'デッキ', id: 'Dek', en: 'Deck' },
   deck_reading:    { ja: '漢字の読み', id: 'Cara baca kanji', en: 'Kanji reading' },
@@ -185,6 +185,13 @@ const S = {
   col_mode: { ja: 'モード', id: 'Mode', en: 'Mode' },
   col_score: { ja: '得点', id: 'Skor', en: 'Score' },
   col_date: { ja: '日付', id: 'Tanggal', en: 'Date' },
+  pass_rule: { ja: '合格ライン {pass}/180、科目別の基準点 {parts}', id: 'Lulus {pass}/180, nilai minimum per bagian {parts}', en: 'Pass {pass}/180, section minimums {parts}' },
+  course_ja: { ja: '日本語', id: 'Bahasa Jepang', en: 'Japanese' },
+  level: { ja: 'レベル', id: 'Level', en: 'Level' },
+  sec_langall: { ja: '言語知識（文字・語彙・文法）', id: 'Kosakata & Tata Bahasa', en: 'Vocabulary & Grammar' },
+  sec_reading: { ja: '読解', id: 'Membaca', en: 'Reading' },
+  part_langread: { ja: '言語知識・読解', id: 'Pengetahuan Bahasa & Membaca', en: 'Language Knowledge & Reading' },
+  practice_n: { ja: '練習テスト{n}', id: 'Tes latihan {n}', en: 'Practice test {n}' },
 };
 
 let current = 'id';

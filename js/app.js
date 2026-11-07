@@ -8,6 +8,7 @@ import { grammarList, grammarDetail, grammarQuiz } from './views/grammar.js';
 import { vocab } from './views/vocab.js';
 import { mistakes, mistakesPractice } from './views/mistakes.js';
 import { settings } from './views/settings.js';
+import { LEVEL_IDS, level } from './courses.js';
 
 const NAV = [
   ['/', 'home', 'nav_home'],
@@ -21,11 +22,11 @@ const NAV = [
 const ROUTES = [
   [/^\/$/, home],
   [/^\/exams$/, examList],
-  [/^\/exam\/(\d+)\/(vocab|grammar_reading|listening)$/, examRun],
-  [/^\/report\/(\d+)$/, examReport],
+  [/^\/exam\/(N[1-5]-t?\d+)\/(vocab|grammar_reading|listening)$/, examRun],
+  [/^\/report\/(N[1-5]-t?\d+)$/, examReport],
   [/^\/grammar$/, grammarList],
   [/^\/grammar\/quiz$/, grammarQuiz],
-  [/^\/grammar\/([\w-]+)$/, grammarDetail],
+  [/^\/grammar\/(N[1-5])\/([\w-]+)$/, grammarDetail],
   [/^\/vocab$/, vocab],
   [/^\/mistakes$/, mistakes],
   [/^\/mistakes\/practice$/, mistakesPractice],
@@ -45,7 +46,9 @@ function renderNav(path) {
   const active = p => (p === '/' ? path === '/' : path.startsWith(p.replace(/s$/, ''))) ? 'aria-current="page"' : '';
   const mc = mistakeCount();
   const link = ([p, ic, k]) => `<a href="#${p}" ${active(p)}>${icon(ic)}<span>${t(k)}</span>${p === '/mistakes' && mc ? `<span class="count">${mc}</span>` : '<span></span>'}</a>`;
-  $('#nav-label').textContent = t('nav_study');
+  $('#nav-label').innerHTML = `${t('course_ja')} <span class="faint">· JLPT</span>`;
+  $('#level-pick').innerHTML = levelPicker();
+  $('#brand-level').textContent = level();
   $('#nav').innerHTML = NAV.filter(n => n[0] !== '/settings').map(link).join('');
   $('#tabbar').innerHTML = NAV.filter(n => n[0] !== '/settings').map(link).join('');
   $('#sidebar-foot').innerHTML = `<nav class="nav">${link(NAV.find(n => n[0] === '/settings'))}</nav>
@@ -79,9 +82,21 @@ export async function render() {
   document.title = (titleEl ? titleEl.textContent.trim() + ' · ' : '') + 'Michi N3';
 }
 
+export function levelPicker() {
+  return `<div class="seg levels" role="group" aria-label="${t('level')}">${LEVEL_IDS.map(L =>
+    `<button type="button" data-level="${L}" aria-pressed="${level() === L}">${L}</button>`).join('')}</div>`;
+}
+
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-lang]');
-  if (b) { store.s.settings.lang = b.dataset.lang; store.save(); render(); }
+  if (b) { store.s.settings.lang = b.dataset.lang; store.save(); render(); return; }
+  const lv = e.target.closest('[data-level]');
+  if (lv) {
+    store.s.settings.level = lv.dataset.level; store.save();
+    const path = (location.hash.slice(1) || '/').split('?')[0];
+    if (/^\/(exam|report)\/|^\/grammar\/(N|quiz)/.test(path)) location.hash = path.startsWith('/grammar') ? '#/grammar' : '#/exams';
+    else render();
+  }
 });
 
 let lastPath = null;

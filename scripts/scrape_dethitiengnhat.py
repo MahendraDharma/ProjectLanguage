@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Fetch JLPT N3 study material from dethitiengnhat.com/en into static JSON.
+"""Fetch JLPT N5–N1 study material from dethitiengnhat.com/en into static JSON.
 
-Output (relative to repo root):
-  data/exams/index.json            list of mock exams
-  data/exams/<id>.json             one exam: vocab / grammar-reading / listening
-  data/grammar.json                N3 grammar patterns with examples
-  assets/img/<file>                images used by questions
+Output (relative to repo root), per level L in N1..N5:
+  data/ja/<L>/exams/index.json     list of tests (JLPT mock tests + practice tests)
+  data/ja/<L>/exams/<id>.json      one test: three sections, groups tagged with
+                                   their scoring part (lang / read / listen)
+  data/ja/<L>/grammar.json         grammar patterns with examples
+  assets/img/ja/<L>/<file>.webp    images used by questions
+  data/courses.json                summary of every course and level
 
-Usage:  python3 scripts/scrape_dethitiengnhat.py [--level N3] [--no-cache]
+Usage:  python3 scripts/scrape_dethitiengnhat.py [--levels N5,N4,N3,N2,N1] [--no-cache]
 Needs:  beautifulsoup4, lxml.  Raw pages are cached in .cache/ (gitignored).
 """
 import argparse, hashlib, json, re, sys, time, urllib.request
@@ -23,6 +25,8 @@ ALLOWED = {"u", "b", "br", "ruby", "rt", "rp", "img", "center", "table", "tr", "
            "tbody", "thead", "p", "span", "strong", "em", "i", "ol", "ul", "li", "div", "sup", "sub"}
 
 USE_CACHE = True
+IMG_DIR = "ja/N3"  # set per level while scraping
+LEVELS = ["N5", "N4", "N3", "N2", "N1"]
 
 
 def fetch(url, binary=False):
@@ -100,7 +104,7 @@ def download_image(src, images):
     url = src if src.startswith("http") else f"{BASE}/{src.lstrip('/')}"
     stem = re.sub(r"[^A-Za-z0-9._-]", "_", url.rsplit("/", 1)[-1]).rsplit(".", 1)[0]
     name = stem + ".webp"
-    dest = ROOT / "assets" / "img" / name
+    dest = ROOT / "assets" / "img" / IMG_DIR / name
     if not dest.exists():
         try:
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -109,7 +113,7 @@ def download_image(src, images):
             print("  ! image failed", url, e, file=sys.stderr)
             return None
     images.add(name)
-    return f"assets/img/{name}"
+    return f"assets/img/{IMG_DIR}/{name}"
 
 
 def save_webp(raw, dest, max_w=900):
@@ -217,32 +221,123 @@ def parse_exam_page(html, images):
     return {"title": title, "passages": passages, "groups": merged}
 
 
-def scrape_exams(level):
-    idx_html = fetch(f"{BASE}/en/jlpt/{level}")
-    ids = sorted({int(m) for m in re.findall(rf"jlpt/{level}/(\d+)/1", idx_html)})
-    out_dir = ROOT / "data" / "exams"
+READ_HINT = re.compile(r"読解|どっかい|文章|ぶんしょう|ページ|ぺーじ|情報|じょうほう")
+FILL_HINT = re.compile(r"入|いれ|はいる|人る")
+GRAMMAR_HINT = re.compile(r"次の文の|つぎの文の|つぎの ぶん|★|文法|ぶんぽう|文章|ぶんしょう")
+
+
+def vocab_type(ins):
+    """Card type for a vocabulary problem group, from its instruction."""
+    if re.search(r"読み方|よみかた|ひらがなで", ins):
+        return "reading"
+    if re.search(r"漢字で書|かんじで かく|かんじで書|どう書|どう かきます|漢字で", ins):
+        return "writing"
+    if re.search(r"意味が最も近い|意味が近い|いみが いちばん ちかい|近い|ちかい|おなじ いみ|同じ意味|おなじいみ", ins):
+        return "synonym"
+    if re.search(r"使い方|つかいかた", ins):
+        return "usage"
+    if re.search(r"\(|（", ins):
+        return "context"
+    return None
+
+
+def classify(section, groups, level):
+    """Tag every group with its JLPT scoring part, and vocab groups with a card type."""
+    if section == "listening":
+        for g in groups:
+            g["part"] = "listen"
+        return
+    if level in ("N1", "N2"):
+        # part 1 = 言語知識 (vocab + grammar), part 3 = 読解
+        in_grammar = False
+        for g in groups:
+            ins = re.sub(r"<[^>]+>", "", g["instruction"])
+            g["part"] = "lang" if section == "vocab" else "read"
+            if section == "vocab":
+                if not in_grammar and GRAMMAR_HINT.search(ins):
+                    in_grammar = True
+                if not in_grammar:
+                    t = vocab_type(ins)
+                    if t:
+                        g["card"] = t
+        return
+    reading = False
+    for g in groups:
+        ins = re.sub(r"<[^>]+>", "", g["instruction"])
+        if section == "grammar_reading" and not reading:
+            if "読解" in ins or "どっかい" in ins or (READ_HINT.search(ins) and not FILL_HINT.search(ins)):
+                reading = True
+        g["part"] = "read" if reading else "lang"
+        if section == "vocab":
+            t = vocab_type(ins)
+            if t:
+                g["card"] = t
+
+
+SECTION_PARTS = {1: "vocab", 3: "grammar_reading", 4: "listening"}
+
+
+def scrape_level(level):
+    global IMG_DIR
+    IMG_DIR = f"ja/{level}"
+    out_dir = ROOT / "data" / "ja" / level / "exams"
     out_dir.mkdir(parents=True, exist_ok=True)
+    tests = []
+    jl = fetch(f"{BASE}/en/jlpt/{level}")
+    for n in sorted({int(m) for m in re.findall(rf"/jlpt/{level}/(\d+)/1", jl)}):
+        tests.append((str(n), "jlpt", n, f"{BASE}/en/jlpt/{level}/{n}"))
+    pt = fetch(f"{BASE}/en/de_thi_thu/{level}")
+    for n in sorted({int(m) for m in re.findall(rf"de_thi_thu/{level}/(\d+)/1", pt)}):
+        tests.append((f"t{n}", "practice", n, f"{BASE}/en/de_thi_thu/{level}/{n}"))
     index = []
-    for exam_id in ids:
-        exam = {"id": exam_id, "level": level, "sections": {}}
+    for tid, kind, n, base in tests:
+        test = {"id": tid, "level": level, "kind": kind, "n": n, "sections": {}}
         images = set()
-        for part, key in SECTIONS.items():
-            url = f"{BASE}/en/jlpt/{level}/{exam_id}/{part}"
+        for part, key in SECTION_PARTS.items():
+            url = f"{base}/{part}"
             parsed = parse_exam_page(fetch(url), images)
-            if not parsed:
-                print("  ! no form", url, file=sys.stderr)
+            if not parsed or not parsed["groups"]:
                 continue
+            classify(key, parsed["groups"], level)
             parsed["source"] = url
-            exam["sections"][key] = parsed
-        counts = {k: sum(len(g["questions"]) for g in v["groups"]) for k, v in exam["sections"].items()}
-        bad = [(k, i) for k, v in exam["sections"].items() for gi, g in enumerate(v["groups"])
-               for i, q in enumerate(g["questions"]) if not q["answer"] or len(q["options"]) < 2]
-        if bad:
-            print(f"  ! exam {exam_id}: {len(bad)} questions missing answer/options", file=sys.stderr)
-        (out_dir / f"{exam_id}.json").write_text(json.dumps(exam, ensure_ascii=False, indent=1))
-        index.append({"id": exam_id, "counts": counts})
-        print(f"exam {exam_id}: {counts}")
+            test["sections"][key] = parsed
+        counts = {k: sum(len(g["questions"]) for g in v["groups"]) for k, v in test["sections"].items()}
+        if not counts:
+            print(f"  ! {level} {tid}: empty", file=sys.stderr)
+            continue
+        (out_dir / f"{tid}.json").write_text(json.dumps(test, ensure_ascii=False, indent=1))
+        index.append({"id": tid, "kind": kind, "n": n, "counts": counts})
+        print(f"{level} {tid}: {counts}")
     (out_dir / "index.json").write_text(json.dumps({"level": level, "exams": index}, ensure_ascii=False, indent=1))
+    return index
+
+
+def write_courses():
+    levels = []
+    for L in LEVELS:
+        d = ROOT / "data" / "ja" / L
+        idx = json.loads((d / "exams" / "index.json").read_text()) if (d / "exams" / "index.json").exists() else {"exams": []}
+        gram = json.loads((d / "grammar.json").read_text()) if (d / "grammar.json").exists() else []
+        q = sum(sum(e["counts"].values()) for e in idx["exams"])
+        levels.append({"id": L, "tests": len(idx["exams"]), "questions": q, "grammar": len(gram)})
+    courses = {"courses": [{"id": "ja", "name": {"ja": "日本語", "id": "Bahasa Jepang", "en": "Japanese"},
+                            "exam": "JLPT", "levels": levels}]}
+    (ROOT / "data" / "courses.json").write_text(json.dumps(courses, ensure_ascii=False, indent=1))
+    print(json.dumps(courses, ensure_ascii=False))
+
+
+VI_CHARS = re.compile(r"[ạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹđĐơưăâêô]")
+
+
+def clean_pattern(p):
+    """Normalise a pattern title; drop Vietnamese labels the site sometimes leaves in."""
+    p = re.sub(r"([〜～])\s+", r"\1", p).strip()
+    if VI_CHARS.search(p):
+        m = re.search(r"[(（]\s*([〜～][^)）]*)[)）]", p)
+        if m:
+            return m.group(1).strip()
+        p = re.sub(r"^[^\u3040-\u30ff\u4e00-\u9fff〜～]+", "", p).strip()
+    return p
 
 
 def scrape_grammar(level):
@@ -284,7 +379,7 @@ def scrape_grammar(level):
         related = [a["href"].rsplit("/", 1)[-1] for a in art.select(".gd-related a")]
         items.append({
             "id": slug,
-            "pattern": re.sub(r"([〜～])\s+", r"\1", txt(".gd-pattern")),
+            "pattern": clean_pattern(txt(".gd-pattern")),
             "romaji": txt(".gd-romaji"),
             "meaning": {"en": txt(".gd-meaning")},
             "formation": prose(".gd-formula-source"),
@@ -294,19 +389,21 @@ def scrape_grammar(level):
             "source": f"{BASE}/en/detailgrammar/{slug}",
         })
         print("grammar", slug)
-    (ROOT / "data").mkdir(exist_ok=True)
-    (ROOT / "data" / "grammar.json").write_text(json.dumps(items, ensure_ascii=False, indent=1))
+    (ROOT / "data" / "ja" / level).mkdir(parents=True, exist_ok=True)
+    (ROOT / "data" / "ja" / level / "grammar.json").write_text(json.dumps(items, ensure_ascii=False, indent=1))
     print(f"{len(items)} grammar patterns")
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--level", default="N3")
+    ap.add_argument("--levels", default=",".join(LEVELS))
     ap.add_argument("--no-cache", action="store_true")
     ap.add_argument("--only", choices=["exams", "grammar"])
     a = ap.parse_args()
     USE_CACHE = not a.no_cache
-    if a.only != "grammar":
-        scrape_exams(a.level)
-    if a.only != "exams":
-        scrape_grammar(a.level)
+    for L in a.levels.split(","):
+        if a.only != "grammar":
+            scrape_level(L)
+        if a.only != "exams":
+            scrape_grammar(L)
+    write_courses()

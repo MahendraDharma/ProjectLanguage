@@ -2,21 +2,26 @@ import { t, lang } from '../i18n.js';
 import { store, logActivity } from '../store.js';
 import { icon, esc, shuffle } from '../util.js';
 import { grammar } from '../data.js';
+import { level } from '../courses.js';
+import { levelPicker } from '../app.js';
 
 const meaning = g => g.meaning[lang()] || g.meaning.en;
 const norm = s => s.toLowerCase().normalize('NFKC').replace(/[\s〜～~・]/g, '');
 
 export async function grammarList(main, _, params) {
-  const items = await grammar();
+  const L = level();
+  const items = await grammar(L);
+  const lk = g => `${L}/${g.id}`;
   const s = store.s;
   const q = params.get('q') || '';
   const hide = params.get('hide') === '1';
-  const learned = items.filter(g => s.learned[g.id]).length;
+  const learned = items.filter(g => s.learned[lk(g)]).length;
   main.innerHTML = `<div class="page">
     <header class="page-head">
-      <div class="row between"><h1 class="title">${t('grammar_title')}</h1>
+      <div class="mobile-only">${levelPicker()}</div>
+      <div class="row between"><h1 class="title">${t('grammar_title', { level: L })}</h1>
         <a class="btn primary" href="#/grammar/quiz">${t('grammar_quiz')}</a></div>
-      <p class="sub">${t('grammar_lede')}</p>
+      <p class="sub">${t('grammar_lede', { n: items.length })}</p>
     </header>
     <div class="stack tight">
       <div class="search">${icon('search')}<input class="input" type="search" id="gq" value="${esc(q)}" placeholder="${t('search_grammar')}" aria-label="${t('search_grammar')}"></div>
@@ -31,11 +36,11 @@ export async function grammarList(main, _, params) {
   const draw = () => {
     const qq = norm(main.querySelector('#gq').value);
     const f = items.map((g, i) => ({ g, i })).filter(({ g }) => !qq || norm(g.pattern + g.romaji + g.meaning.en + (g.meaning.id || '')).includes(qq));
-    list.innerHTML = f.map(({ g, i }) => `<a class="g-row" href="#/grammar/${g.id}">
+    list.innerHTML = f.map(({ g, i }) => `<a class="g-row" href="#/grammar/${L}/${g.id}">
       <span class="meta">${String(i + 1).padStart(2, '0')}</span>
       <span class="stack flush" style="min-width:0"><span><span class="pat" lang="ja">${esc(g.pattern)}</span><span class="rom">${esc(g.romaji)}</span></span>
         <span class="mean">${esc(meaning(g))}</span></span>
-      ${s.learned[g.id] ? `<span class="ok-t" title="${t('mark_learned')}">${icon('check')}</span>` : icon('chevron')}</a>`).join('')
+      ${s.learned[lk(g)] ? `<span class="ok-t" title="${t('mark_learned')}">${icon('check')}</span>` : icon('chevron')}</a>`).join('')
       || `<div class="empty"><p class="small">—</p></div>`;
   };
   draw();
@@ -43,8 +48,9 @@ export async function grammarList(main, _, params) {
   main.querySelector('#ghide').addEventListener('change', e => list.classList.toggle('quiz-hide', e.target.checked));
 }
 
-export async function grammarDetail(main, [id]) {
-  const items = await grammar();
+export async function grammarDetail(main, [L, id]) {
+  const items = await grammar(L);
+  const lk = g => `${L}/${g.id}`;
   const i = items.findIndex(g => g.id === id);
   const g = items[i];
   if (!g) { main.innerHTML = `<div class="page"><div class="empty"><p>${t('not_found')}</p></div></div>`; return; }
@@ -52,13 +58,13 @@ export async function grammarDetail(main, [id]) {
   const prev = items[i - 1], next = items[i + 1];
   const rel = g.related.map(r => items.find(x => x.id === r)).filter(Boolean);
   main.innerHTML = `<div class="page doc">
-    <div class="row between"><a class="small link" href="#/grammar">${t('grammar_title')}</a><span class="meta">${String(i + 1).padStart(2, '0')} / ${items.length}</span></div>
+    <div class="row between"><a class="small link" href="#/grammar">${t('grammar_title', { level: L })}</a><span class="meta">${String(i + 1).padStart(2, '0')} / ${items.length}</span></div>
     <header class="stack tight">
       <h1 class="g-pattern" lang="ja">${esc(g.pattern)}</h1>
       <p class="meta">${esc(g.romaji)}</p>
       <p class="h2 g-meaning" style="margin-top:8px">${esc(meaning(g))}</p>
       ${lang() === 'id' && g.meaning.id ? `<p class="small muted">${esc(g.meaning.en)}</p>` : ''}
-      <label class="switch" style="justify-content:flex-start"><span class="small muted">${t('mark_learned')}</span><input type="checkbox" id="learned" ${s.learned[g.id] ? 'checked' : ''}></label>
+      <label class="switch" style="justify-content:flex-start"><span class="small muted">${t('mark_learned')}</span><input type="checkbox" id="learned" ${s.learned[lk(g)] ? 'checked' : ''}></label>
     </header>
     ${g.formation ? `<section class="panel stack tight"><h2 class="h3">${t('formation')} <span class="faint" lang="ja">接続</span></h2><div class="prose" lang="en">${g.formation}</div></section>` : ''}
     ${g.explanation ? `<section class="panel stack tight"><h2 class="h3">${t('explanation_g')} <span class="faint" lang="ja">説明</span></h2><div class="prose" lang="en">${g.explanation}</div>
@@ -72,14 +78,14 @@ export async function grammarDetail(main, [id]) {
         <p class="ja" lang="ja">${e.ja}</p><p class="tr" lang="en">${esc(e.en)}</p></div></div>`).join('')}</div>
     </section>
     ${rel.length ? `<section class="stack tight"><h2 class="h3">${t('related')}</h2><div class="chips">${rel.map(r =>
-      `<a class="chiplink" href="#/grammar/${r.id}" lang="ja">${esc(r.pattern)}</a>`).join('')}</div></section>` : ''}
+      `<a class="chiplink" href="#/grammar/${L}/${r.id}" lang="ja">${esc(r.pattern)}</a>`).join('')}</div></section>` : ''}
     <nav class="row between" aria-label="Pager">
-      ${prev ? `<a class="btn" href="#/grammar/${prev.id}">${icon('back')}<span lang="ja">${esc(prev.pattern)}</span></a>` : '<span></span>'}
-      ${next ? `<a class="btn" href="#/grammar/${next.id}"><span lang="ja">${esc(next.pattern)}</span>${icon('arrow')}</a>` : ''}
+      ${prev ? `<a class="btn" href="#/grammar/${L}/${prev.id}">${icon('back')}<span lang="ja">${esc(prev.pattern)}</span></a>` : '<span></span>'}
+      ${next ? `<a class="btn" href="#/grammar/${L}/${next.id}"><span lang="ja">${esc(next.pattern)}</span>${icon('arrow')}</a>` : ''}
     </nav>
     <a class="meta link" href="${esc(g.source)}" target="_blank" rel="noopener">${t('source')}: dethitiengnhat.com</a>
   </div>`;
-  main.querySelector('#learned').onchange = e => { if (e.target.checked) { s.learned[g.id] = true; logActivity(1); } else delete s.learned[g.id]; store.save(); };
+  main.querySelector('#learned').onchange = e => { if (e.target.checked) { s.learned[lk(g)] = true; logActivity(1); } else delete s.learned[lk(g)]; store.save(); };
   const exs = main.querySelector('#exs');
   exs.onclick = e => {
     const b = e.target.closest('[data-toggle]');
@@ -95,7 +101,8 @@ export async function grammarDetail(main, [id]) {
 }
 
 export async function grammarQuiz(main) {
-  const items = await grammar();
+  const L = level();
+  const items = await grammar(L);
   const N = 10;
   let qs, k, right, picked;
   const start = () => {
@@ -106,12 +113,12 @@ export async function grammarQuiz(main) {
     if (k >= qs.length) {
       main.innerHTML = `<div class="page doc"><section class="panel result">
         <div class="stack flush"><span class="small muted">${t('quiz_done')}</span><span class="fig">${right}<small>/ ${qs.length}</small></span></div>
-        <div class="row"><button class="btn primary" data-again>${t('again')}</button><a class="btn" href="#/grammar">${t('grammar_title')}</a></div></section></div>`;
+        <div class="row"><button class="btn primary" data-again>${t('again')}</button><a class="btn" href="#/grammar">${t('grammar_title', { level: L })}</a></div></section></div>`;
       main.querySelector('[data-again]').onclick = start; return;
     }
     const { g, opts } = qs[k];
     main.innerHTML = `<div class="page doc" style="max-width:640px">
-      <div class="row between"><a class="small link" href="#/grammar">${t('grammar_title')}</a><span class="meta">${k + 1} / ${qs.length}</span></div>
+      <div class="row between"><a class="small link" href="#/grammar">${t('grammar_title', { level: L })}</a><span class="meta">${k + 1} / ${qs.length}</span></div>
       <div class="bar"><i style="transform:scaleX(${k / qs.length})"></i></div>
       <section class="panel stack">
         <span class="small muted">${t('quiz_prompt')}</span>
@@ -120,7 +127,7 @@ export async function grammarQuiz(main) {
           const cls = picked ? (o === g ? 'correct' : o === picked ? 'wrong' : '') : '';
           return `<button type="button" class="opt ${cls}" data-i="${i}" aria-pressed="${picked === o}"><span class="oval" aria-hidden="true">${i + 1}</span><span lang="ja" style="font-size:17px;font-weight:500">${esc(o.pattern)}</span>${picked && o === g ? `<span class="mark ok-t">${t('correct')}</span>` : picked && o === picked ? `<span class="mark ng-t">${t('wrong')}</span>` : ''}</button>`; }).join('')}</div>
         ${picked ? `<div class="explain"><div class="body"><p lang="ja">${g.examples[0]?.ja || ''}</p><p class="small muted" style="margin-top:4px;font-family:var(--f-ui)">${esc(g.examples[0]?.en || '')}</p></div></div>
-          <div class="row between"><a class="small link" href="#/grammar/${g.id}" lang="ja">${esc(g.pattern)}</a><button class="btn primary" data-next>${t('next')}</button></div>` : ''}
+          <div class="row between"><a class="small link" href="#/grammar/${L}/${g.id}" lang="ja">${esc(g.pattern)}</a><button class="btn primary" data-next>${t('next')}</button></div>` : ''}
       </section></div>`;
     main.querySelectorAll('.opt').forEach(b => b.onclick = () => {
       if (picked) return; picked = opts[+b.dataset.i]; if (picked === g) right++; logActivity(1); store.save(); draw();
