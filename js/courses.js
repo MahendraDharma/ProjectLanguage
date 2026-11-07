@@ -43,10 +43,13 @@ export function secKanji(key, L = level()) {
   return { vocab: '語', grammar_reading: '文', listening: '聴' }[key];
 }
 
-/** "Set 3" for JLPT mock tests, "Practice test 1" for the site's practice tests. */
+/** "Set 3" for JLPT mock tests, "Practice test 1" for the site's practice tests,
+ *  "OpenJLPT 1" for tests generated from the OpenJLPT dataset. */
 export function testName(e) {
   const id = String(e.id ?? e);
-  return id.startsWith('t') ? t('practice_n', { n: id.slice(1) }) : t('test_n', { n: id });
+  if (id.startsWith('t')) return t('practice_n', { n: id.slice(1) });
+  if (id.startsWith('o')) return t('open_n', { n: id.slice(1) });
+  return t('test_n', { n: id });
 }
 export function testNameFromKey(key) { return testName(String(key).split('-')[1]); }
 

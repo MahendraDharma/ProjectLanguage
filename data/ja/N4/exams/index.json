@@ -19,6 +19,96 @@
     "grammar_reading": 35,
     "listening": 28
    }
+  },
+  {
+   "id": "o1",
+   "kind": "open",
+   "n": 1,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o2",
+   "kind": "open",
+   "n": 2,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o3",
+   "kind": "open",
+   "n": 3,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o4",
+   "kind": "open",
+   "n": 4,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o5",
+   "kind": "open",
+   "n": 5,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o6",
+   "kind": "open",
+   "n": 6,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o7",
+   "kind": "open",
+   "n": 7,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o8",
+   "kind": "open",
+   "n": 8,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o9",
+   "kind": "open",
+   "n": 9,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
+  },
+  {
+   "id": "o10",
+   "kind": "open",
+   "n": 10,
+   "counts": {
+    "vocab": 32,
+    "grammar_reading": 15
+   }
   }
  ]
 }

@@ -308,7 +308,11 @@ def scrape_level(level):
         (out_dir / f"{tid}.json").write_text(json.dumps(test, ensure_ascii=False, indent=1))
         index.append({"id": tid, "kind": kind, "n": n, "counts": counts})
         print(f"{level} {tid}: {counts}")
-    (out_dir / "index.json").write_text(json.dumps({"level": level, "exams": index}, ensure_ascii=False, indent=1))
+    # keep tests built by other scripts (e.g. OpenJLPT, kind "open")
+    idx_file = out_dir / "index.json"
+    if idx_file.exists():
+        index += [e for e in json.loads(idx_file.read_text())["exams"] if e.get("kind") == "open"]
+    idx_file.write_text(json.dumps({"level": level, "exams": index}, ensure_ascii=False, indent=1))
     return index
 
 
