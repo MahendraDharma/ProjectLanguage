@@ -228,14 +228,14 @@ GRAMMAR_HINT = re.compile(r"次の文の|つぎの文の|つぎの ぶん|★|�
 
 def vocab_type(ins):
     """Card type for a vocabulary problem group, from its instruction."""
-    if re.search(r"読み方|よみかた|ひらがなで", ins):
-        return "reading"
-    if re.search(r"漢字で書|かんじで かく|かんじで書|どう書|どう かきます|漢字で", ins):
-        return "writing"
-    if re.search(r"意味が最も近い|意味が近い|いみが いちばん ちかい|近い|ちかい|おなじ いみ|同じ意味|おなじいみ", ins):
-        return "synonym"
     if re.search(r"使い方|つかいかた", ins):
         return "usage"
+    if re.search(r"読み方|よみかた|ひらがなで|よみますか|読みますか", ins):
+        return "reading"
+    if re.search(r"漢字で書|かんじで かく|かんじで書|どう書|どう かきますか|漢字で", ins):
+        return "writing"
+    if re.search(r"意味が最も近い|意味が近い|いみが いちばん ちかい|近い|ちかい|おなじ ?いみ|同じ意味", ins):
+        return "synonym"
     if re.search(r"\(|（", ins):
         return "context"
     return None

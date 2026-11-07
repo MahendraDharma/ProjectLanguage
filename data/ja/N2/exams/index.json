@@ -1,0 +1,155 @@
+{
+ "level": "N2",
+ "exams": [
+  {
+   "id": "1",
+   "kind": "jlpt",
+   "n": 1,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 21,
+    "listening": 31
+   }
+  },
+  {
+   "id": "2",
+   "kind": "jlpt",
+   "n": 2,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 20,
+    "listening": 32
+   }
+  },
+  {
+   "id": "3",
+   "kind": "jlpt",
+   "n": 3,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 20,
+    "listening": 31
+   }
+  },
+  {
+   "id": "4",
+   "kind": "jlpt",
+   "n": 4,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 20,
+    "listening": 31
+   }
+  },
+  {
+   "id": "5",
+   "kind": "jlpt",
+   "n": 5,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 20,
+    "listening": 31
+   }
+  },
+  {
+   "id": "6",
+   "kind": "jlpt",
+   "n": 6,
+   "counts": {
+    "vocab": 52,
+    "grammar_reading": 21,
+    "listening": 32
+   }
+  },
+  {
+   "id": "7",
+   "kind": "jlpt",
+   "n": 7,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 32
+   }
+  },
+  {
+   "id": "8",
+   "kind": "jlpt",
+   "n": 8,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 31
+   }
+  },
+  {
+   "id": "9",
+   "kind": "jlpt",
+   "n": 9,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 31
+   }
+  },
+  {
+   "id": "27",
+   "kind": "jlpt",
+   "n": 27,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  },
+  {
+   "id": "28",
+   "kind": "jlpt",
+   "n": 28,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  },
+  {
+   "id": "29",
+   "kind": "jlpt",
+   "n": 29,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  },
+  {
+   "id": "30",
+   "kind": "jlpt",
+   "n": 30,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  },
+  {
+   "id": "31",
+   "kind": "jlpt",
+   "n": 31,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  },
+  {
+   "id": "32",
+   "kind": "jlpt",
+   "n": 32,
+   "counts": {
+    "vocab": 51,
+    "grammar_reading": 20,
+    "listening": 30
+   }
+  }
+ ]
+}

@@ -156,7 +156,7 @@
       }
      ],
      "part": "lang",
-     "card": "writing"
+     "card": "reading"
     },
     {
      "instruction": "もんだい2の ことばは どう かきますか。1・2・3・4から いちばん いいものを ひとつ えらんでください。",
@@ -488,7 +488,8 @@
        "explanation": null
       }
      ],
-     "part": "lang"
+     "part": "lang",
+     "card": "synonym"
     }
    ],
    "source": "https://dethitiengnhat.com/en/de_thi_thu/N5/1/1"
@@ -872,7 +873,7 @@
        "explanation": null
       }
      ],
-     "part": "read"
+     "part": "lang"
     },
     {
      "instruction": "もんだい4 つぎの (1)から (3) の ぶんしょうを 読んで、しつもんにこたえてください。こたえは、1・2・3・4から いちばん いいものを 一つ えらんでください。",

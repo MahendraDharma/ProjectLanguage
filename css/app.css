@@ -377,6 +377,8 @@ details.drawer > summary::-webkit-details-marker { display: none; }
   .mobile-only { display: block; }
   .main { padding: 24px 16px calc(88px + env(safe-area-inset-bottom)); }
   .qbar { margin: -24px -16px 0; padding: 0 16px; }
+  .qbar .inner { gap: 8px; }
+  .qbar .bar, .qbar [data-count] { display: none; }
   .tabbar {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: grid; grid-template-columns: repeat(5, 1fr);
     padding: 4px 4px calc(4px + env(safe-area-inset-bottom)); background: var(--bg-0); border-top: 1px solid var(--line);

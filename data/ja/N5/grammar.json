@@ -199,7 +199,7 @@
  },
  {
   "id": "tekei",
-  "pattern": "động từ thểて (～V+て)",
+  "pattern": "～V+て",
   "romaji": "tekei",
   "meaning": {
    "en": "The Japanese te-form; connecting actions"
@@ -1418,7 +1418,7 @@
  },
  {
   "id": "yori",
-  "pattern": "so sánh hơn ～より; ～より + ～のほうが",
+  "pattern": "～より; ～より + ～のほうが",
   "romaji": "yori",
   "meaning": {
    "en": "More than; the comparative form"

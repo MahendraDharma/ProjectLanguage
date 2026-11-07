@@ -1,0 +1,3294 @@
+[
+ {
+  "id": "kotoninaru",
+  "pattern": "〜ことになる",
+  "romaji": "kotoninaru",
+  "meaning": {
+   "en": "It has been decided; be arranged to"
+  },
+  "formation": "",
+  "explanation": "Describes an arrangement or outcome decided by other people, rules or circumstances, rather than simply announcing the speaker's own decision. Use ことになった for a decision that has been reached and ことになる for a new or future arrangement.",
+  "examples": [
+   {
+    "ja": "<ruby>来年<rt>らいねん</rt></ruby>から、<ruby>日本<rt>にっぽん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>ける<b><u>ことになりました</u></b>。",
+    "en": "It has been decided that I will be able to work in Japan starting next year."
+   },
+   {
+    "ja": "９<ruby>月<rt>がつ</rt></ruby><ruby>１日<rt>ついたち</rt></ruby>から、この<ruby>建物<rt>たてもの</rt></ruby>ではタバコを<ruby>吸<rt>す</rt></ruby>ってはいけない<b><u>ことになりました</u></b>。",
+    "en": "It has been decided that smoking will be prohibited in this building from September 1."
+   },
+   {
+    "ja": "<ruby>来春<rt>らいしゅん</rt></ruby>に、<ruby>新<rt>あた</rt></ruby>らしい<ruby>家<rt>いえ</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>す<b><u>ことになりました</u></b>。",
+    "en": "It has been decided that we will move to a new house next spring."
+   },
+   {
+    "ja": "バイト<ruby>先<rt>さき</rt></ruby>の<ruby>店長<rt>てんちょう</rt></ruby>が、<ruby>来月<rt>らいげつ</rt></ruby>から<ruby>変<rt>か</rt></ruby>わる<b><u>ことになった</u></b>そうだ。",
+    "en": "I hear the manager at my part-time workplace will change next month."
+   },
+   {
+    "ja": "この<ruby>場所<rt>ばしょ</rt></ruby>に、<ruby>車<rt>くるま</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてはいけない<b><u>ことになりました</u></b>。",
+    "en": "It has been decided that parking is prohibited here."
+   }
+  ],
+  "related": [
+   "kotoninatteiru",
+   "youtoomou",
+   "tsumori",
+   "grammar-150"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/kotoninaru"
+ },
+ {
+  "id": "rashii",
+  "pattern": "〜らしい",
+  "romaji": "rashii",
+  "meaning": {
+   "en": "Apparently; I hear that; typical of"
+  },
+  "formation": "Plain-form clause + らしい; N / な-adjective stem + らしい",
+  "explanation": "Reports information heard from others or an inference based on indirect evidence. With nouns, らしい can also mean typical of that person or category, as in 子どもらしい.",
+  "examples": [
+   {
+    "ja": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>来週<rt>らいしゅう</rt></ruby><ruby>会社<rt>かいしゃ</rt></ruby>を<ruby>辞<rt>や</rt></ruby>める<b><u>らしい</u></b>ですよ。",
+    "en": "I hear that person is leaving the company next week."
+   },
+   {
+    "ja": "<ruby>寝<rt>ね</rt></ruby>すぎるのは、<ruby>体<rt>からだ</rt></ruby>に<ruby>悪<rt>わる</rt></ruby>い<b><u>らしい</u></b>です。",
+    "en": "Apparently, sleeping too much is bad for your health."
+   },
+   {
+    "ja": "<ruby>来月<rt>らいげつ</rt></ruby>、あの<ruby>歌手<rt>かしゅ</rt></ruby>の<ruby>新<rt>あたら</rt></ruby>しい<ruby>曲<rt>きょく</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<b><u>らしい</u></b>です。",
+    "en": "Apparently, that singer is releasing a new song next month."
+   },
+   {
+    "ja": "この<ruby>花<rt>はな</rt></ruby>は、あまり<ruby>水<rt>みず</rt></ruby>をあげなくてもいい<b><u>らしい</u></b>です。",
+    "en": "Apparently, this flower does well even without much watering."
+   },
+   {
+    "ja": "<ruby>子<rt>こ</rt></ruby>ども<ruby>部屋<rt>へや</rt></ruby>が<ruby>静<rt>しず</rt></ruby>かになった。やっと<ruby>寝<rt>ね</rt></ruby>た<b><u>らしい</u></b>。",
+    "en": "The children's room has gone quiet. It seems they have finally fallen asleep."
+   }
+  ],
+  "related": [
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni",
+   "kamoshirenai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/rashii"
+ },
+ {
+  "id": "noyouna",
+  "pattern": "～のような",
+  "romaji": "no you na",
+  "meaning": {
+   "en": "Like; similar to; in the manner of"
+  },
+  "formation": "N + のようだ; N + のような + N; N + のように + V / adjective",
+  "explanation": "Compares something with a noun. のような modifies another noun, while のように describes an action or quality. The final form のようだ states the comparison.",
+  "examples": [
+   {
+    "ja": "ミラーさんの<ruby>家<rt>いえ</rt></ruby>は <b><u>ホテル のようです</u></b>。",
+    "en": "Mr. Miller's house is like a hotel."
+   },
+   {
+    "ja": "<ruby>田中<rt>たなか</rt></ruby>さんの<ruby>彼女<rt>かのじょ</rt></ruby>は<b><u>モデルのようです</u></b>。",
+    "en": "Mr. Tanaka's girlfriend is like a model."
+   },
+   {
+    "ja": "この<ruby>部屋<rt>へや</rt></ruby>は<b><u><ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>のようです</u></b>。",
+    "en": "This room is like a refrigerator."
+   },
+   {
+    "ja": "これは<b><u>ライオンのような<ruby>犬<rt>いぬ</rt></ruby>だ</u></b>。",
+    "en": "This is a dog that looks like a lion."
+   },
+   {
+    "ja": "<b><u><ruby>山<rt>やま</rt></ruby>のような<ruby>仕事<rt>しごと</rt></ruby>だ</u></b>。",
+    "en": "There is a mountain of work."
+   },
+   {
+    "ja": "これはお<ruby>城<rt>しろ</rt></ruby>のような<ruby>大<rt>おお</rt></ruby>きい<ruby>家<rt>いえ</rt></ruby>です。",
+    "en": "This is a large house like a castle."
+   },
+   {
+    "ja": "この<ruby>人<rt>ひと</rt></ruby>は<b><u><ruby>魚<rt>さかな</rt></ruby>のように<ruby>泳<rt>およ</rt></ruby>ぎます</u></b>。",
+    "en": "This person swims like a fish."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>彼<rt>かれ</rt></ruby>は<b><u><ruby>山<rt>やま</rt></ruby>のように<ruby>仕事<rt>しごと</rt></ruby>があります</u></b>。",
+    "en": "He has a mountain of work today."
+   }
+  ],
+  "related": [
+   "ppoi",
+   "furi-wosuru",
+   "gachi",
+   "ge"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/noyouna"
+ },
+ {
+  "id": "ba-hodo",
+  "pattern": "～ば～ほど",
+  "romaji": "ba hodo",
+  "meaning": {
+   "en": "The more, the more"
+  },
+  "formation": "Vば + same V dictionary form + ほど; い-adjective ければ + same adjective + ほど; な-adjective なら + same adjective + なほど",
+  "explanation": "Shows that the degree of one condition rises or falls together with another. Repeat the same verb or adjective in the conditional part and before ほど.",
+  "examples": [
+   {
+    "ja": "A「どんな<ruby>家<rt>いえ</rt></ruby>に<ruby>住<rt>す</rt></ruby>みたいですか？」",
+    "en": "A: What kind of house would you like to live in?"
+   },
+   {
+    "ja": "B「そうですね。<ruby>広<rt>ひろ</rt></ruby><b><u>ければ</u></b><ruby>広<rt>ひろ</rt></ruby>い<b><u>ほど</u></b>いいですね。」",
+    "en": "B: Well, the more spacious it is, the better."
+   },
+   {
+    "ja": "<ruby>頑張<rt>がんば</rt></ruby><b><u>れば</u></b><ruby>頑張<rt>がんば</rt></ruby>る<b><u>ほど</u></b>、<ruby>夢<rt>ゆめ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づけます。",
+    "en": "The harder you work, the closer you get to your dream."
+   },
+   {
+    "ja": "<ruby>食<rt>た</rt></ruby>べ<b><u>れば</u></b><ruby>食<rt>た</rt></ruby>べる<b><u>ほど</u></b><ruby>太<rt>ふと</rt></ruby>っていきます",
+    "en": "The more you eat, the more weight you gain."
+   },
+   {
+    "ja": "<ruby>家<rt>いえ</rt></ruby>は<ruby>丈夫<rt>じょうぶ</rt></ruby>に<ruby>建<rt>た</rt></ruby>ててくださいね。<ruby>丈夫<rt>じょうぶ</rt></ruby><b><u>なら</u></b><ruby>丈夫<rt>じょうぶ</rt></ruby><b><u>なほど</u></b>いいです。",
+    "en": "Please build a sturdy house. The sturdier it is, the better."
+   },
+   {
+    "ja": "<ruby>寿司<rt>すし</rt></ruby>は<ruby>魚<rt>さかな</rt></ruby>が<ruby>新鮮<rt>しんせん</rt></ruby><b><u>なら</u></b><ruby>新鮮<rt>しんせん</rt></ruby><b><u>なほど</u></b>おいしいです。",
+    "en": "For sushi, the fresher the fish, the more delicious it is."
+   }
+  ],
+  "related": [
+   "hodo",
+   "seizei",
+   "grammar-192",
+   "yori"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/ba-hodo"
+ },
+ {
+  "id": "bakari",
+  "pattern": "～ばかり",
+  "romaji": "bakari",
+  "meaning": {
+   "en": "Nothing but; keep doing the same thing"
+  },
+  "formation": "N + ばかり; Vて + ばかりいる",
+  "explanation": "Emphasizes that someone chooses only one kind of thing or repeatedly does one action. With てばかりいる it often suggests criticism that other necessary activities are being neglected.",
+  "examples": [
+   {
+    "ja": "お<ruby>酒<rt>さけ</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んで<b><u>ばかりいる</u></b>と、<ruby>体<rt>からだ</rt></ruby>を<ruby>悪<rt>わる</rt></ruby>くしますよ。",
+    "en": "If you do nothing but drink alcohol, you will damage your health."
+   },
+   {
+    "ja": "<ruby>一人<rt>ひとり</rt></ruby>暮らしの<ruby>息子<rt>むすこ</rt></ruby>は、ファストフードやインスタント<ruby>食品<rt>しょくひん</rt></ruby><b><u>ばかり</u></b><ruby>食<rt>た</rt></ruby>べているので<ruby>少<rt>すこ</rt></ruby>し<ruby>心配<rt>しんぱい</rt></ruby>です。",
+    "en": "My son lives alone and eats nothing but fast food and instant meals, so I am a little worried."
+   },
+   {
+    "ja": "うちの<ruby>子供<rt>こども</rt></ruby>は、<ruby>毎日<rt>まいにち</rt></ruby><ruby>宿題<rt>しゅくだい</rt></ruby>をしないで、<ruby>遊<rt>あそ</rt></ruby>んで<b><u>ばかりいます</u></b>。",
+    "en": "My child never does homework and just plays every day."
+   },
+   {
+    "ja": "ゲームをして<b><u>ばかりいる</u></b>と、<ruby>目<rt>め</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなるよ。",
+    "en": "If you do nothing but play games, your eyesight will get worse."
+   },
+   {
+    "ja": "<ruby>夏休<rt>なつやす</rt></ruby>みは<ruby>寝<rt>ね</rt></ruby>て<b><u>ばかり</u></b>でした。",
+    "en": "I did nothing but sleep during the summer vacation."
+   },
+   {
+    "ja": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は、テレビを<ruby>見<rt>み</rt></ruby>て<b><u>ばかりいます</u></b>。",
+    "en": "On my days off, I do nothing but watch television."
+   }
+  ],
+  "related": [
+   "gachi",
+   "darake"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/bakari"
+ },
+ {
+  "id": "teki",
+  "pattern": "～的",
+  "romaji": "teki",
+  "meaning": {
+   "en": "Having the character of; in a particular way"
+  },
+  "formation": "N + 的; N + 的な + N; N + 的に + V / adjective",
+  "explanation": "Forms an adjective-like expression from certain nouns. 的な modifies a noun, and 的に modifies an action or quality. Common combinations include 具体的, 積極的 and 経済的.",
+  "examples": [
+   {
+    "ja": "もう<ruby>少<rt>すこ</rt></ruby>し<b><u><ruby>具体的<rt>ぐたいてき</rt></ruby>な</u></b><ruby>説明<rt>せつめい</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。",
+    "en": "Please give a slightly more concrete explanation."
+   },
+   {
+    "ja": "<ruby>自転車<rt>じてんしゃ</rt></ruby>は<b><u><ruby>経済的<rt>けいざいてき</rt></ruby>な</u></b><ruby>交通手段<rt>こうつうしゅだん</rt></ruby>です。",
+    "en": "A bicycle is an economical means of transport."
+   },
+   {
+    "ja": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>授業<rt>じゅぎょう</rt></ruby>に<b><u><ruby>積極的<rt>せっきょくてき</rt></ruby>に</u></b><ruby>参加<rt>さんか</rt></ruby>しています。",
+    "en": "She participates actively in class."
+   },
+   {
+    "ja": "その<ruby>意見<rt>いけん</rt></ruby>には<b><u><ruby>科学的<rt>かがくてき</rt></ruby>な</u></b><ruby>証拠<rt>しょうこ</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。",
+    "en": "That opinion needs scientific evidence."
+   },
+   {
+    "ja": "これは<ruby>私<rt>わたくし</rt></ruby>の<b><u><ruby>個人的<rt>こじんてき</rt></ruby>な</u></b><ruby>意見<rt>いけん</rt></ruby>です。",
+    "en": "This is my personal opinion."
+   }
+  ],
+  "related": [
+   "ppoi",
+   "meku",
+   "jimiru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/teki"
+ },
+ {
+  "id": "teoku",
+  "pattern": "～ておく（ておきます）",
+  "romaji": "teoku",
+  "meaning": {
+   "en": "Do in advance; leave something as it is"
+  },
+  "formation": "Vて + おく; Vないで + おく",
+  "explanation": "Describes preparation for a later purpose or deliberately maintaining a state without changing it. Context distinguishes doing something beforehand from leaving something alone.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>のプレゼンのために、<ruby>練習<rt>れんしゅう</rt></ruby>し<b><u>ておきます</u></b>。",
+    "en": "I will practise in preparation for tomorrow's presentation."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>にメールをし<b><u>ておきましょう</u></b>。",
+    "en": "Let us email the teacher in advance."
+   },
+   {
+    "ja": "<ruby>泥棒<rt>どろぼう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>られるかもしれないから、<ruby>鍵<rt>かぎ</rt></ruby>をかけ<b><u>ておきましょう</u></b>。",
+    "en": "There could be a break-in, so let us lock the door."
+   },
+   {
+    "ja": "<ruby>勉強<rt>べんきょう</rt></ruby>のために、スマホに<ruby>辞書<rt>じしょ</rt></ruby>のアプリを<ruby>入<rt>い</rt></ruby>れ<b><u>ておきます</u></b>。",
+    "en": "I will install a dictionary app on my smartphone for studying."
+   },
+   {
+    "ja": "バスに<ruby>乗<rt>の</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>ん<b><u>でおきます</u></b>。",
+    "en": "I will take the medicine before getting on the bus."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>、ホワイトボードは<ruby>消<rt>け</rt></ruby>さずにそのままにし<b><u>ておいてください</u></b>。あとで、<ruby>私<rt>わたくし</rt></ruby>が<ruby>消<rt>け</rt></ruby>しますから。",
+    "en": "Teacher, please leave the whiteboard as it is without erasing it. I will erase it later."
+   },
+   {
+    "ja": "プロジェクターは<ruby>次<rt>つぎ</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>でも<ruby>使<rt>つか</rt></ruby>いますから、そのままにし<b><u>ておいてください</u></b>。",
+    "en": "We will use the projector at the next meeting too, so please leave it as it is."
+   },
+   {
+    "ja": "<ruby>今晩<rt>こんばん</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>焼肉<rt>やきにく</rt></ruby><ruby>食<rt>た</rt></ruby>べ<ruby>放題<rt>ほうだい</rt></ruby>に<ruby>行<rt>い</rt></ruby>くので、あまり<ruby>食<rt>た</rt></ruby>べない<b><u>でおこう</u></b>。",
+    "en": "I am going to an all-you-can-eat barbecue with friends tonight, so I will avoid eating too much beforehand."
+   }
+  ],
+  "related": [
+   "temiru",
+   "teshimau",
+   "tearu",
+   "teiru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/teoku"
+ },
+ {
+  "id": "nakanaka-nai",
+  "pattern": "～なかなか",
+  "romaji": "nakanaka nai",
+  "meaning": {
+   "en": "Not easily; not for a long time; quite"
+  },
+  "formation": "なかなか + negative verb. In a separate positive use: なかなか + adjective, meaning quite or better than expected.",
+  "explanation": "With a negative verb, it describes something that does not happen easily or takes longer than hoped. With an affirmative adjective, it can mean quite or better than expected. The negative use is the focus of this entry.",
+  "examples": [
+   {
+    "ja": "バスが<b><u>なかなか</u></b><ruby>来<rt>き</rt></ruby>ません。",
+    "en": "The bus is taking a long time to come."
+   },
+   {
+    "ja": "この<ruby>漢字<rt>かんじ</rt></ruby>は<b><u>なかなか</u></b><ruby>覚<rt>おぼ</rt></ruby>えられません。",
+    "en": "I cannot seem to memorize this kanji."
+   },
+   {
+    "ja": "<ruby>忙<rt>いそが</rt></ruby>しくて、<b><u>なかなか</u></b><ruby>友達<rt>ともだち</rt></ruby>に<ruby>会<rt>あ</rt></ruby>えません。",
+    "en": "I am so busy that I rarely get a chance to see my friends."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>心配<rt>しんぱい</rt></ruby>で<b><u>なかなか</u></b><ruby>眠<rt>ねむ</rt></ruby>れませんでした。",
+    "en": "Yesterday I was worried and could not get to sleep for a long time."
+   },
+   {
+    "ja": "<ruby>雨<rt>あめ</rt></ruby>が<b><u>なかなか</u></b>やみません。",
+    "en": "The rain shows no sign of stopping."
+   }
+  ],
+  "related": [
+   "zu",
+   "darake",
+   "kke",
+   "mopkonai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/nakanaka-nai"
+ },
+ {
+  "id": "younisuru",
+  "pattern": "～ようにする",
+  "romaji": "you ni suru",
+  "meaning": {
+   "en": "Make an effort to; make sure to"
+  },
+  "formation": "",
+  "explanation": "Describe a deliberate effort to do or avoid an action. You ni shite iru emphasizes an ongoing habit, while you ni shite kudasai is a reminder or request. Distinguish it from you ni naru, which describes a change in ability or state.",
+  "examples": [
+   {
+    "ja": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>新聞<rt>しんぶん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む<b><u>ようにしています</u></b>。",
+    "en": "I make a habit of reading the newspaper every morning."
+   },
+   {
+    "ja": "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にコーヒーを<ruby>飲<rt>の</rt></ruby>まない<b><u>ようにしています</u></b>。",
+    "en": "I try not to drink coffee before bed."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>から、もう<ruby>少<rt>すこ</rt></ruby>し<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きる<b><u>ようにします</u></b>。",
+    "en": "Starting tomorrow, I will try to get up a little earlier."
+   },
+   {
+    "ja": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>資料<rt>しりょう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する<b><u>ようにしてください</u></b>。",
+    "en": "Please make sure to check the documents before the meeting."
+   },
+   {
+    "ja": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>言葉<rt>ことば</rt></ruby>は、その<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>使<rt>つか</rt></ruby>う<b><u>ようにしています</u></b>。",
+    "en": "I try to use new words on the day I learn them."
+   }
+  ],
+  "related": [
+   "ni-nareru",
+   "youni",
+   "naiyounisuru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/younisuru"
+ },
+ {
+  "id": "hajimeru",
+  "pattern": "～始める",
+  "romaji": "hajimeru",
+  "meaning": {
+   "en": "Begin to; start doing"
+  },
+  "formation": "",
+  "explanation": "Combines with another verb to mark the beginning of an action or process. Conjugate 始める to show tense or politeness while the first verb remains in its stem form.",
+  "examples": [
+   {
+    "ja": "<ruby>先週<rt>せんしゅう</rt></ruby>からうちで<ruby>犬<rt>いぬ</rt></ruby>を<ruby>飼<rt>か</rt></ruby>い<ruby>始<rt>はじ</rt></ruby>めました。とてもかわいいです。",
+    "en": "We started keeping a dog at home last week. It is very cute."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>歌<rt>うた</rt></ruby>を<ruby>聞<rt>き</rt></ruby>き<ruby>始<rt>はじ</rt></ruby>めました。まだ<ruby>難<rt>むずか</rt></ruby>しいですが、<ruby>楽<rt>たの</rt></ruby>しいです。",
+    "en": "I recently started listening to Japanese songs. They are still difficult, but it is fun."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>あたまが<ruby>痛<rt>いた</rt></ruby>いので、<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>み<ruby>始<rt>はじ</rt></ruby>めました。",
+    "en": "I have been having headaches recently, so I started taking medicine."
+   },
+   {
+    "ja": "<ruby>姉<rt>あね</rt></ruby>が<ruby>歌<rt>うた</rt></ruby>いはじめたので、<ruby>妹<rt>いもうと</rt></ruby>は<ruby>踊<rt>おど</rt></ruby>りはじめました。",
+    "en": "My older sister started singing, so my younger sister started dancing."
+   },
+   {
+    "ja": "<ruby>弟<rt>おとうと</rt></ruby>は、<ruby>学校<rt>がっこう</rt></ruby>から<ruby>帰<rt>かえ</rt></ruby>ってきて、すぐにテレビを<ruby>見<rt>み</rt></ruby>はじめました。",
+    "en": "My younger brother started watching television as soon as he came home from school."
+   }
+  ],
+  "related": [
+   "kotoninatteiru",
+   "sudeni",
+   "naosu",
+   "tyau"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/hajimeru"
+ },
+ {
+  "id": "temo",
+  "pattern": "～ても",
+  "romaji": "temo",
+  "meaning": {
+   "en": "Even if; even though; related permission expressions"
+  },
+  "formation": "Vて + も; い-adjective くても; N / な-adjective + でも; Vて + もいい",
+  "explanation": "ても introduces a condition that does not change the outcome. In てもいい it forms the separate expression for permission. The examples currently included in this lesson illustrate that permission combination.",
+  "examples": [
+   {
+    "ja": "クラスでスマホを<ruby>使<rt>つか</rt></ruby>ってもいいですか。",
+    "en": "May I use my smartphone in class?"
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>、<ruby>今日<rt>きょう</rt></ruby>は<ruby>用事<rt>ようじ</rt></ruby>がありますから、<ruby>少<rt>すこ</rt></ruby>し<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>ってもいいですか。",
+    "en": "Teacher, I have something to do today. May I leave a little early?"
+   },
+   {
+    "ja": "このベッドで、<ruby>寝<rt>ね</rt></ruby>てもいいですか。",
+    "en": "May I sleep in this bed?"
+   },
+   {
+    "ja": "ごめんなさい、ちょっとペンを<ruby>借<rt>か</rt></ruby>りてもいいですか。",
+    "en": "Excuse me, may I borrow your pen for a moment?"
+   },
+   {
+    "ja": "<ruby>疲<rt>つか</rt></ruby>れたから、ちょっと<ruby>休<rt>やす</rt></ruby>んでもいい？",
+    "en": "I am tired. Can I rest for a while?"
+   }
+  ],
+  "related": [
+   "saeba",
+   "tositara",
+   "te-kara-denai-to",
+   "nai-koto-ni-wa"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/temo"
+ },
+ {
+  "id": "youni",
+  "pattern": "～ように",
+  "romaji": "you ni",
+  "meaning": {
+   "en": "So that; in order that"
+  },
+  "formation": "",
+  "explanation": "In this purpose construction, you ni connects a desired state or result with an action taken to achieve it. Potential verbs, verbs such as wakaru and mieru, and negative forms are common. Distinguish it from the separate uses expressing similarity or a model to follow.",
+  "examples": [
+   {
+    "ja": "<ruby>後<rt>うし</rt></ruby>ろの<ruby>人<rt>ひと</rt></ruby>にも<ruby>見<rt>み</rt></ruby>える<b><u>ように</u></b>、<ruby>字<rt>じ</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きく<ruby>書<rt>か</rt></ruby>きます。",
+    "en": "I write in large letters so that people at the back can see."
+   },
+   {
+    "ja": "<ruby>忘<rt>わす</rt></ruby>れない<b><u>ように</u></b>、<ruby>予定<rt>よてい</rt></ruby>を<ruby>手帳<rt>てちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>きました。",
+    "en": "I wrote the schedule in my planner so that I would not forget."
+   },
+   {
+    "ja": "<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>話<rt>はな</rt></ruby>せる<b><u>ように</u></b>、<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>しています。",
+    "en": "I practice every day so that I can speak Japanese."
+   },
+   {
+    "ja": "<ruby>赤<rt>あか</rt></ruby>ちゃんが<ruby>起<rt>お</rt></ruby>きない<b><u>ように</u></b>、<ruby>静<rt>しず</rt></ruby>かにドアを<ruby>閉<rt>し</rt></ruby>めました。",
+    "en": "I closed the door quietly so that the baby would not wake up."
+   },
+   {
+    "ja": "<ruby>誰<rt>だれ</rt></ruby>でも<ruby>分<rt>わ</rt></ruby>かる<b><u>ように</u></b>、<ruby>簡単<rt>かんたん</rt></ruby>な<ruby>言葉<rt>ことば</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>します。",
+    "en": "I explain it in simple words so that everyone can understand."
+   }
+  ],
+  "related": [
+   "ni-nareru",
+   "younisuru",
+   "naiyounisuru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/youni"
+ },
+ {
+  "id": "ni-tsuite",
+  "pattern": "～について",
+  "romaji": "ni tsuite",
+  "meaning": {
+   "en": "About; regarding"
+  },
+  "formation": "Noun + について, optionally with は/も, before a clause. Before another noun: noun + についての + noun.",
+  "explanation": "Identify the topic of speaking, asking, learning, writing, or thinking. Add no when modifying another noun. It is not generally interchangeable with ni taishite when the noun is the target of an action rather than its topic.",
+  "examples": [
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>の<ruby>歴史<rt>れきし</rt></ruby><b><u>について</u></b><ruby>勉強<rt>べんきょう</rt></ruby>しています。",
+    "en": "I am studying Japanese history."
+   },
+   {
+    "ja": "<ruby>将来<rt>しょうらい</rt></ruby>の<ruby>仕事<rt>しごと</rt></ruby><b><u>について</u></b>、<ruby>家族<rt>かぞく</rt></ruby>と<ruby>話<rt>はな</rt></ruby>しました。",
+    "en": "I talked with my family about my future work."
+   },
+   {
+    "ja": "この<ruby>町<rt>まち</rt></ruby><b><u>についての</u></b><ruby>本<rt>ほん</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しています。",
+    "en": "I am looking for a book about this town."
+   },
+   {
+    "ja": "<ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>み<ruby>方法<rt>ほうほう</rt></ruby><b><u>について</u></b>、<ruby>質問<rt>しつもん</rt></ruby>があります。",
+    "en": "I have a question about the application procedure."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>では、<ruby>健康<rt>けんこう</rt></ruby><b><u>について</u></b><ruby>考<rt>かんが</rt></ruby>えます。",
+    "en": "In today's class, we will think about health."
+   }
+  ],
+  "related": [
+   "ni-oite",
+   "ni-okeru",
+   "ni-kansuru-ni-kanshite",
+   "ni-taishite"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/ni-tsuite"
+ },
+ {
+  "id": "mo-si-si",
+  "pattern": "～（も）～し、～し",
+  "romaji": "mo si si",
+  "meaning": {
+   "en": "Not only; both; listing reasons"
+  },
+  "formation": "Plain clause + し; N / な-adjective + だし; Aし、Bし",
+  "explanation": "Lists multiple qualities or reasons, often suggesting further reasons could also be given. Repeating も can emphasize that both items apply.",
+  "examples": [
+   {
+    "ja": "この<ruby>店<rt>みせ</rt></ruby>は<ruby>安<rt>やす</rt></ruby>い<b><u>し</u></b>、<ruby>料理<rt>りょうり</rt></ruby>もおいしいです。",
+    "en": "This restaurant is inexpensive, and the food is delicious too."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>だ<b><u>し</u></b>、<ruby>風<rt>かぜ</rt></ruby>も<ruby>強<rt>つよ</rt></ruby>いので、<ruby>家<rt>いえ</rt></ruby>にいます。",
+    "en": "It is raining and the wind is strong today, so I will stay home."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せる<b><u>し</u></b>、<ruby>日本語<rt>にほんご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せます。",
+    "en": "He can speak English, and he can speak Japanese too."
+   },
+   {
+    "ja": "<ruby>駅<rt>えき</rt></ruby>にも<ruby>近<rt>ちか</rt></ruby>い<b><u>し</u></b>、<ruby>部屋<rt>へや</rt></ruby>も<ruby>広<rt>ひろ</rt></ruby>いので、この<ruby>家<rt>いえ</rt></ruby>に<ruby>決<rt>き</rt></ruby>めました。",
+    "en": "It is close to the station and the rooms are spacious, so I chose this house."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みだ<b><u>し</u></b>、<ruby>少<rt>すこ</rt></ruby>し<ruby>夜更<rt>よふ</rt></ruby>かししようと<ruby>思<rt>おも</rt></ruby>います。",
+    "en": "Tomorrow is a day off, so I am thinking of staying up a little late."
+   }
+  ],
+  "related": [
+   "yara-yara",
+   "tekei",
+   "taritari",
+   "grammar-248"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/mo-si-si"
+ },
+ {
+  "id": "niyoruto-soudesu",
+  "pattern": "～によると～そうです。",
+  "romaji": "niyoruto soudesu",
+  "meaning": {
+   "en": "According to; I hear that"
+  },
+  "formation": "N + によると / によれば、plain clause + そうだ",
+  "explanation": "Identifies a source of information and reports what it says. The hearsay form そうだ attaches to a plain clause without the appearance-form changes.",
+  "examples": [
+   {
+    "ja": "<ruby>天気予報<rt>てんきよほう</rt></ruby><b><u>によると</u></b>、<ruby>明日<rt>あす</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る<b><u>そうです</u></b>。",
+    "en": "According to the weather forecast, it will rain tomorrow."
+   },
+   {
+    "ja": "ニュース<b><u>によると</u></b>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>駅<rt>えき</rt></ruby>は<ruby>来月<rt>らいげつ</rt></ruby><ruby>開<rt>ひら</rt></ruby>く<b><u>そうです</u></b>。",
+    "en": "According to the news, the new station will open next month."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby><b><u>によると</u></b>、<ruby>試験<rt>しけん</rt></ruby>は<ruby>来週<rt>らいしゅう</rt></ruby>だ<b><u>そうです</u></b>。",
+    "en": "According to the teacher, the exam is next week."
+   },
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby><b><u>によると</u></b>、あの<ruby>店<rt>みせ</rt></ruby>のケーキはおいしい<b><u>そうです</u></b>。",
+    "en": "According to my friend, the cakes at that shop are delicious."
+   },
+   {
+    "ja": "この<ruby>案内<rt>あんない</rt></ruby><b><u>によると</u></b>、<ruby>図書館<rt>としょかん</rt></ruby>は<ruby>日曜日<rt>にちようび</rt></ruby>も<ruby>開<rt>ひら</rt></ruby>いている<b><u>そうです</u></b>。",
+    "en": "According to this notice, the library is open on Sundays too."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "souni",
+   "kamoshirenai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/niyoruto-soudesu"
+ },
+ {
+  "id": "souni",
+  "pattern": "～そうに／そうな／そうです。",
+  "romaji": "souni",
+  "meaning": {
+   "en": "Looks; seems; I hear that"
+  },
+  "formation": "Vます stem + そうだ; い-adjective stem + そうだ; な-adjective stem + そうだ; そうな + N; そうに + V; plain clause + そうだ for hearsay",
+  "explanation": "Appearance そうだ is based on signs that something looks likely or has a quality. そうな modifies a noun and そうに modifies a verb. Hearsay そうだ reports information and uses a different attachment.",
+  "examples": [
+   {
+    "ja": "<ruby>空<rt>そら</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>くなって、<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>り<b><u>そうです</u></b>。",
+    "en": "The sky has grown dark, and it looks as though it will rain."
+   },
+   {
+    "ja": "このケーキはおいし<b><u>そうです</u></b>。",
+    "en": "This cake looks delicious."
+   },
+   {
+    "ja": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>し<b><u>そうに</u></b><ruby>話<rt>はな</rt></ruby>しています。",
+    "en": "The two of them are talking happily."
+   },
+   {
+    "ja": "<ruby>元気<rt>げんき</rt></ruby><b><u>そうな</u></b><ruby>子<rt>こ</rt></ruby>どもたちが<ruby>公園<rt>こうえん</rt></ruby>で<ruby>遊<rt>あそ</rt></ruby>んでいます。",
+    "en": "Healthy-looking children are playing in the park."
+   },
+   {
+    "ja": "この<ruby>仕事<rt>しごと</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>し<b><u>そうです</u></b>が、やってみます。",
+    "en": "This work looks difficult, but I will try it."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "kamoshirenai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/souni"
+ },
+ {
+  "id": "temiru",
+  "pattern": "～てみる",
+  "romaji": "temiru",
+  "meaning": {
+   "en": "Try doing; do and see what happens"
+  },
+  "formation": "",
+  "explanation": "Describes performing an action experimentally to learn its result or experience. Conjugate みる for tense, politeness or requests.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しいお<ruby>店<rt>みせ</rt></ruby>に<ruby>行<rt>い</rt></ruby>ってみます。",
+    "en": "Tomorrow, I will try visiting the new shop."
+   },
+   {
+    "ja": "クッキーを<ruby>作<rt>つく</rt></ruby>りましたよ。どうぞ<ruby>食<rt>た</rt></ruby>べてみてください。",
+    "en": "I made some cookies. Please try one."
+   },
+   {
+    "ja": "その<ruby>料理<rt>りょうり</rt></ruby>は<ruby>美味<rt>おい</rt></ruby>しそうですね。<ruby>食<rt>た</rt></ruby>べてみてもいいですか。",
+    "en": "That dish looks delicious. May I try it?"
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>のクラスで<ruby>勉強<rt>べんきょう</rt></ruby>した<ruby>言葉<rt>ことば</rt></ruby>は、<ruby>日本人<rt>にほんじん</rt></ruby>に<ruby>使<rt>つか</rt></ruby>ってみてください。",
+    "en": "Please try using the words you learned in today's class with Japanese people."
+   },
+   {
+    "ja": "<ruby>吉田<rt>よしだ</rt></ruby>さんのうちの<ruby>猫<rt>ねこ</rt></ruby>はかわいいですね。ちょっと<ruby>触<rt>さわ</rt></ruby>ってみてもいいですか。",
+    "en": "The cat at Mr. Yoshida's house is cute. May I try petting it?"
+   }
+  ],
+  "related": [
+   "teoku",
+   "teshimau",
+   "tearu",
+   "teiru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/temiru"
+ },
+ {
+  "id": "to",
+  "pattern": "～と",
+  "romaji": "to",
+  "meaning": {
+   "en": "When; whenever; if a natural result follows"
+  },
+  "formation": "V dictionary form / Vない + と; い-adjective + と; N / な-adjective + だと",
+  "explanation": "Links a condition with a regular, predictable result. It can also report something discovered after doing an action, such as opening a window and feeling a breeze.",
+  "examples": [
+   {
+    "ja": "このボタンを<ruby>押<rt>お</rt></ruby>す<b><u>と</u></b>、ドアが<ruby>開<rt>ひら</rt></ruby>きます。",
+    "en": "When you press this button, the door opens."
+   },
+   {
+    "ja": "<ruby>春<rt>はる</rt></ruby>になる<b><u>と</u></b>、<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>きます。",
+    "en": "When spring comes, the cherry blossoms bloom."
+   },
+   {
+    "ja": "この<ruby>道<rt>みち</rt></ruby>をまっすぐ<ruby>行<rt>い</rt></ruby>く<b><u>と</u></b>、<ruby>駅<rt>えき</rt></ruby>があります。",
+    "en": "If you go straight down this road, you will find the station."
+   },
+   {
+    "ja": "<ruby>水<rt>みず</rt></ruby>は<ruby>零<rt>れい</rt></ruby><ruby>度<rt>ど</rt></ruby>になる<b><u>と</u></b>、<ruby>凍<rt>こお</rt></ruby>ります。",
+    "en": "Water freezes when it reaches zero degrees."
+   },
+   {
+    "ja": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>ける<b><u>と</u></b>、<ruby>涼<rt>すず</rt></ruby>しい<ruby>風<rt>かぜ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>ってきました。",
+    "en": "When I opened the window, a cool breeze came in."
+   }
+  ],
+  "related": [
+   "tositara",
+   "tara",
+   "nara",
+   "ba"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/to"
+ },
+ {
+  "id": "tara",
+  "pattern": "～たら",
+  "romaji": "tara",
+  "meaning": {
+   "en": "If; when; after"
+  },
+  "formation": "Plain past predicate + ら; N / な-adjective + だったら",
+  "explanation": "Introduces a condition or an event that must happen before the next action. It is widely used for hypothetical situations and for discovering a result after an event.",
+  "examples": [
+   {
+    "ja": "クラスが<ruby>終<rt>お</rt></ruby>わっ<b><u>たら</u></b><ruby>何<rt>なん</rt></ruby>をしますか。",
+    "en": "What will you do when class is over?"
+   },
+   {
+    "ja": "<ruby>大学<rt>だいがく</rt></ruby>を<ruby>卒業<rt>そつぎょう</rt></ruby>し<b><u>たら</u></b><ruby>何<rt>なん</rt></ruby>をしますか。",
+    "en": "What will you do after graduating from university?"
+   },
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>行<rt>い</rt></ruby>っ<b><u>たら</u></b>、ジョンさんに<ruby>会<rt>あ</rt></ruby>えました。",
+    "en": "When I went to Japan, I was able to meet John."
+   },
+   {
+    "ja": "これを<ruby>食<rt>た</rt></ruby>べ<ruby>終<rt>お</rt></ruby>わっ<b><u>たら</u></b><ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+    "en": "I will go to school after I finish eating this."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>の<ruby>夫<rt>おっと</rt></ruby>は<ruby>結婚<rt>けっこん</rt></ruby>し<b><u>たら</u></b><ruby>性格<rt>せいかく</rt></ruby>が<ruby>変<rt>か</rt></ruby>わりました。",
+    "en": "My husband's personality changed after we got married."
+   }
+  ],
+  "related": [
+   "tositara",
+   "to",
+   "nara",
+   "ba"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tara"
+ },
+ {
+  "id": "nara",
+  "pattern": "～なら",
+  "romaji": "nara",
+  "meaning": {
+   "en": "If that is the case; as for"
+  },
+  "formation": "Plain clause + なら; N / な-adjective stem + なら",
+  "explanation": "Takes up a topic or situation as the basis for advice, a request or a judgment. It can also limit a statement to one option, as in baseball, yes, but not soccer.",
+  "examples": [
+   {
+    "ja": "A：<ruby>今度<rt>こんど</rt></ruby>、<ruby>大阪<rt>おおさか</rt></ruby>に<ruby>旅行<rt>りょこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>くんだけど、<ruby>何<rt>なん</rt></ruby>かオススメある？",
+    "en": "A: I am going to Osaka soon. Do you have any recommendations?"
+   },
+   {
+    "ja": "B：<ruby>初<rt>はじ</rt></ruby>めての<ruby>大阪<rt>おおさか</rt></ruby><b><u>なら</u></b>、<ruby>大阪<rt>おおさか</rt></ruby><ruby>城<rt>じょう</rt></ruby>とか、<ruby>通天閣<rt>つうてんかく</rt></ruby>とかかなあ。それと、<ruby>大阪<rt>おおさか</rt></ruby>のたこ<ruby>焼<rt>や</rt></ruby>きは<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>食<rt>た</rt></ruby>べたほうがいいよ。",
+    "en": "B: If it is your first time in Osaka, perhaps Osaka Castle and Tsutenkaku. And you must try Osaka's takoyaki."
+   },
+   {
+    "ja": "A：<ruby>将来<rt>しょうらい</rt></ruby>、<ruby>日本<rt>にっぽん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きたいと<ruby>思<rt>おも</rt></ruby>っています。",
+    "en": "A: I would like to work in Japan in the future."
+   },
+   {
+    "ja": "B：<ruby>日本<rt>にっぽん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>きたい<b><u>なら</u></b>、<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>日本語<rt>にほんご</rt></ruby>はもちろん、きちんと<ruby>敬語<rt>けいご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>しておいたほうがいいよ。",
+    "en": "B: If you want to work in Japan, you should properly study honorific language as well as basic Japanese."
+   },
+   {
+    "ja": "A：ちょっとコンビニへ<ruby>行<rt>い</rt></ruby>ってくる。",
+    "en": "A: I am going to the convenience store for a moment."
+   },
+   {
+    "ja": "B：コンビニへ<ruby>行<rt>い</rt></ruby>く<b><u>なら</u></b>、ついでに<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby><ruby>買<rt>か</rt></ruby>ってきて。",
+    "en": "B: If you are going there, buy some milk while you are at it."
+   },
+   {
+    "ja": "A：<ruby>先輩<rt>せんぱい</rt></ruby>、リスニングの<ruby>試験<rt>しけん</rt></ruby>でいい<ruby>点<rt>てん</rt></ruby>が<ruby>取<rt>と</rt></ruby>れないんです。",
+    "en": "A: I cannot get a good score on the listening test."
+   },
+   {
+    "ja": "B：リスニングが<ruby>苦手<rt>にがて</rt></ruby><b><u>なら</u></b>、シャドーイングの<ruby>練習<rt>れんしゅう</rt></ruby>をしてみたらどうかな。",
+    "en": "B: If listening is your weak point, why not try shadowing practice?"
+   },
+   {
+    "ja": "A：Bさんはサッカーをしますか。",
+    "en": "A: Do you play soccer, B?"
+   },
+   {
+    "ja": "B：しないですね。でも、<ruby>野球<rt>やきゅう</rt></ruby><b><u>なら</u></b>しますよ。",
+    "en": "B: No, I do not. But I do play baseball."
+   },
+   {
+    "ja": "A：<ruby>料理<rt>りょうり</rt></ruby>ができますか。",
+    "en": "A: Can you cook?"
+   },
+   {
+    "ja": "B：いいえ、できません。でも、<ruby>味噌汁<rt>みそしる</rt></ruby>ぐらい<b><u>なら</u></b><ruby>作<rt>つく</rt></ruby>れますよ。",
+    "en": "B: No, I cannot. But I can make something simple like miso soup."
+   },
+   {
+    "ja": "A：アルバイトをしたことがありますか。",
+    "en": "A: Have you ever had a part-time job?"
+   },
+   {
+    "ja": "B：いいえ、ありません。でも、ボランティア<b><u>なら</u></b>したことがあります。",
+    "en": "B: No, I have not. But I have done volunteer work."
+   },
+   {
+    "ja": "A：すみません。<ruby>浅草<rt>あさくさ</rt></ruby><ruby>寺<rt>てら</rt></ruby>はどこですか。",
+    "en": "A: Excuse me, where is Sensoji Temple?"
+   },
+   {
+    "ja": "B：<ruby>浅草<rt>あさくさ</rt></ruby><ruby>寺<rt>てら</rt></ruby><b><u>なら</u></b>、この<ruby>道<rt>みち</rt></ruby>をまっすぐいったところにありますよ。",
+    "en": "B: If you mean Sensoji, it is straight down this road."
+   }
+  ],
+  "related": [
+   "tositara",
+   "to",
+   "tara",
+   "ba"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/nara"
+ },
+ {
+  "id": "ba",
+  "pattern": "～ば",
+  "romaji": "ba",
+  "meaning": {
+   "en": "If; provided that"
+  },
+  "formation": "V conditional form + ば; い-adjective stem + ければ; N / な-adjective + なら / であれば",
+  "explanation": "States a condition for the result in the second part. Verb endings change to the e-row plus ば, while negative ない becomes なければ.",
+  "examples": [
+   {
+    "ja": "このかばんが<ruby>安<rt>やす</rt></ruby><b><u>ければ</u></b>、ぜひ<ruby>買<rt>か</rt></ruby>いたいです。",
+    "en": "If this bag is inexpensive, I would definitely like to buy it."
+   },
+   {
+    "ja": "<ruby>部屋<rt>へや</rt></ruby>があつ<b><u>くなければ</u></b>、エアコンを<ruby>消<rt>け</rt></ruby>してください。",
+    "en": "If the room is not hot, please turn off the air conditioner."
+   },
+   {
+    "ja": "このボタンを<ruby>押<rt>お</rt></ruby>せば、<ruby>冷<rt>つめ</rt></ruby>たい<ruby>水<rt>みず</rt></ruby>が<ruby>出<rt>で</rt></ruby>ますよ。",
+    "en": "If you press this button, cold water will come out."
+   },
+   {
+    "ja": "<ruby>試験<rt>しけん</rt></ruby>で100<ruby>点<rt>てん</rt></ruby>が<b><u><ruby>取<rt>と</rt></ruby>れれば</u></b>、あの<ruby>大学<rt>だいがく</rt></ruby>にも<ruby>合格<rt>ごうかく</rt></ruby>できるでしょう。",
+    "en": "If you can score a hundred on the exam, you should be able to get into that university."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>が<b><u>くれば</u></b>、すぐに<ruby>出発<rt>しゅっぱつ</rt></ruby>します",
+    "en": "If he comes, we will leave immediately."
+   },
+   {
+    "ja": "もっと<b><u><ruby>練習<rt>れんしゅう</rt></ruby>すれば</u></b>、<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>ちますよ",
+    "en": "If you practise more, you will definitely win."
+   },
+   {
+    "ja": "<ruby>高<rt>たか</rt></ruby>くても、<b><u><ruby>便利<rt>べんり</rt></ruby>なら</u></b><ruby>買<rt>か</rt></ruby>いたいです。",
+    "en": "Even if it is expensive, I would like to buy it if it is convenient."
+   },
+   {
+    "ja": "<b><u><ruby>明日<rt>あす</rt></ruby>なら</u></b><ruby>行<rt>い</rt></ruby>けますよ。",
+    "en": "If it is tomorrow, I can go."
+   }
+  ],
+  "related": [
+   "tositara",
+   "to",
+   "tara",
+   "nara"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/ba"
+ },
+ {
+  "id": "tagaru",
+  "pattern": "～たがる",
+  "romaji": "tagaru",
+  "meaning": {
+   "en": "Show signs of wanting to"
+  },
+  "formation": "",
+  "explanation": "Describes another person's observable desire to do something. The progressive form often presents a current desire inferred from behavior or words.",
+  "examples": [
+   {
+    "ja": "<ruby>祖父<rt>そふ</rt></ruby>は、<ruby>姉<rt>あね</rt></ruby>の<ruby>子供<rt>こども</rt></ruby>に<ruby>会<rt>あ</rt></ruby>いたがっています。",
+    "en": "My grandfather wants to see my older sister's child."
+   },
+   {
+    "ja": "その<ruby>小説<rt>しょうせつ</rt></ruby>の<ruby>結末<rt>けつまつ</rt></ruby>がどうなるか、みんな<ruby>知<rt>し</rt></ruby>りたがっています。",
+    "en": "Everyone wants to know how that novel ends."
+   },
+   {
+    "ja": "<ruby>母<rt>はは</rt></ruby>は<ruby>北海道<rt>ほっかいどう</rt></ruby>の<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたがっています。",
+    "en": "My mother wants to visit a hot spring in Hokkaido."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>子供<rt>こども</rt></ruby>が<ruby>学校<rt>がっこう</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みたがっていましたが、<ruby>頑張<rt>がんば</rt></ruby>って<ruby>行<rt>い</rt></ruby>きました。",
+    "en": "My child wanted to stay home from school today but made an effort and went."
+   },
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby>が、<ruby>私<rt>わたくし</rt></ruby>の<ruby>昔<rt>むかし</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>たがるので、<ruby>家<rt>いえ</rt></ruby>から<ruby>持<rt>も</rt></ruby>ってきました。",
+    "en": "My friend wanted to see my old photos, so I brought them from home."
+   }
+  ],
+  "related": [
+   "grammar-177",
+   "gahoshi",
+   "tai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tagaru"
+ },
+ {
+  "id": "kamoshirenai",
+  "pattern": "～かもしれない、～かもしれません",
+  "romaji": "kamoshirenai",
+  "meaning": {
+   "en": "May; might; perhaps"
+  },
+  "formation": "Plain verb / い-adjective + かもしれない; N / な-adjective stem + かもしれない",
+  "explanation": "Expresses an uncertain possibility rather than a firm conclusion. かもしれません is polite, and かも is a common conversational abbreviation.",
+  "examples": [
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は、<ruby>午後<rt>ごご</rt></ruby>から<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る<b><u>かもしれません</u></b>。",
+    "en": "It may rain this afternoon."
+   },
+   {
+    "ja": "<ruby>風邪<rt>かぜ</rt></ruby>をひく<b><u>かもしれない</u></b>から、コートを<ruby>着<rt>き</rt></ruby>たほうがいいよ。",
+    "en": "You might catch a cold, so you should put on a coat."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>のテストは<ruby>失敗<rt>しっぱい</rt></ruby>した<b><u>かもしれない</u></b>。",
+    "en": "I may have failed today's test."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>ちょっと<ruby>太<rt>ふと</rt></ruby>った<b><u>かも</u></b>。<ruby>体重計<rt>たいじゅうけい</rt></ruby>にのってみよう。",
+    "en": "I may have gained a little weight recently. I will try stepping on the scales."
+   },
+   {
+    "ja": "<ruby>注文<rt>ちゅうもん</rt></ruby>したご<ruby>飯<rt>はん</rt></ruby>がまだ<ruby>来<rt>こ</rt></ruby>ない。もしかしたら、<ruby>忘<rt>わす</rt></ruby>れられている<b><u>かも</u></b>。",
+    "en": "The meal I ordered still has not arrived. They may have forgotten it."
+   },
+   {
+    "ja": "これをあけるのは<ruby>恐<rt>おそ</rt></ruby>ろしく<ruby>危険<rt>きけん</rt></ruby><b><u>かもしれない</u></b>。",
+    "en": "Opening this could be terribly dangerous."
+   },
+   {
+    "ja": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>先生<rt>せんせい</rt></ruby>は<ruby>顔<rt>かお</rt></ruby>が<ruby>怖<rt>こわ</rt></ruby>いし、<ruby>厳<rt>きび</rt></ruby>しい<b><u>かもしれない</u></b>。",
+    "en": "The new teacher looks intimidating and may be strict."
+   },
+   {
+    "ja": "トムさんは<ruby>高<rt>たか</rt></ruby>そうなギターを<ruby>持<rt>も</rt></ruby>っているし、ギターが<ruby>上手<rt>じょうず</rt></ruby><b><u>かもしれない</u></b>。",
+    "en": "Tom has an expensive-looking guitar, so he may be good at playing."
+   },
+   {
+    "ja": "うちのポチ、<ruby>全然<rt>ぜんぜん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby><ruby>食<rt>た</rt></ruby>べないし、<ruby>病気<rt>びょうき</rt></ruby><b><u>かもしれない</u></b>。",
+    "en": "My dog Pochi is not eating at all. He may be ill."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/kamoshirenai"
+ },
+ {
+  "id": "deshou",
+  "pattern": "～でしょう",
+  "romaji": "deshou",
+  "meaning": {
+   "en": "Probably; I expect that"
+  },
+  "formation": "Plain verb / い-adjective + でしょう; N / な-adjective stem + でしょう",
+  "explanation": "Expresses the speaker's prediction or assessment of likelihood. It is common in weather forecasts and polite conversation.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るでしょう。",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>はもうすぐ<ruby>来<rt>く</rt></ruby>るでしょう。",
+    "en": "He will probably arrive soon."
+   },
+   {
+    "ja": "<ruby>今夜<rt>こんや</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>くなるでしょうから、コートを<ruby>着<rt>き</rt></ruby>たほうがいいですよ。",
+    "en": "It will probably get cold tonight, so you should wear a coat."
+   },
+   {
+    "ja": "<ruby>仕事<rt>しごと</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すなら、このウェブサイトを<ruby>使<rt>つか</rt></ruby>ったほうがいいでしょう。",
+    "en": "If you are looking for work, it would probably be a good idea to use this website."
+   },
+   {
+    "ja": "<ruby>頑張<rt>がんば</rt></ruby>れば、いい<ruby>大学<rt>だいがく</rt></ruby>に<ruby>行<rt>い</rt></ruby>けるでしょう。",
+    "en": "If you work hard, you should be able to get into a good university."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/deshou"
+ },
+ {
+  "id": "sika-nai",
+  "pattern": "～しか～ない、 〜ほかない",
+  "romaji": "sika nai",
+  "meaning": {
+   "en": "Only; have no choice but to"
+  },
+  "formation": "N / quantity + しか + negative predicate; V dictionary form + しかない / ほかない",
+  "explanation": "しか with a negative predicate restricts the available amount or choice. With a dictionary-form verb, しかない or ほかない expresses that no alternative action is available.",
+  "examples": [
+   {
+    "ja": "<ruby>今<rt>いま</rt></ruby>、300<ruby>円<rt>えん</rt></ruby><b><u>しか</u></b><ruby>持<rt>も</rt></ruby>ってい<b><u>ません</u></b>。<ruby>少<rt>すく</rt></ruby>ないです。",
+    "en": "I only have three hundred yen now. That is not much."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>のクラスには、4<ruby>人<rt>にん</rt></ruby><b><u>しか</u></b>い<b><u>ません</u></b>。<ruby>少<rt>すく</rt></ruby>ないです。",
+    "en": "There are only four people in my class. That is not many."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友<rt>とも</rt></ruby>だちが<ruby>少<rt>すく</rt></ruby>ないです。<ruby>2人<rt>ふたり</rt></ruby>ぐらい<b><u>しか</u></b>い<b><u>ません</u></b>。",
+    "en": "I have few Japanese friends, only about two."
+   },
+   {
+    "ja": "トイレットペーパーが<ruby>少<rt>すこ</rt></ruby>し<b><u>しか</u></b>あり<b><u>ません</u></b>。<ruby>今日<rt>きょう</rt></ruby>、<ruby>買<rt>か</rt></ruby>いに<ruby>行<rt>い</rt></ruby>きます。",
+    "en": "There is only a little toilet paper left. I will go and buy some today."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>はパーティーだけど、ビールが1<ruby>本<rt>ぽん</rt></ruby><b><u>しかない</u></b>よ。",
+    "en": "We have a party today, but there is only one bottle of beer."
+   },
+   {
+    "ja": "こんな<ruby>経営<rt>けいえい</rt></ruby><ruby>状況<rt>じょうきょう</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>くようであれば、<ruby>店<rt>みせ</rt></ruby>を<ruby>閉<rt>し</rt></ruby>める<b><u>ほかない</u></b>ですよ。",
+    "en": "If business continues like this, we will have no choice but to close the shop."
+   },
+   {
+    "ja": "<ruby>終電<rt>しゅうでん</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り<ruby>遅<rt>おく</rt></ruby>れたし、バスも<ruby>無<rt>な</rt></ruby>いし、タクシーで<ruby>帰<rt>かえ</rt></ruby>る<b><u>ほかない</u></b>ですね。",
+    "en": "I missed the last train and there are no buses, so I have no choice but to take a taxi home."
+   },
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>財布<rt>さいふ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れたから、<ruby>私<rt>わたくし</rt></ruby>が<ruby>払<rt>はら</rt></ruby>う<b><u>ほかありません</u></b>",
+    "en": "My friend forgot their wallet, so I have no choice but to pay."
+   }
+  ],
+  "related": [
+   "nisuginai",
+   "yori-hoka-nai",
+   "dake"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/sika-nai"
+ },
+ {
+  "id": "you",
+  "pattern": "～よう",
+  "romaji": "you",
+  "meaning": {
+   "en": "It seems; apparently, based on evidence"
+  },
+  "formation": "Plain verb / い-adjective + ようだ; N + のようだ; な-adjective + なようだ",
+  "explanation": "Presents an inference based on visible signs or other evidence. The same forms can also express resemblance, so context is important.",
+  "examples": [
+   {
+    "ja": "<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>来<rt>き</rt></ruby>たけど<ruby>誰<rt>だれ</rt></ruby>もいない。<ruby>今日<rt>きょう</rt></ruby>は<ruby>授業<rt>じゅぎょう</rt></ruby>がないようだ。",
+    "en": "I came to the classroom, but no one is here. It seems there is no class today."
+   },
+   {
+    "ja": "お<ruby>店<rt>みせ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が、<ruby>片付<rt>かたづ</rt></ruby>けを<ruby>始<rt>はじ</rt></ruby>めている。お<ruby>店<rt>みせ</rt></ruby>はもうすぐ<ruby>閉<rt>し</rt></ruby>まるようだ。",
+    "en": "The staff are starting to tidy up. The shop seems to be closing soon."
+   },
+   {
+    "ja": "<ruby>隣<rt>となり</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>から、たくさんの<ruby>人<rt>ひと</rt></ruby>の<ruby>笑<rt>わら</rt></ruby>い<ruby>声<rt>ごえ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえる。<ruby>今夜<rt>こんや</rt></ruby>は<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby>をしているようだ。",
+    "en": "I can hear many people laughing in the next room. They seem to be having a drinking party tonight."
+   },
+   {
+    "ja": "エレベーターに「<ruby>使用<rt>しよう</rt></ruby><ruby>禁止<rt>きんし</rt></ruby>」と<ruby>書<rt>か</rt></ruby>いてある。エレベータは<ruby>壊<rt>こわ</rt></ruby>れているようだ。",
+    "en": "The elevator has a sign saying Do not use. It appears to be broken."
+   },
+   {
+    "ja": "<ruby>牛丼<rt>ぎゅうどん</rt></ruby><ruby>屋<rt>や</rt></ruby>の<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>に<ruby>見<rt>み</rt></ruby>た<ruby>事<rt>こと</rt></ruby>がない<ruby>丼<rt>どんぶり</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>がある。<ruby>新<rt>あたら</rt></ruby>しいメニューのようだ。",
+    "en": "There is a photo of a rice bowl I have never seen at the entrance to the beef bowl restaurant. It seems to be a new menu item."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/you"
+ },
+ {
+  "id": "youtoomou",
+  "pattern": "〜ようとおもう、〜うとおもう",
+  "romaji": "youtoomou",
+  "meaning": {
+   "en": "Be thinking of doing; intend to"
+  },
+  "formation": "",
+  "explanation": "Expresses an intention or plan. と思っている often indicates a plan already being considered or held, rather than a decision made at the moment of speaking.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<b><u><ruby>起<rt>お</rt></ruby>きようと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "I am thinking of getting up early tomorrow."
+   },
+   {
+    "ja": "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をしたので、<ruby>一度<rt>いちど</rt></ruby><ruby>家<rt>いえ</rt></ruby>に<b><u><ruby>帰<rt>かえ</rt></ruby>ろうと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "I forgot something, so I am thinking of going home once."
+   },
+   {
+    "ja": "<ruby>夏休<rt>なつやす</rt></ruby>みはアルバイトを<b><u><ruby>増<rt>ふ</rt></ruby>やそうと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "I am thinking of doing more part-time work during the summer vacation."
+   },
+   {
+    "ja": "お<ruby>年玉<rt>としだま</rt></ruby>でゲームを<b><u><ruby>買<rt>か</rt></ruby>おうと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "I am thinking of buying a game with my New Year's gift money."
+   },
+   {
+    "ja": "<ruby>授業<rt>じゅぎょう</rt></ruby>が<ruby>簡単<rt>かんたん</rt></ruby>すぎるので、もう<ruby>少<rt>すこ</rt></ruby>し<ruby>難<rt>むずか</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>を<ruby>買<rt>か</rt></ruby>って<ruby>自分<rt>じぶん</rt></ruby>で<b><u><ruby>勉強<rt>べんきょう</rt></ruby>しようと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "The classes are too easy, so I am thinking of buying a slightly harder book and studying on my own."
+   },
+   {
+    "ja": "<ruby>来年<rt>らいねん</rt></ruby>こそJLPTを<ruby>受<rt>う</rt></ruby>け<b><u>ようと<ruby>思<rt>おも</rt></ruby>います</u></b>。",
+    "en": "Next year, I really intend to take the JLPT."
+   }
+  ],
+  "related": [
+   "kotoninaru",
+   "kotoninatteiru",
+   "tsumori",
+   "grammar-150"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/youtoomou"
+ },
+ {
+  "id": "tsumori",
+  "pattern": "～つもり",
+  "romaji": "tsumori",
+  "meaning": {
+   "en": "Intend to; plan to"
+  },
+  "formation": "",
+  "explanation": "States an intention about an action. The positive form expresses a plan to act, while the negative form states an intention not to act.",
+  "examples": [
+   {
+    "ja": "<ruby>週末<rt>しゅうまつ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>をする<b><u>つもりです</u></b>か。",
+    "en": "What do you plan to do this weekend?"
+   },
+   {
+    "ja": "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<b><u>つもりです</u></b>。",
+    "en": "I plan to go to Japan next year."
+   },
+   {
+    "ja": "<ruby>将来<rt>しょうらい</rt></ruby>、<ruby>医者<rt>いしゃ</rt></ruby>になる<b><u>つもりです</u></b>。",
+    "en": "I intend to become a doctor in the future."
+   },
+   {
+    "ja": "<ruby>将来<rt>しょうらい</rt></ruby>、<ruby>日本<rt>にっぽん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>く<b><u>つもりです</u></b>。",
+    "en": "I intend to work in Japan in the future."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>の<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby>は、どこでする<b><u>つもりです</u></b>か。",
+    "en": "Where do you plan to hold tomorrow's drinking party?"
+   }
+  ],
+  "related": [
+   "kotoninaru",
+   "kotoninatteiru",
+   "youtoomou",
+   "grammar-150"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tsumori"
+ },
+ {
+  "id": "grammar-150",
+  "pattern": "～予定",
+  "romaji": "",
+  "meaning": {
+   "en": "Be scheduled to; be planned to"
+  },
+  "formation": "V dictionary form + 予定だ; N + の予定だ",
+  "explanation": "Describes a schedule or plan, often one with a relatively concrete time or arrangement. 予定です is the polite form.",
+  "examples": [
+   {
+    "ja": "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>日本<rt>にっぽん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<b><u><ruby>予定<rt>よてい</rt></ruby>です</u></b>。",
+    "en": "I am scheduled to go to Japan next month."
+   },
+   {
+    "ja": "<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>午後<rt>ごご</rt></ruby><ruby>二<rt>に</rt></ruby><ruby>時<rt>じ</rt></ruby>に<ruby>始<rt>はじ</rt></ruby>まる<b><u><ruby>予定<rt>よてい</rt></ruby>です</u></b>。",
+    "en": "The meeting is scheduled to begin at two in the afternoon."
+   },
+   {
+    "ja": "<ruby>日曜日<rt>にちようび</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>る<b><u><ruby>予定<rt>よてい</rt></ruby>です</u></b>。",
+    "en": "I plan to watch a film with a friend on Sunday."
+   },
+   {
+    "ja": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>図書館<rt>としょかん</rt></ruby>は<ruby>六<rt>ろく</rt></ruby><ruby>月<rt>がつ</rt></ruby>に<ruby>開<rt>ひら</rt></ruby>く<b><u><ruby>予定<rt>よてい</rt></ruby>です</u></b>。",
+    "en": "The new library is scheduled to open in June."
+   },
+   {
+    "ja": "<ruby>旅行<rt>りょこう</rt></ruby>は<ruby>三日間<rt>みっかかん</rt></ruby><b><u>の<ruby>予定<rt>よてい</rt></ruby>です</u></b>。",
+    "en": "The trip is planned to last three days."
+   }
+  ],
+  "related": [
+   "kotoninaru",
+   "kotoninatteiru",
+   "youtoomou",
+   "tsumori"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-150"
+ },
+ {
+  "id": "teageru",
+  "pattern": "～てあげる",
+  "romaji": "teageru",
+  "meaning": {
+   "en": "Do something for someone"
+  },
+  "formation": "",
+  "explanation": "Presents an action as a benefit given by the subject to another person. The receiver may be marked with に when the underlying verb allows it.",
+  "examples": [
+   {
+    "ja": "<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>重<rt>おも</rt></ruby>そうだね、<ruby>手伝<rt>てつだ</rt></ruby>ってあげるよ。",
+    "en": "Your luggage looks heavy. I will help you."
+   },
+   {
+    "ja": "そのピーマンが<ruby>嫌<rt>きら</rt></ruby>いなの？<ruby>食<rt>た</rt></ruby>べてあげるよ。",
+    "en": "You do not like that green pepper? I will eat it for you."
+   },
+   {
+    "ja": "うちのネコはかわいいんだよ。<ruby>今度<rt>こんど</rt></ruby><ruby>見<rt>み</rt></ruby>せてあげるね。",
+    "en": "My cat is very cute. I will show it to you next time."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby><ruby>教<rt>おし</rt></ruby>えてあげた<ruby>電話番号<rt>でんわばんごう</rt></ruby>だけど、<ruby>間違<rt>まちが</rt></ruby>ってたかもしれない。",
+    "en": "The phone number I gave you yesterday may have been wrong."
+   },
+   {
+    "ja": "<ruby>子<rt>こ</rt></ruby>どもに<ruby>絵本<rt>えほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んであげます。",
+    "en": "I will read a picture book to my child."
+   }
+  ],
+  "related": [
+   "tekureru",
+   "temorau",
+   "grammar-154",
+   "masyouka"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/teageru"
+ },
+ {
+  "id": "tekureru",
+  "pattern": "～てくれる",
+  "romaji": "tekureru",
+  "meaning": {
+   "en": "Someone does something for me or us"
+  },
+  "formation": "",
+  "explanation": "Describes a helpful action by someone else that benefits the speaker or someone in the speaker's group. It often communicates appreciation.",
+  "examples": [
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>で<ruby>駅<rt>えき</rt></ruby>まで<ruby>送<rt>おく</rt></ruby>ってくれました。",
+    "en": "My friend drove me to the station."
+   },
+   {
+    "ja": "<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれました。",
+    "en": "My senior taught me Japanese."
+   },
+   {
+    "ja": "<ruby>知<rt>し</rt></ruby>らない<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がコーヒーを<ruby>買<rt>か</rt></ruby>ってくれました。",
+    "en": "A man I did not know bought me a coffee."
+   },
+   {
+    "ja": "<ruby>日本人<rt>にほんじん</rt></ruby>の<ruby>友<rt>とも</rt></ruby>だちが<ruby>作文<rt>さくぶん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>してくれました。",
+    "en": "My Japanese friend corrected my composition for me."
+   },
+   {
+    "ja": "<ruby>友<rt>とも</rt></ruby>だちが、<ruby>誕生日<rt>たんじょうび</rt></ruby>にケーキを<ruby>作<rt>つく</rt></ruby>ってくれました。",
+    "en": "My friend made me a cake for my birthday."
+   }
+  ],
+  "related": [
+   "teageru",
+   "temorau",
+   "grammar-154",
+   "masyouka"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tekureru"
+ },
+ {
+  "id": "temorau",
+  "pattern": "～てもらう",
+  "romaji": "temorau",
+  "meaning": {
+   "en": "Have someone do something; receive help"
+  },
+  "formation": "Person に / から + Vて + もらう",
+  "explanation": "Describes an action from the beneficiary's point of view. The subject receives the service or help, and the person doing it is introduced with に or, where natural, から.",
+  "examples": [
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>に<ruby>作文<rt>さくぶん</rt></ruby>を<ruby>直<rt>なお</rt></ruby>し<b><u>てもらいました</u></b>。",
+    "en": "I had my teacher correct my composition."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>友<rt>とも</rt></ruby>だちにアルバイトを<ruby>代<rt>か</rt></ruby>わっ<b><u>てもらいました</u></b>。",
+    "en": "He had a friend cover his part-time shift."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>美容院<rt>びよういん</rt></ruby>で<ruby>髪<rt>かみ</rt></ruby>を<ruby>切<rt>き</rt></ruby>っ<b><u>てもらいました</u></b>。",
+    "en": "She had her hair cut at a salon today."
+   },
+   {
+    "ja": "<ruby>駅<rt>えき</rt></ruby>で、<ruby>道<rt>みち</rt></ruby>を<ruby>教<rt>おし</rt></ruby>え<b><u>てもらいました</u></b>。",
+    "en": "I had someone give me directions at the station."
+   },
+   {
+    "ja": "わたしは<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に、<ruby>教科書<rt>きょうかしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せ<b><u>てもらいました</u></b>。",
+    "en": "I had the person next to me show me their textbook."
+   }
+  ],
+  "related": [
+   "teageru",
+   "tekureru",
+   "grammar-154",
+   "masyouka"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/temorau"
+ },
+ {
+  "id": "grammar-154",
+  "pattern": "～ていただけませんか",
+  "romaji": "",
+  "meaning": {
+   "en": "Could you please do something for me?"
+  },
+  "formation": "",
+  "explanation": "A polite request that presents the action as a favor the speaker hopes to receive. It is more deferential than てくれませんか.",
+  "examples": [
+   {
+    "ja": "もう<ruby>一度<rt>いちど</rt></ruby><ruby>説明<rt>せつめい</rt></ruby>して<b><u>いただけませんか</u></b>。",
+    "en": "Could you please explain it one more time?"
+   },
+   {
+    "ja": "この<ruby>書類<rt>しょるい</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>して<b><u>いただけませんか</u></b>。",
+    "en": "Could you please check this document for me?"
+   },
+   {
+    "ja": "<ruby>少<rt>すこ</rt></ruby>し<ruby>待<rt>ま</rt></ruby>って<b><u>いただけませんか</u></b>。",
+    "en": "Could you please wait a moment?"
+   },
+   {
+    "ja": "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>って<b><u>いただけませんか</u></b>。",
+    "en": "Could you please take a photo for me?"
+   },
+   {
+    "ja": "<ruby>駅<rt>えき</rt></ruby>までの<ruby>道<rt>みち</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えて<b><u>いただけませんか</u></b>。",
+    "en": "Could you please tell me the way to the station?"
+   }
+  ],
+  "related": [
+   "teageru",
+   "tekureru",
+   "temorau",
+   "masyouka"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-154"
+ },
+ {
+  "id": "grammar-155",
+  "pattern": "～Ｖ受身",
+  "romaji": "",
+  "meaning": {
+   "en": "Be acted on; passive verb forms"
+  },
+  "formation": "Group 1: a-row + れる; group 2: remove る + られる; する→される; 来る→来られる",
+  "explanation": "The passive makes the affected person or thing the subject. It can also describe an unwanted effect on the speaker or a general fact such as where a product is made.",
+  "examples": [
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>母<rt>はは</rt></ruby>に<b><u>ほめられました</u></b>。",
+    "en": "I was praised by my mother."
+   },
+   {
+    "ja": "<ruby>財布<rt>さいふ</rt></ruby>が<ruby>誰<rt>だれ</rt></ruby>かに<b><u><ruby>盗<rt>ぬす</rt></ruby>まれました</u></b>。",
+    "en": "The wallet was stolen by someone."
+   },
+   {
+    "ja": "<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>で<ruby>雨<rt>あめ</rt></ruby>に<b><u><ruby>降<rt>ふ</rt></ruby>られました</u></b>。",
+    "en": "I got caught in the rain on my way home."
+   },
+   {
+    "ja": "この<ruby>建物<rt>たてもの</rt></ruby>は<ruby>一九九〇<rt>いちきゅうきゅうれい</rt></ruby><ruby>年<rt>ねん</rt></ruby>に<b><u><ruby>建<rt>た</rt></ruby>てられました</u></b>。",
+    "en": "This building was built in 1990."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>に<ruby>名前<rt>なまえ</rt></ruby>を<b><u><ruby>呼<rt>よ</rt></ruby>ばれました</u></b>。",
+    "en": "My name was called by the teacher."
+   }
+  ],
+  "related": [
+   "grammar-157",
+   "grammar-158",
+   "grammar-159",
+   "siekikatachi"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-155"
+ },
+ {
+  "id": "grammar-156",
+  "pattern": "～Ｖ禁止",
+  "romaji": "",
+  "meaning": {
+   "en": "Do not; prohibition"
+  },
+  "formation": "",
+  "explanation": "A direct prohibition telling someone not to perform an action. It is forceful and appears in warnings, signs, commands and close or rough speech.",
+  "examples": [
+   {
+    "ja": "<ruby>道路<rt>どうろ</rt></ruby>に<ruby>飛<rt>と</rt></ruby>び<ruby>出<rt>だ</rt></ruby>す<b><u>な</u></b>。",
+    "en": "Do not run out into the road."
+   },
+   {
+    "ja": "ここに<ruby>車<rt>くるま</rt></ruby>を<ruby>止<rt>と</rt></ruby>める<b><u>な</u></b>。",
+    "en": "Do not park here."
+   },
+   {
+    "ja": "<ruby>試験<rt>しけん</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>に<ruby>話<rt>はな</rt></ruby>す<b><u>な</u></b>。",
+    "en": "Do not talk during the exam."
+   },
+   {
+    "ja": "<ruby>危<rt>あぶ</rt></ruby>ないから、その<ruby>機械<rt>きかい</rt></ruby>に<ruby>触<rt>さわ</rt></ruby>る<b><u>な</u></b>。",
+    "en": "Do not touch that machine; it is dangerous."
+   },
+   {
+    "ja": "<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れる<b><u>な</u></b>。",
+    "en": "Do not forget your promise."
+   }
+  ],
+  "related": [
+   "nasai",
+   "tekudasai",
+   "naidekudasai",
+   "temoiidesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-156"
+ },
+ {
+  "id": "grammar-157",
+  "pattern": "～Ｖ可能形",
+  "romaji": "",
+  "meaning": {
+   "en": "Can; be able to; potential verb forms"
+  },
+  "formation": "Group 1: e-row + る; group 2: remove る + られる; する→できる; 来る→来られる",
+  "explanation": "Expresses ability or practical possibility. The object of a potential verb can often be marked with が; を is also possible in appropriate contexts.",
+  "examples": [
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>新聞<rt>しんぶん</rt></ruby>が<b><u><ruby>読<rt>よ</rt></ruby>めます</u></b>。",
+    "en": "I can read Japanese newspapers."
+   },
+   {
+    "ja": "<ruby>妹<rt>いもうと</rt></ruby>は<ruby>一人<rt>ひとり</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>へ<b><u><ruby>行<rt>い</rt></ruby>けます</u></b>。",
+    "en": "My younger sister can go to school on her own."
+   },
+   {
+    "ja": "この<ruby>店<rt>みせ</rt></ruby>ではカードで<b><u><ruby>払<rt>はら</rt></ruby>えます</u></b>。",
+    "en": "You can pay by card at this shop."
+   },
+   {
+    "ja": "ここでインターネットが<b><u><ruby>使<rt>つか</rt></ruby>えます</u></b>。",
+    "en": "You can use the internet here."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>はまだ<ruby>納豆<rt>なっとう</rt></ruby>が<b><u><ruby>食<rt>た</rt></ruby>べられません</u></b>。",
+    "en": "I still cannot eat natto."
+   }
+  ],
+  "related": [
+   "grammar-155",
+   "grammar-158",
+   "grammar-159",
+   "siekikatachi"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-157"
+ },
+ {
+  "id": "grammar-158",
+  "pattern": "～V 使役",
+  "romaji": "",
+  "meaning": {
+   "en": "Make or let someone do; causative"
+  },
+  "formation": "Group 1: a-row + せる; group 2: remove る + させる; する→させる; 来る→来させる",
+  "explanation": "Describes causing, requiring or allowing another person to act. Context and the verb determine whether the meaning is coercion or permission.",
+  "examples": [
+   {
+    "ja": "<ruby>母<rt>はは</rt></ruby>は<ruby>子<rt>こ</rt></ruby>どもに<ruby>野菜<rt>やさい</rt></ruby>を<b><u><ruby>食<rt>た</rt></ruby>べさせました</u></b>。",
+    "en": "The mother made her child eat vegetables."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>を<b><u><ruby>立<rt>た</rt></ruby>たせました</u></b>。",
+    "en": "The teacher made the students stand up."
+   },
+   {
+    "ja": "その<ruby>話<rt>はなし</rt></ruby>は<ruby>祖母<rt>そぼ</rt></ruby>を<b><u><ruby>笑<rt>わら</rt></ruby>わせました</u></b>。",
+    "en": "That story made my grandmother laugh."
+   },
+   {
+    "ja": "<ruby>部長<rt>ぶちょう</rt></ruby>は<ruby>部下<rt>ぶか</rt></ruby>を<ruby>早<rt>はや</rt></ruby>く<b><u><ruby>帰<rt>かえ</rt></ruby>らせました</u></b>。",
+    "en": "The manager let the subordinate go home early."
+   },
+   {
+    "ja": "<ruby>父<rt>ちち</rt></ruby>は<ruby>子<rt>こ</rt></ruby>どもを<ruby>公園<rt>こうえん</rt></ruby>で<b><u><ruby>遊<rt>あそ</rt></ruby>ばせています</u></b>。",
+    "en": "The father is letting his child play in the park."
+   }
+  ],
+  "related": [
+   "grammar-155",
+   "grammar-157",
+   "grammar-159",
+   "siekikatachi"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-158"
+ },
+ {
+  "id": "grammar-159",
+  "pattern": "～Ｖ使役受身",
+  "romaji": "",
+  "meaning": {
+   "en": "Be made to do; causative passive"
+  },
+  "formation": "Group 1: a-row + せられる; group 2: remove る + させられる; する→させられる; 来る→来させられる",
+  "explanation": "Describes someone being caused or compelled to perform an action. The person imposing the action is commonly marked with に.",
+  "examples": [
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>先生<rt>せんせい</rt></ruby>に<ruby>作文<rt>さくぶん</rt></ruby>を<b><u><ruby>書<rt>か</rt></ruby>かされました</u></b>。",
+    "en": "I was made to write a composition by the teacher."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>上司<rt>じょうし</rt></ruby>に<ruby>一時間<rt>いちじかん</rt></ruby><b><u><ruby>待<rt>ま</rt></ruby>たされました</u></b>。",
+    "en": "I was kept waiting for an hour by my supervisor."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>母<rt>はは</rt></ruby>に<ruby>部屋<rt>へや</rt></ruby>を<b><u><ruby>掃除<rt>そうじ</rt></ruby>させられました</u></b>。",
+    "en": "I was made to clean my room by my mother."
+   },
+   {
+    "ja": "<ruby>私<rt>わたし</rt></ruby>たちは<ruby>雨<rt>あめ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<b><u><ruby>走<rt>はし</rt></ruby>らされました</u></b>。",
+    "en": "We were made to run in the rain."
+   },
+   {
+    "ja": "<ruby>同<rt>おな</rt></ruby>じ<ruby>文<rt>ぶん</rt></ruby>を<ruby>何度<rt>なんど</rt></ruby>も<b><u><ruby>読<rt>よ</rt></ruby>まされました</u></b>。",
+    "en": "I was made to read the same sentence many times."
+   }
+  ],
+  "related": [
+   "grammar-155",
+   "grammar-157",
+   "grammar-158",
+   "siekikatachi"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-159"
+ },
+ {
+  "id": "nasai",
+  "pattern": "～なさい",
+  "romaji": "nasai",
+  "meaning": {
+   "en": "Do it; an instruction or command"
+  },
+  "formation": "",
+  "explanation": "Gives an instruction, often from a parent or teacher to a child. It is less rough than a bare imperative, but it still assumes authority.",
+  "examples": [
+   {
+    "ja": "<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>なさい。もう<ruby>夜<rt>よる</rt></ruby>の1<ruby>時<rt>じ</rt></ruby>ですよ！",
+    "en": "Go to bed now. It is already one in the morning!"
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>学校<rt>がっこう</rt></ruby>を<ruby>休<rt>やす</rt></ruby>みなさい。<ruby>風邪<rt>かぜ</rt></ruby>をひいているんでしょう？",
+    "en": "Stay home from school today. You have a cold, don't you?"
+   },
+   {
+    "ja": "<ruby>早<rt>はや</rt></ruby>くこのドアを<ruby>開<rt>あ</rt></ruby>けなさい！<ruby>部屋<rt>へや</rt></ruby>にいるのはわかっているんだよ！",
+    "en": "Open this door right now! I know you are in the room!"
+   },
+   {
+    "ja": "お<ruby>父<rt>とう</rt></ruby>さんに、<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>言<rt>い</rt></ruby>いなさい。<ruby>怒<rt>おこ</rt></ruby>らないから。",
+    "en": "Tell your father honestly. I will not get angry."
+   },
+   {
+    "ja": "ご<ruby>飯<rt>はん</rt></ruby>はちゃんと<ruby>座<rt>すわ</rt></ruby>って<ruby>食<rt>た</rt></ruby>べなさい。",
+    "en": "Sit properly when you eat."
+   }
+  ],
+  "related": [
+   "grammar-156",
+   "tekudasai",
+   "naidekudasai",
+   "temoiidesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/nasai"
+ },
+ {
+  "id": "grammar-161",
+  "pattern": "～ても（V/A/N)",
+  "romaji": "",
+  "meaning": {
+   "en": "Even if; even though"
+  },
+  "formation": "Vて + も; い-adjective stem + くても; N / な-adjective + でも",
+  "explanation": "States that the result remains the same even if a condition is true. It can refer to a real unexpected situation or an imagined condition.",
+  "examples": [
+   {
+    "ja": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>っ<b><u>ても</u></b>、<ruby>試合<rt>しあい</rt></ruby>をします。",
+    "en": "Even if it rains, we will play the match."
+   },
+   {
+    "ja": "<ruby>忙<rt>いそが</rt></ruby>しく<b><u>ても</u></b>、<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は<ruby>食<rt>た</rt></ruby>べます。",
+    "en": "Even when I am busy, I eat breakfast."
+   },
+   {
+    "ja": "<ruby>高<rt>たか</rt></ruby>く<b><u>ても</u></b>、<ruby>必要<rt>ひつよう</rt></ruby>なら<ruby>買<rt>か</rt></ruby>います。",
+    "en": "Even if it is expensive, I will buy it if I need it."
+   },
+   {
+    "ja": "<ruby>日曜日<rt>にちようび</rt></ruby><b><u>でも</u></b>、この<ruby>店<rt>みせ</rt></ruby>は<ruby>開<rt>ひら</rt></ruby>いています。",
+    "en": "This shop is open even on Sundays."
+   },
+   {
+    "ja": "<ruby>説明<rt>せつめい</rt></ruby>が<ruby>簡単<rt>かんたん</rt></ruby><b><u>でも</u></b>、よく<ruby>聞<rt>き</rt></ruby>いてください。",
+    "en": "Even if the explanation is simple, please listen carefully."
+   }
+  ],
+  "related": [
+   "niyoruto",
+   "to-iu-koto-da",
+   "noni",
+   "mo-nai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-161"
+ },
+ {
+  "id": "teshimau",
+  "pattern": "～てしまう",
+  "romaji": "teshimau",
+  "meaning": {
+   "en": "Finish completely; unfortunately end up doing"
+  },
+  "formation": "",
+  "explanation": "Either emphasizes completing an action fully or presents an unintended, regrettable result. Context determines whether regret is involved.",
+  "examples": [
+   {
+    "ja": "<ruby>村上<rt>むらかみ</rt></ruby><ruby>春樹<rt>はるき</rt></ruby>の<ruby>本<rt>ほん</rt></ruby>は、すべて<ruby>読<rt>よ</rt></ruby>ん<b><u>でしまいました</u></b>。",
+    "en": "I have finished reading all of Haruki Murakami's books."
+   },
+   {
+    "ja": "９<ruby>時<rt>じ</rt></ruby>から<ruby>会議<rt>かいぎ</rt></ruby>があるので、この<ruby>部屋<rt>へや</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>はもう、し<b><u>てしまいました</u></b>。",
+    "en": "There is a meeting at nine, so I have already finished cleaning this room."
+   },
+   {
+    "ja": "ケーキを<ruby>食<rt>た</rt></ruby>べ<b><u>てしまいました</u></b>。",
+    "en": "I ate all the cake."
+   },
+   {
+    "ja": "お<ruby>皿<rt>さら</rt></ruby>を<ruby>落<rt>お</rt></ruby>とし<b><u>てしまいました</u></b>。",
+    "en": "I accidentally dropped the plate."
+   },
+   {
+    "ja": "<ruby>魚<rt>さかな</rt></ruby>がこげ<b><u>てしまいました</u></b>。",
+    "en": "The fish ended up getting burned."
+   },
+   {
+    "ja": "<ruby>鍵<rt>かぎ</rt></ruby>をなくし<b><u>てしまいました</u></b>。",
+    "en": "I have lost my key."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>人<rt>ひと</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>し<b><u>てしまいました</u></b>。",
+    "en": "He ended up killing someone."
+   }
+  ],
+  "related": [
+   "teoku",
+   "temiru",
+   "tearu",
+   "teiru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/teshimau"
+ },
+ {
+  "id": "mitai",
+  "pattern": "～みたい",
+  "romaji": "mitai",
+  "meaning": {
+   "en": "Seems; looks like; similar to"
+  },
+  "formation": "Plain verb / い-adjective + みたいだ; N / な-adjective stem + みたいだ; みたいな + N; みたいに + V",
+  "explanation": "An informal expression for resemblance or an inference based on signs and information. It is often close in meaning to ようだ.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れるみたいだね。<ruby>天気予報<rt>てんきよほう</rt></ruby>で<ruby>言<rt>い</rt></ruby>っていたよ。",
+    "en": "It looks as though it will be sunny tomorrow. That is what the forecast said."
+   },
+   {
+    "ja": "あの<ruby>人<rt>ひと</rt></ruby>は、スペイン<ruby>人<rt>じん</rt></ruby>みたいですね。スペイン<ruby>語<rt>ご</rt></ruby>がペラペラでした。",
+    "en": "That person seems to be Spanish. They spoke Spanish fluently."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>目<rt>め</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなったみたい。",
+    "en": "My eyesight seems to have gotten worse recently."
+   },
+   {
+    "ja": "なんか<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いな。<ruby>風邪<rt>かぜ</rt></ruby>をひいたみたいだ。",
+    "en": "My head hurts. It seems I have caught a cold."
+   },
+   {
+    "ja": "<ruby>交差点<rt>こうさてん</rt></ruby>にあんなにたくさん<ruby>人<rt>ひと</rt></ruby>がいる。<ruby>何<rt>なん</rt></ruby>か<ruby>事故<rt>じこ</rt></ruby>があったみたいだ。<ruby>行<rt>い</rt></ruby>ってみよう。",
+    "en": "There are so many people at the intersection. There seems to have been an accident. Let us go and look."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/mitai"
+ },
+ {
+  "id": "nagara",
+  "pattern": "～ながら",
+  "romaji": "nagara",
+  "meaning": {
+   "en": "While doing; doing two things at once"
+  },
+  "formation": "",
+  "explanation": "Shows two actions performed by the same person at the same time. The main action normally appears in the second part.",
+  "examples": [
+   {
+    "ja": "いつも、<ruby>音楽<rt>おんがく</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きながら<ruby>勉強<rt>べんきょう</rt></ruby>しています。",
+    "en": "I always study while listening to music."
+   },
+   {
+    "ja": "テレビを<ruby>見<rt>み</rt></ruby>ながら<ruby>勉強<rt>べんきょう</rt></ruby>してはいけませんよ。",
+    "en": "You must not study while watching television."
+   },
+   {
+    "ja": "この<ruby>後<rt>ご</rt></ruby>、コーヒーを<ruby>飲<rt>の</rt></ruby>みながら<ruby>話<rt>はな</rt></ruby>しませんか。",
+    "en": "Shall we talk over coffee after this?"
+   },
+   {
+    "ja": "<ruby>車<rt>くるま</rt></ruby>を<ruby>運転<rt>うんてん</rt></ruby>しながら<ruby>電話<rt>でんわ</rt></ruby>をしてはいけません。",
+    "en": "You must not use the phone while driving."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きながら、ノートにメモを<ruby>取<rt>とり</rt></ruby> ります。",
+    "en": "I take notes while listening to the teacher."
+   }
+  ],
+  "related": [
+   "tui",
+   "tutu",
+   "grammar-175",
+   "saichuu-ni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/nagara"
+ },
+ {
+  "id": "noni",
+  "pattern": "～のに",
+  "romaji": "noni",
+  "meaning": {
+   "en": "Although; even though"
+  },
+  "formation": "Plain verb / い-adjective + のに; N / な-adjective + なのに",
+  "explanation": "Connects a fact with a result that contradicts an expectation. It often conveys surprise, dissatisfaction or regret.",
+  "examples": [
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>にいるのに、<ruby>日本語<rt>にほんご</rt></ruby>をあまり<ruby>使<rt>つか</rt></ruby>いません。",
+    "en": "Even though I am in Japan, I do not use Japanese much."
+   },
+   {
+    "ja": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>日本人<rt>にほんじん</rt></ruby>なのに、<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>漢字<rt>かんじ</rt></ruby>が<ruby>書<rt>か</rt></ruby>けないそうです。",
+    "en": "I hear that person cannot write any kanji, even though they are Japanese."
+   },
+   {
+    "ja": "<ruby>家<rt>いえ</rt></ruby>から<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってきたのに、<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>忘<rt>わす</rt></ruby>れてきてしまいました。",
+    "en": "Although I brought an umbrella from home, I left it on the train."
+   },
+   {
+    "ja": "<ruby>今朝<rt>けさ</rt></ruby>たくさん<ruby>食<rt>た</rt></ruby>べたのにもうお<ruby>腹<rt>なか</rt></ruby>が<ruby>空<rt>あ</rt></ruby>いてきました。",
+    "en": "Although I ate a lot this morning, I am hungry already."
+   },
+   {
+    "ja": "<ruby>天気予報<rt>てんきよほう</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れると<ruby>言<rt>い</rt></ruby>ったのに、<ruby>朝<rt>あさ</rt></ruby>からずっと<ruby>雨<rt>あめ</rt></ruby>です。",
+    "en": "Although the forecast said it would be sunny, it has been raining all morning."
+   }
+  ],
+  "related": [
+   "grammar-161",
+   "ni-mo-kakawarazu",
+   "tositemo"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/noni"
+ },
+ {
+  "id": "grammar-166",
+  "pattern": "～はずです",
+  "romaji": "",
+  "meaning": {
+   "en": "Should be; be expected to"
+  },
+  "formation": "Plain verb / い-adjective + はずだ; N + のはずだ; な-adjective + なはずだ",
+  "explanation": "Expresses a logical expectation based on evidence, a schedule or previous knowledge. It is not an obligation imposed on someone.",
+  "examples": [
+   {
+    "ja": "<ruby>田中<rt>たなか</rt></ruby>さんはもう<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いている<b><u>はずです</u></b>。",
+    "en": "Mr. Tanaka should have reached the station by now."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>平日<rt>へいじつ</rt></ruby>だから、<ruby>銀行<rt>ぎんこう</rt></ruby>は<ruby>開<rt>ひら</rt></ruby>いている<b><u>はずです</u></b>。",
+    "en": "It is a weekday, so the bank should be open."
+   },
+   {
+    "ja": "この<ruby>店<rt>みせ</rt></ruby>の<ruby>料理<rt>りょうり</rt></ruby>はおいしい<b><u>はずです</u></b>。",
+    "en": "The food at this restaurant should be delicious."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>はこの<ruby>町<rt>まち</rt></ruby>の<ruby>出身<rt>しゅっしん</rt></ruby>だから、<ruby>道<rt>みち</rt></ruby>に<ruby>詳<rt>くわ</rt></ruby>しい<b><u>はずです</u></b>。",
+    "en": "He is from this town, so he should know the streets well."
+   },
+   {
+    "ja": "<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>三<rt>さん</rt></ruby><ruby>時<rt>じ</rt></ruby>に<ruby>終<rt>お</rt></ruby>わる<b><u>はずです</u></b>。",
+    "en": "The meeting should finish at three."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-166"
+ },
+ {
+  "id": "grammar-167",
+  "pattern": "～はずがない",
+  "romaji": "",
+  "meaning": {
+   "en": "Cannot possibly be; there is no reason to expect"
+  },
+  "formation": "Plain verb / い-adjective + はずがない; N + のはずがない; な-adjective + なはずがない",
+  "explanation": "Strongly rejects a possibility because it conflicts with what the speaker knows or expects.",
+  "examples": [
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>がそんなうそをつく<b><u>はずがありません</u></b>。",
+    "en": "There is no way he would tell a lie like that."
+   },
+   {
+    "ja": "まだ<ruby>朝<rt>あさ</rt></ruby><ruby>六<rt>ろく</rt></ruby><ruby>時<rt>じ</rt></ruby>だから、<ruby>店<rt>みせ</rt></ruby>が<ruby>開<rt>ひら</rt></ruby>いている<b><u>はずがない</u></b>。",
+    "en": "It is only six in the morning, so the shop cannot possibly be open."
+   },
+   {
+    "ja": "<ruby>鍵<rt>かぎ</rt></ruby>は<ruby>私<rt>わたくし</rt></ruby>が<ruby>持<rt>も</rt></ruby>っているから、<ruby>誰<rt>だれ</rt></ruby>かが<ruby>入<rt>はい</rt></ruby>った<b><u>はずがない</u></b>。",
+    "en": "I have the key, so no one could have gone in."
+   },
+   {
+    "ja": "あんなに<ruby>練習<rt>れんしゅう</rt></ruby>した<ruby>彼<rt>かれ</rt></ruby>が、<ruby>試合<rt>しあい</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れる<b><u>はずがない</u></b>。",
+    "en": "After practising so much, he cannot possibly have forgotten the match."
+   },
+   {
+    "ja": "この<ruby>値段<rt>ねだん</rt></ruby>で<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>金<rt>かね</rt></ruby>が<ruby>買<rt>か</rt></ruby>える<b><u>はずがありません</u></b>。",
+    "en": "There is no way you can buy real gold at this price."
+   }
+  ],
+  "related": [
+   "rashii",
+   "nitigainai",
+   "niyoruto-soudesu",
+   "souni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-167"
+ },
+ {
+  "id": "zuni",
+  "pattern": "～ずに～",
+  "romaji": "zuni",
+  "meaning": {
+   "en": "Without doing"
+  },
+  "formation": "",
+  "explanation": "Describes doing an action without performing another. It is close to ないで and is common in written or slightly formal language.",
+  "examples": [
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby>は、<ruby>時計<rt>とけい</rt></ruby>をみると<ruby>何<rt>なん</rt></ruby>も<ruby>言<rt>い</rt></ruby>わずに<ruby>帰<rt>かえ</rt></ruby>ってしまった。",
+    "en": "My friend looked at the clock and left without saying anything."
+   },
+   {
+    "ja": "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>まずに<ruby>寝<rt>ね</rt></ruby>てはいけませんよ。",
+    "en": "You must not go to sleep without taking your medicine."
+   },
+   {
+    "ja": "この<ruby>部屋<rt>へや</rt></ruby>には、<ruby>靴<rt>くつ</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>がずにお<ruby>入<rt>はい</rt></ruby>りください。",
+    "en": "Please enter this room without taking off your shoes."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>朝<rt>あさ</rt></ruby>まで<ruby>寝<rt>ね</rt></ruby>ずに<ruby>仕事<rt>しごと</rt></ruby>をしていたから、<ruby>疲<rt>つか</rt></ruby>れてしまった。",
+    "en": "I worked without sleeping until morning yesterday, so I am exhausted."
+   },
+   {
+    "ja": "<ruby>全<rt>まった</rt></ruby>く<ruby>勉強<rt>べんきょう</rt></ruby>せずにテストを<ruby>受<rt>う</rt></ruby>けたら、0<ruby>点<rt>てん</rt></ruby>をとってしまった。",
+    "en": "I took the test without studying at all and got zero."
+   }
+  ],
+  "related": [
+   "zu",
+   "naide",
+   "naide-sumu",
+   "koto-nashi-ni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/zuni"
+ },
+ {
+  "id": "naide",
+  "pattern": "～ないで",
+  "romaji": "naide",
+  "meaning": {
+   "en": "Without doing"
+  },
+  "formation": "",
+  "explanation": "Indicates that one action is performed without another action being done. The second part supplies the main action or result.",
+  "examples": [
+   {
+    "ja": "<ruby>勉強<rt>べんきょう</rt></ruby>をし<b><u>ないで</u></b>テスト<ruby>受<rt>う</rt></ruby>けたら、やっぱり<ruby>失敗<rt>しっぱい</rt></ruby>した。",
+    "en": "I took the test without studying and, as expected, failed."
+   },
+   {
+    "ja": "お<ruby>金<rt>かね</rt></ruby>を<ruby>持<rt>も</rt></ruby>た<b><u>ないで</u></b><ruby>店<rt>みせ</rt></ruby>まで<ruby>来<rt>き</rt></ruby>てしまった。",
+    "en": "I came all the way to the shop without bringing any money."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>疲<rt>つか</rt></ruby>れていて、<ruby>電気<rt>でんき</rt></ruby>を<ruby>消<rt>け</rt></ruby>さ<b><u>ないで</u></b><ruby>寝<rt>ね</rt></ruby>てしまった。",
+    "en": "I was tired yesterday and fell asleep without turning off the light."
+   },
+   {
+    "ja": "<ruby>寝<rt>ね</rt></ruby><b><u>ないで</u></b><ruby>学校<rt>がっこう</rt></ruby>に<ruby>来<rt>き</rt></ruby>たから、<ruby>授業<rt>じゅぎょう</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>にちょっと<ruby>寝<rt>ね</rt></ruby>ちゃった。",
+    "en": "I came to school without sleeping, so I dozed off during class."
+   },
+   {
+    "ja": "このワインは<ruby>冷<rt>ひ</rt></ruby>やさ<b><u>ないで</u></b><ruby>飲<rt>の</rt></ruby>んでください。",
+    "en": "Please drink this wine without chilling it."
+   }
+  ],
+  "related": [
+   "zu",
+   "zuni",
+   "naide-sumu",
+   "koto-nashi-ni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/naide"
+ },
+ {
+  "id": "kadouka",
+  "pattern": "～かどうか",
+  "romaji": "kadouka",
+  "meaning": {
+   "en": "Whether or not"
+  },
+  "formation": "Plain verb / い-adjective + かどうか; N / な-adjective stem + かどうか",
+  "explanation": "Embeds a yes-or-no question inside a larger sentence, often with 分かる, 知る or 調べる. It asks whether a proposition is true.",
+  "examples": [
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>、<ruby>晴<rt>は</rt></ruby>れる<b><u>かどうか</u></b><ruby>知<rt>し</rt></ruby>ってますか。",
+    "en": "Do you know whether it will be sunny tomorrow?"
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>、スーパーが<ruby>開<rt>ひら</rt></ruby>いてる<b><u>かどうか</u></b><ruby>知<rt>し</rt></ruby>ってる？",
+    "en": "Do you know whether the supermarket is open today?"
+   },
+   {
+    "ja": "お<ruby>金持<rt>かねも</rt></ruby>ちになれる<b><u>かどうか</u></b>は<ruby>自分<rt>じぶん</rt></ruby>の<ruby>努力<rt>どりょく</rt></ruby>しだいです。",
+    "en": "Whether you can become wealthy depends on your own efforts."
+   },
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>できる<b><u>かどうか</u></b>まだわかりません。",
+    "en": "I still do not know whether I can study in Japan."
+   },
+   {
+    "ja": "<ruby>彼女<rt>かのじょ</rt></ruby>はパーティーに<ruby>来<rt>く</rt></ruby>る<b><u>かどうか</u></b>わからない。",
+    "en": "I do not know whether she will come to the party."
+   }
+  ],
+  "related": [
+   "to-iu-koto-da",
+   "toiu",
+   "grammar-253"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/kadouka"
+ },
+ {
+  "id": "toiu",
+  "pattern": "～という～",
+  "romaji": "toiu",
+  "meaning": {
+   "en": "Called; the fact or report that"
+  },
+  "formation": "N + という + N; plain clause + という + N",
+  "explanation": "Introduces a name or quotes the content that describes a following noun, such as a report, story or announcement.",
+  "examples": [
+   {
+    "ja": "「さくら」<b><u>という</u></b><ruby>店<rt>みせ</rt></ruby>で<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べました。",
+    "en": "I had lunch at a restaurant called Sakura."
+   },
+   {
+    "ja": "<ruby>田中<rt>たなか</rt></ruby>さん<b><u>という</u></b><ruby>人<rt>ひと</rt></ruby>から<ruby>電話<rt>でんわ</rt></ruby>がありました。",
+    "en": "There was a phone call from someone named Tanaka."
+   },
+   {
+    "ja": "これは「<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>」<b><u>という</u></b><ruby>日本<rt>にっぽん</rt></ruby>の<ruby>遊<rt>あそ</rt></ruby>びです。",
+    "en": "This is a Japanese pastime called origami."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みだ<b><u>という</u></b><ruby>知<rt>し</rt></ruby>らせを<ruby>聞<rt>き</rt></ruby>きました。",
+    "en": "I heard the announcement that tomorrow is a day off."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来月<rt>らいげつ</rt></ruby><ruby>結婚<rt>けっこん</rt></ruby>する<b><u>という</u></b><ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。",
+    "en": "I heard that he is getting married next month."
+   }
+  ],
+  "related": [
+   "to-iu-koto-da",
+   "kadouka",
+   "grammar-253"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/toiu"
+ },
+ {
+  "id": "yasui",
+  "pattern": "～やすい",
+  "romaji": "yasui",
+  "meaning": {
+   "en": "Easy to; prone to"
+  },
+  "formation": "",
+  "explanation": "Describes an action as easy to perform, or an event as likely to occur. The result conjugates like an い-adjective.",
+  "examples": [
+   {
+    "ja": "このペンはすごく<ruby>使<rt>つか</rt></ruby>い<b><u>やすい</u></b>から、<ruby>好<rt>す</rt></ruby>きです。",
+    "en": "I like this pen because it is very easy to use."
+   },
+   {
+    "ja": "<ruby>今<rt>いま</rt></ruby><ruby>使<rt>つか</rt></ruby>っているベッドは、とても<ruby>寝<rt>ね</rt></ruby><b><u>やすい</u></b>です。",
+    "en": "The bed I am using now is very comfortable to sleep in."
+   },
+   {
+    "ja": "もっと<ruby>歩<rt>ある</rt></ruby>き<b><u>やすい</u></b><ruby>靴<rt>くつ</rt></ruby>がほしいです。<ruby>今<rt>いま</rt></ruby>の<ruby>靴<rt>くつ</rt></ruby>はよくないですから。",
+    "en": "I want shoes that are easier to walk in. My current shoes are not good."
+   },
+   {
+    "ja": "<ruby>新<rt>あたら</rt></ruby>しいソファは、すごく<ruby>座<rt>すわ</rt></ruby>り<b><u>やすい</u></b>ですよ。",
+    "en": "The new sofa is very comfortable to sit on."
+   },
+   {
+    "ja": "<ruby>今<rt>いま</rt></ruby>の<ruby>時期<rt>じき</rt></ruby>はオフシーズンですから、ホテルが<ruby>予約<rt>よやく</rt></ruby>し<b><u>やすい</u></b>です。",
+    "en": "It is the off-season now, so hotels are easy to book."
+   },
+   {
+    "ja": "<ruby>夏<rt>なつ</rt></ruby>は<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>く なり<b><u>やすい</u></b>ので、<ruby>注意<rt>ちゅうい</rt></ruby>してください。",
+    "en": "Food spoils easily in summer, so please be careful."
+   }
+  ],
+  "related": [
+   "eru-enai",
+   "nikui",
+   "toutei"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/yasui"
+ },
+ {
+  "id": "nikui",
+  "pattern": "～にくい",
+  "romaji": "nikui",
+  "meaning": {
+   "en": "Difficult to; hard to"
+  },
+  "formation": "",
+  "explanation": "Describes practical or psychological difficulty in carrying out an action. It can refer to an awkward object, a physical condition or something hard to say.",
+  "examples": [
+   {
+    "ja": "この<ruby>箸<rt>はし</rt></ruby>は、ちょっと<ruby>使<rt>つか</rt></ruby>いにくい。",
+    "en": "These chopsticks are a little difficult to use."
+   },
+   {
+    "ja": "ちょっと<ruby>言<rt>い</rt></ruby>いにくいんだけど、<ruby>私<rt>わたくし</rt></ruby>はあの<ruby>人<rt>ひと</rt></ruby>が<ruby>好<rt>す</rt></ruby>きじゃないんだ。",
+    "en": "This is a little hard to say, but I do not like that person."
+   },
+   {
+    "ja": "<ruby>足<rt>あし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いから、<ruby>歩<rt>ある</rt></ruby>きにくい。",
+    "en": "My foot hurts, so it is difficult to walk."
+   },
+   {
+    "ja": "この<ruby>靴<rt>くつ</rt></ruby>はちょっと<ruby>歩<rt>ある</rt></ruby>きにくい。",
+    "en": "These shoes are a little difficult to walk in."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>のホテルのベッドはちょっと<b><u><ruby>寝<rt>ね</rt></ruby></u></b>にくかった。",
+    "en": "The bed at yesterday's hotel was a little uncomfortable to sleep in."
+   }
+  ],
+  "related": [
+   "eru-enai",
+   "yasui",
+   "toutei"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/nikui"
+ },
+ {
+  "id": "tearu",
+  "pattern": "～てある",
+  "romaji": "tearu",
+  "meaning": {
+   "en": "Have been deliberately done; be ready in a resulting state"
+  },
+  "formation": "",
+  "explanation": "Describes a state resulting from someone's intentional preparation. The focus is the prepared result rather than the person who acted.",
+  "examples": [
+   {
+    "ja": "<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むので、<ruby>部屋<rt>へや</rt></ruby>の<ruby>電気<rt>でんき</rt></ruby>をつけてある。",
+    "en": "I have left the room light on because I am going to read."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>クラスでディスカッションするための<ruby>本<rt>ほん</rt></ruby>は、もう<ruby>読<rt>よ</rt></ruby>んである。",
+    "en": "I have already read the book we will discuss in class tomorrow."
+   },
+   {
+    "ja": "<ruby>料理<rt>りょうり</rt></ruby>が<ruby>作<rt>つく</rt></ruby>ってあるから、<ruby>今日<rt>きょう</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>で<ruby>食<rt>た</rt></ruby>べる。",
+    "en": "The food has been prepared, so I will eat at home today."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>のテストでは、<ruby>勉強<rt>べんきょう</rt></ruby>してあったところから<ruby>問題<rt>もんだい</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。",
+    "en": "Today's test included questions on the material I had studied in advance."
+   },
+   {
+    "ja": "ビールが<ruby>買<rt>か</rt></ruby>ってあるから、<ruby>友<rt>とも</rt></ruby>だちが<ruby>急<rt>きゅう</rt></ruby>に<ruby>家<rt>いえ</rt></ruby>に<ruby>来<rt>き</rt></ruby>ても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ。",
+    "en": "I have bought beer in advance, so it is fine if friends drop by unexpectedly."
+   }
+  ],
+  "related": [
+   "teoku",
+   "temiru",
+   "teshimau",
+   "teiru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tearu"
+ },
+ {
+  "id": "grammar-175",
+  "pattern": "あいだに、～",
+  "romaji": "",
+  "meaning": {
+   "en": "During; while; at some point within"
+  },
+  "formation": "N + のあいだに; Vている + あいだに; い-adjective + あいだに; な-adjective + なあいだに",
+  "explanation": "Places an event within the time span of another situation. あいだに often describes something occurring at a point within that period.",
+  "examples": [
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>が<ruby>留守<rt>るす</rt></ruby>の<b><u>あいだに</u></b>、<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>届<rt>とど</rt></ruby>きました。",
+    "en": "The parcel arrived while I was away."
+   },
+   {
+    "ja": "<ruby>電車<rt>でんしゃ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>っている<b><u>あいだに</u></b>、メールを<ruby>送<rt>おく</rt></ruby>りました。",
+    "en": "I sent an email while waiting for the train."
+   },
+   {
+    "ja": "<ruby>子<rt>こ</rt></ruby>どもが<ruby>寝<rt>ね</rt></ruby>ている<b><u>あいだに</u></b>、<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります。",
+    "en": "I will make dinner while my child is asleep."
+   },
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>にいる<b><u>あいだに</u></b>、<ruby>京都<rt>きょうと</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きたいです。",
+    "en": "I want to visit Kyoto while I am in Japan."
+   },
+   {
+    "ja": "<ruby>授業<rt>じゅぎょう</rt></ruby>の<b><u>あいだに</u></b>、<ruby>雨<rt>あめ</rt></ruby>がやみました。",
+    "en": "The rain stopped during class."
+   }
+  ],
+  "related": [
+   "tui",
+   "tutu",
+   "nagara",
+   "saichuu-ni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-175"
+ },
+ {
+  "id": "grammar-176",
+  "pattern": "～く/ ～にする",
+  "romaji": "",
+  "meaning": {
+   "en": "Make something a particular way"
+  },
+  "formation": "い-adjective stem + くする; な-adjective stem + にする; N + にする",
+  "explanation": "Expresses intentionally changing something into a chosen state, such as making a room brighter or a sound quieter. With a noun it can also express selecting an option.",
+  "examples": [
+   {
+    "ja": "<ruby>部屋<rt>へや</rt></ruby>を<ruby>明<rt>あか</rt></ruby>る<b><u>くしました</u></b>。",
+    "en": "I made the room brighter."
+   },
+   {
+    "ja": "テレビの<ruby>音<rt>おと</rt></ruby>を<ruby>小<rt>ちい</rt></ruby>さ<b><u>くしてください</u></b>。",
+    "en": "Please turn the television volume down."
+   },
+   {
+    "ja": "この<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>大<rt>おお</rt></ruby>き<b><u>くします</u></b>。",
+    "en": "I will make this photo larger."
+   },
+   {
+    "ja": "<ruby>会議室<rt>かいぎしつ</rt></ruby>を<ruby>静<rt>しず</rt></ruby>か<b><u>にしてください</u></b>。",
+    "en": "Please make the meeting room quiet."
+   },
+   {
+    "ja": "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>はカレー<b><u>にします</u></b>。",
+    "en": "I will have curry for lunch."
+   }
+  ],
+  "related": [
+   "grammar-193",
+   "grammar-194",
+   "youninaru",
+   "ninaru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-176"
+ },
+ {
+  "id": "grammar-177",
+  "pattern": "てほしい、～",
+  "romaji": "",
+  "meaning": {
+   "en": "Want someone to do; want someone not to do"
+  },
+  "formation": "Person に + Vてほしい; Person に + Vないでほしい",
+  "explanation": "Expresses the speaker's wish about another person's action. The person hoped to perform the action is usually marked with に.",
+  "examples": [
+   {
+    "ja": "もう<ruby>少<rt>すこ</rt></ruby>しゆっくり<ruby>話<rt>はな</rt></ruby>し<b><u>てほしいです</u></b>。",
+    "en": "I would like you to speak a little more slowly."
+   },
+   {
+    "ja": "<ruby>子<rt>こ</rt></ruby>どもには<ruby>毎日<rt>まいにち</rt></ruby><ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べ<b><u>てほしいです</u></b>。",
+    "en": "I want my child to eat breakfast every day."
+   },
+   {
+    "ja": "ここでたばこを<ruby>吸<rt>す</rt></ruby>わ<b><u>ないでほしいです</u></b>。",
+    "en": "I would like you not to smoke here."
+   },
+   {
+    "ja": "<ruby>困<rt>こま</rt></ruby>ったときは、<ruby>私<rt>わたくし</rt></ruby>に<ruby>相談<rt>そうだん</rt></ruby>し<b><u>てほしいです</u></b>。",
+    "en": "I would like you to talk to me when you have a problem."
+   },
+   {
+    "ja": "<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れ<b><u>ないでほしいです</u></b>。",
+    "en": "I would like you not to forget your promise."
+   }
+  ],
+  "related": [
+   "tagaru",
+   "gahoshi",
+   "tai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-177"
+ },
+ {
+  "id": "grammar-178",
+  "pattern": "～たところ",
+  "romaji": "",
+  "meaning": {
+   "en": "When I did; on doing; having just done"
+  },
+  "formation": "Vた + ところ、result; Vた + ところだ",
+  "explanation": "In たところ、the speaker reports a discovery or outcome after trying an action. In たところだ, the expression marks the point immediately after completion.",
+  "examples": [
+   {
+    "ja": "<ruby>店<rt>みせ</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>した<b><u>ところ</u></b>、<ruby>今日<rt>きょう</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みだと<ruby>言<rt>い</rt></ruby>われました。",
+    "en": "When I called the shop, I was told it was closed today."
+   },
+   {
+    "ja": "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いた<b><u>ところ</u></b>、<ruby>試験<rt>しけん</rt></ruby>は<ruby>来週<rt>らいしゅう</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かりました。",
+    "en": "When I asked the teacher, I learned that the exam was next week."
+   },
+   {
+    "ja": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けた<b><u>ところ</u></b>、<ruby>涼<rt>すず</rt></ruby>しい<ruby>風<rt>かぜ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>ってきました。",
+    "en": "When I opened the window, a cool breeze came in."
+   },
+   {
+    "ja": "<ruby>今<rt>いま</rt></ruby>、<ruby>宿題<rt>しゅくだい</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<b><u>ところです</u></b>。",
+    "en": "I have just finished my homework."
+   },
+   {
+    "ja": "<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いた<b><u>ところで</u></b>、<ruby>友達<rt>ともだち</rt></ruby>から<ruby>電話<rt>でんわ</rt></ruby>がありました。",
+    "en": "Just as I arrived at the station, my friend called."
+   }
+  ],
+  "related": [
+   "tate",
+   "grammar-182",
+   "tabakari",
+   "maeni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-178"
+ },
+ {
+  "id": "kotonisuru",
+  "pattern": "～ことにする",
+  "romaji": "kotonisuru",
+  "meaning": {
+   "en": "Decide to; decide not to"
+  },
+  "formation": "",
+  "explanation": "Expresses a decision made by the subject. ことにした reports a decision already made, and ことにしている can describe a self-imposed continuing practice.",
+  "examples": [
+   {
+    "ja": "<ruby>毎朝<rt>まいあさ</rt></ruby>ヨガをする<b><u>ことにしました</u></b>。",
+    "en": "I have decided to do yoga every morning."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>朝<rt>あさ</rt></ruby><ruby>起<rt>お</rt></ruby>きられないので、<ruby>夜<rt>よる</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>る<b><u>ことにしました</u></b>。",
+    "en": "Recently, I have been unable to get up in the morning, so I decided to go to bed early."
+   },
+   {
+    "ja": "<ruby>健康<rt>けんこう</rt></ruby>のために、<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>に<ruby>来<rt>く</rt></ruby>る<b><u>ことにしました</u></b>。",
+    "en": "For my health, I decided to cycle to school."
+   },
+   {
+    "ja": "うちの<ruby>会社<rt>かいしゃ</rt></ruby>は、<ruby>新<rt>あたら</rt></ruby>しいアルバイトを100<ruby>人<rt>にん</rt></ruby><ruby>採用<rt>さいよう</rt></ruby>する<b><u>ことにしました</u></b>。",
+    "en": "Our company has decided to hire a hundred new part-time workers."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>国<rt>くに</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>らないで、<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>残<rt>のこ</rt></ruby>る<b><u>ことにしました</u></b>。",
+    "en": "I decided to stay in Japan instead of returning to my country."
+   }
+  ],
+  "related": [
+   "kotoninaru",
+   "kotoninatteiru",
+   "youtoomou",
+   "tsumori"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/kotonisuru"
+ },
+ {
+  "id": "toorini",
+  "pattern": "～とおりに",
+  "romaji": "toorini",
+  "meaning": {
+   "en": "As; exactly as instructed or shown"
+  },
+  "formation": "V dictionary form / Vた + とおりに; N + のとおりに; some N + どおりに",
+  "explanation": "Means following a model, instruction, description or expectation without departing from it.",
+  "examples": [
+   {
+    "ja": "じゃあ、<ruby>先生<rt>せんせい</rt></ruby>が<ruby>書<rt>か</rt></ruby>くとおりに、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>漢字<rt>かんじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。",
+    "en": "Now, please write the kanji together with me exactly as I write them."
+   },
+   {
+    "ja": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>言<rt>い</rt></ruby>うとおりに<ruby>勉強<rt>べんきょう</rt></ruby>したら、よくわかりました。",
+    "en": "When I studied as my friend suggested, I understood it well."
+   },
+   {
+    "ja": "この<ruby>地図<rt>ちず</rt></ruby>のとおりに<ruby>行<rt>い</rt></ruby>けば、すぐに<ruby>着<rt>つ</rt></ruby>きますよ。",
+    "en": "If you follow this map, you will arrive soon."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>が<ruby>言<rt>い</rt></ruby>うとおりに<ruby>練習<rt>れんしゅう</rt></ruby>しなさい。すぐにテニスが<ruby>上手<rt>じょうず</rt></ruby>になるよ。",
+    "en": "Practise as I tell you. You will soon get good at tennis."
+   },
+   {
+    "ja": "ゲームで<ruby>町<rt>まち</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>言<rt>い</rt></ruby>うとおりに<ruby>進<rt>すす</rt></ruby>んだけど、ボスのモンスターはどこにもいなかった。",
+    "en": "I followed the townspeople's instructions in the game, but the boss monster was nowhere to be found."
+   }
+  ],
+  "related": [
+   "ni-sotte",
+   "wo-moto-ni-shite",
+   "ni-sokushite"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/toorini"
+ },
+ {
+  "id": "grammar-182",
+  "pattern": "～ところに/ところへ",
+  "romaji": "",
+  "meaning": {
+   "en": "Just as; at the moment when"
+  },
+  "formation": "",
+  "explanation": "Introduces an arrival or event that occurs at a particular stage of another action. The verb form indicates whether the action is about to begin, in progress or just completed.",
+  "examples": [
+   {
+    "ja": "<ruby>出<rt>で</rt></ruby>かけようとしている<b><u>ところに</u></b>、<ruby>電話<rt>でんわ</rt></ruby>がかかってきました。",
+    "en": "Just as I was about to go out, the phone rang."
+   },
+   {
+    "ja": "<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べている<b><u>ところへ</u></b>、<ruby>友達<rt>ともだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>ました。",
+    "en": "My friend arrived while I was eating dinner."
+   },
+   {
+    "ja": "<ruby>宿題<rt>しゅくだい</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<b><u>ところに</u></b>、<ruby>母<rt>はは</rt></ruby>が<ruby>帰<rt>かえ</rt></ruby>ってきました。",
+    "en": "My mother came home just as I finished my homework."
+   },
+   {
+    "ja": "バスを<ruby>待<rt>ま</rt></ruby>っている<b><u>ところへ</u></b>、<ruby>田中<rt>たなか</rt></ruby>さんが<ruby>来<rt>き</rt></ruby>ました。",
+    "en": "Mr. Tanaka arrived while I was waiting for the bus."
+   },
+   {
+    "ja": "<ruby>困<rt>こま</rt></ruby>っている<b><u>ところに</u></b>、<ruby>先輩<rt>せんぱい</rt></ruby>が<ruby>助<rt>たす</rt></ruby>けに<ruby>来<rt>き</rt></ruby>てくれました。",
+    "en": "Just when I was in trouble, a senior colleague came to help."
+   }
+  ],
+  "related": [
+   "tate",
+   "grammar-178",
+   "tabakari",
+   "maeni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-182"
+ },
+ {
+  "id": "mono",
+  "pattern": "～もの",
+  "romaji": "mono",
+  "meaning": {
+   "en": "Because; after all; an explanatory reason"
+  },
+  "formation": "Plain verb / い-adjective + もの; N / な-adjective + だもの; explanatory form + んだもの",
+  "explanation": "Gives a personal reason or justification, often with an emotional or conversational tone. It commonly occurs at the end of a sentence.",
+  "examples": [
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>出<rt>で</rt></ruby>かけたくない。<ruby>疲<rt>つか</rt></ruby>れている<b><u>んだもの</u></b>。",
+    "en": "I do not want to go out today. I am tired, after all."
+   },
+   {
+    "ja": "<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていくよ。<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りそう<b><u>だもの</u></b>。",
+    "en": "I will take an umbrella. It looks like rain, after all."
+   },
+   {
+    "ja": "この<ruby>服<rt>ふく</rt></ruby>は<ruby>買<rt>か</rt></ruby>わない。<ruby>高<rt>たか</rt></ruby>すぎる<b><u>んだもの</u></b>。",
+    "en": "I will not buy these clothes. They are too expensive, after all."
+   },
+   {
+    "ja": "もう<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>やす</rt></ruby>ませて。<ruby>昨日<rt>きのう</rt></ruby>はよく<ruby>眠<rt>ねむ</rt></ruby>れなかった<b><u>んだもの</u></b>。",
+    "en": "Let me rest a little longer. I did not sleep well last night, after all."
+   },
+   {
+    "ja": "<ruby>彼<rt>かれ</rt></ruby>を<ruby>手伝<rt>てつだ</rt></ruby>いたい。<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>友達<rt>ともだち</rt></ruby>な<b><u>んだもの</u></b>。",
+    "en": "I want to help him. He is an important friend, after all."
+   }
+  ],
+  "related": [
+   "grammar-184",
+   "mononara",
+   "tameni",
+   "undesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/mono"
+ },
+ {
+  "id": "grammar-184",
+  "pattern": "～ものか",
+  "romaji": "",
+  "meaning": {
+   "en": "No way; I certainly will not"
+  },
+  "formation": "Plain verb / い-adjective + ものか; N / な-adjective + なものか",
+  "explanation": "A rhetorical question expressing strong denial, refusal or disbelief. It means the speaker emphatically rejects the proposition rather than genuinely asking for information.",
+  "examples": [
+   {
+    "ja": "そんなうそを<ruby>信<rt>しん</rt></ruby>じる<b><u>ものか</u></b>。",
+    "en": "There is no way I will believe that lie."
+   },
+   {
+    "ja": "あの<ruby>店<rt>みせ</rt></ruby>には<ruby>二度<rt>にど</rt></ruby>と<ruby>行<rt>い</rt></ruby>く<b><u>ものか</u></b>。",
+    "en": "I will never go to that shop again."
+   },
+   {
+    "ja": "こんなことで<ruby>負<rt>ま</rt></ruby>ける<b><u>ものか</u></b>。",
+    "en": "I will not let something like this defeat me."
+   },
+   {
+    "ja": "<ruby>一日<rt>いちにち</rt></ruby>で<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>終<rt>お</rt></ruby>わる<b><u>ものか</u></b>。",
+    "en": "As if all of it could be finished in a single day."
+   },
+   {
+    "ja": "<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>約束<rt>やくそく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れる<b><u>ものか</u></b>。",
+    "en": "There is no way I would forget an important promise."
+   }
+  ],
+  "related": [
+   "mono",
+   "mononara",
+   "tameni",
+   "undesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-184"
+ },
+ {
+  "id": "mononara",
+  "pattern": "～ものなら",
+  "romaji": "mononara",
+  "meaning": {
+   "en": "If it were possible; if one were to dare"
+  },
+  "formation": "Potential verb + ものなら; V volitional form + ものなら",
+  "explanation": "With a potential form, expresses a difficult or unlikely wish or challenges someone to do something. With a volitional form, warns of a serious consequence if the action occurs.",
+  "examples": [
+   {
+    "ja": "できる<b><u>ものなら</u></b>、もう<ruby>一度<rt>いちど</rt></ruby><ruby>学生時代<rt>がくせいじだい</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>りたい。",
+    "en": "If it were possible, I would like to return to my student days."
+   },
+   {
+    "ja": "<ruby>会<rt>あ</rt></ruby>える<b><u>ものなら</u></b>、<ruby>亡<rt>な</rt></ruby>くなった<ruby>祖母<rt>そぼ</rt></ruby>にもう<ruby>一度<rt>いちど</rt></ruby><ruby>会<rt>あ</rt></ruby>いたい。",
+    "en": "If only I could, I would like to see my late grandmother again."
+   },
+   {
+    "ja": "<ruby>一人<rt>ひとり</rt></ruby>でできる<b><u>ものなら</u></b>、<ruby>自分<rt>じぶん</rt></ruby>でやってみてください。",
+    "en": "If you really can do it alone, please try it yourself."
+   },
+   {
+    "ja": "こんな<ruby>時間<rt>じかん</rt></ruby>に<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>よう<b><u>ものなら</u></b>、<ruby>両親<rt>りょうしん</rt></ruby>に<ruby>叱<rt>しか</rt></ruby>られる。",
+    "en": "If I were to go out at this hour, my parents would scold me."
+   },
+   {
+    "ja": "<ruby>締<rt>し</rt></ruby>め<ruby>切<rt>き</rt></ruby>りに<ruby>遅<rt>おく</rt></ruby>れよう<b><u>ものなら</u></b>、<ruby>大変<rt>たいへん</rt></ruby>なことになる。",
+    "en": "If we were to miss the deadline, there would be serious trouble."
+   }
+  ],
+  "related": [
+   "mono",
+   "grammar-184",
+   "tameni",
+   "undesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/mononara"
+ },
+ {
+  "id": "tameni",
+  "pattern": "～ために",
+  "romaji": "tameni",
+  "meaning": {
+   "en": "In order to; for the sake of; because of"
+  },
+  "formation": "V dictionary form + ために; N + のために; plain clause + ために for cause",
+  "explanation": "Expresses a purpose or a cause. In the purpose meaning, the planned action serves a goal; in the cause meaning, an event brings about a result.",
+  "examples": [
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>留学<rt>りゅうがく</rt></ruby>するために、お<ruby>金<rt>かね</rt></ruby>を<ruby>貯<rt>た</rt></ruby>めています。",
+    "en": "I am saving money to study in Japan."
+   },
+   {
+    "ja": "このフラッシュカードは、<ruby>単語<rt>たんご</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えるために<ruby>作<rt>つく</rt></ruby>りました。",
+    "en": "I made these flashcards to memorize vocabulary."
+   },
+   {
+    "ja": "<ruby>今夜<rt>こんや</rt></ruby>のパーティーに<ruby>行<rt>い</rt></ruby>くために、<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わらせるつもりです。",
+    "en": "I plan to finish my homework early so I can go to tonight's party."
+   },
+   {
+    "ja": "<ruby>週末<rt>しゅうまつ</rt></ruby>は、<ruby>彼女<rt>かのじょ</rt></ruby>に<ruby>会<rt>あ</rt></ruby>うために、<ruby>京都<rt>きょうと</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。",
+    "en": "I am going to Kyoto this weekend to see my girlfriend."
+   }
+  ],
+  "related": [
+   "mono",
+   "grammar-184",
+   "mononara",
+   "undesu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tameni"
+ },
+ {
+  "id": "grammar-189",
+  "pattern": "～場合に",
+  "romaji": "",
+  "meaning": {
+   "en": "In the case that; in the event of"
+  },
+  "formation": "Plain verb / い-adjective + 場合に; N + の場合に; な-adjective + な場合に",
+  "explanation": "Describes what should happen or applies in a particular circumstance. It is common in instructions, procedures and contingency plans.",
+  "examples": [
+   {
+    "ja": "<ruby>地震<rt>じしん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた<b><u><ruby>場合<rt>ばあい</rt></ruby>は</u></b>、エレベーターを<ruby>使<rt>つか</rt></ruby>わないでください。",
+    "en": "In the event of an earthquake, please do not use the elevator."
+   },
+   {
+    "ja": "<ruby>遅<rt>おく</rt></ruby>れる<b><u><ruby>場合<rt>ばあい</rt></ruby>は</u></b>、<ruby>先<rt>さき</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>してください。",
+    "en": "If you are going to be late, please contact us first."
+   },
+   {
+    "ja": "<ruby>雨<rt>あめ</rt></ruby>の<b><u><ruby>場合<rt>ばあい</rt></ruby>は</u></b>、<ruby>試合<rt>しあい</rt></ruby>を<ruby>中止<rt>ちゅうし</rt></ruby>します。",
+    "en": "In case of rain, we will cancel the match."
+   },
+   {
+    "ja": "<ruby>操作<rt>そうさ</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からない<b><u><ruby>場合<rt>ばあい</rt></ruby>は</u></b>、<ruby>係員<rt>かかりいん</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いてください。",
+    "en": "If you do not know how to operate it, please ask a staff member."
+   },
+   {
+    "ja": "<ruby>住所<rt>じゅうしょ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わった<b><u><ruby>場合<rt>ばあい</rt></ruby>は</u></b>、この<ruby>用紙<rt>ようし</rt></ruby>に<ruby>記入<rt>きにゅう</rt></ruby>してください。",
+    "en": "If your address has changed, please fill in this form."
+   }
+  ],
+  "related": [
+   "tositara",
+   "to",
+   "tara",
+   "nara"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-189"
+ },
+ {
+  "id": "tahougaii",
+  "pattern": "～たほうがいい／ないほうがいい",
+  "romaji": "tahougaii",
+  "meaning": {
+   "en": "Had better; should; should not"
+  },
+  "formation": "Vた + ほうがいい; Vない + ほうがいい",
+  "explanation": "Gives advice or recommends avoiding an action. The past form in the positive advice does not mean that the action must already have happened.",
+  "examples": [
+   {
+    "ja": "<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>単語<rt>たんご</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>え<b><u>たほうがいい</u></b>よ。",
+    "en": "You should learn a little vocabulary every day."
+   },
+   {
+    "ja": "<ruby>君<rt>きみ</rt></ruby>はもっと<ruby>勉強<rt>べんきょう</rt></ruby>し<b><u>たほうがいい</u></b>よ。",
+    "en": "You should study more."
+   },
+   {
+    "ja": "<ruby>熱<rt>ねつ</rt></ruby>があるから、<ruby>今日<rt>きょう</rt></ruby>はゆっくり<ruby>休<rt>やす</rt></ruby>ん<b><u>だほうがいい</u></b>よ。",
+    "en": "You have a fever, so you should rest properly today."
+   },
+   {
+    "ja": "<ruby>習<rt>なら</rt></ruby>ったことは、その<ruby>日<rt>ひ</rt></ruby>のうちに<ruby>復習<rt>ふくしゅう</rt></ruby>し<b><u>たほうがいい</u></b>よ。",
+    "en": "You should review what you learn on the same day."
+   },
+   {
+    "ja": "<ruby>寝<rt>ね</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にスマホを<ruby>使<rt>つか</rt></ruby>わ<b><u>ないほうがいい</u></b>そうですよ。",
+    "en": "I hear it is better not to use a smartphone before bed."
+   },
+   {
+    "ja": "<ruby>毎日<rt>まいにち</rt></ruby>、もっと<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>ん<b><u>だほうがいい</u></b>ですよ。",
+    "en": "You should drink more water every day."
+   }
+  ],
+  "related": [
+   "nakutemoiidesu",
+   "nakerebanarimasen",
+   "naitoikenai",
+   "nakutyaikenai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tahougaii"
+ },
+ {
+  "id": "undesu",
+  "pattern": "～のです、んです",
+  "romaji": "undesu",
+  "meaning": {
+   "en": "You see; the explanation is that"
+  },
+  "formation": "Plain verb / い-adjective + のです / んです; N / な-adjective + なのです / なんです",
+  "explanation": "Adds an explanation connected to a situation already understood or observed. Questions with のですか or んですか ask for an explanation rather than a bare fact.",
+  "examples": [
+   {
+    "ja": "これから<ruby>子供<rt>こども</rt></ruby>を<ruby>保育園<rt>ほいくえん</rt></ruby>に<ruby>迎<rt>むか</rt></ruby>えに <ruby>行<rt>い</rt></ruby>かなければならない<b><u>んです</u></b> 。お<ruby>先<rt>さき</rt></ruby>に<ruby>失礼<rt>しつれい</rt></ruby>します。",
+    "en": "I have to go and pick up my child from nursery now. Excuse me for leaving first."
+   },
+   {
+    "ja": "すいません。<ruby>渋滞<rt>じゅうたい</rt></ruby>して<b><u>たんで</u></b><ruby>遅刻<rt>ちこく</rt></ruby>してしまいました。",
+    "en": "Sorry, I was late because there was a traffic jam."
+   },
+   {
+    "ja": "<ruby>満員<rt>まんいん</rt></ruby><ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>嫌<rt>きら</rt></ruby>いですが、<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くためには<ruby>毎日<rt>まいにち</rt></ruby><ruby>乗<rt>の</rt></ruby>らないといけない<b><u>のです</u></b>。",
+    "en": "I dislike crowded trains, but I have to take one every day to get to work."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby><ruby>行<rt>い</rt></ruby><b><u>くんです</u></b>。",
+    "en": "I am going tomorrow, you see."
+   },
+   {
+    "ja": "あなたは<ruby>全<rt>まった</rt></ruby>く<ruby>分<rt>わ</rt></ruby>かっていない<b><u>んです</u></b>ね。",
+    "en": "You really do not understand at all, do you?"
+   }
+  ],
+  "related": [
+   "mono",
+   "grammar-184",
+   "mononara",
+   "tameni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/undesu"
+ },
+ {
+  "id": "grammar-192",
+  "pattern": "～すぎる（すぎます）",
+  "romaji": "",
+  "meaning": {
+   "en": "Too much; excessively"
+  },
+  "formation": "Vます stem + すぎる; い-adjective stem + すぎる; な-adjective stem + すぎる",
+  "explanation": "Indicates that an action or quality exceeds a suitable level. Conjugate すぎる like a group 2 verb for tense and politeness.",
+  "examples": [
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>は<ruby>食<rt>た</rt></ruby>べ<b><u>すぎました</u></b>。",
+    "en": "I ate too much yesterday."
+   },
+   {
+    "ja": "このかばんは<ruby>重<rt>おも</rt></ruby><b><u>すぎます</u></b>。",
+    "en": "This bag is too heavy."
+   },
+   {
+    "ja": "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>簡単<rt>かんたん</rt></ruby><b><u>すぎます</u></b>。",
+    "en": "This question is too easy."
+   },
+   {
+    "ja": "<ruby>映画<rt>えいが</rt></ruby>が<ruby>面白<rt>おもしろ</rt></ruby>くて、<ruby>夜更<rt>よふ</rt></ruby>かしし<b><u>すぎました</u></b>。",
+    "en": "The film was interesting, so I stayed up far too late."
+   },
+   {
+    "ja": "エアコンが<ruby>強<rt>つよ</rt></ruby><b><u>すぎる</u></b>ので、<ruby>少<rt>すこ</rt></ruby>し<ruby>弱<rt>よわ</rt></ruby>くしてください。",
+    "en": "The air conditioning is too strong, so please turn it down a little."
+   }
+  ],
+  "related": [
+   "ba-hodo",
+   "hodo",
+   "seizei"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-192"
+ },
+ {
+  "id": "grammar-193",
+  "pattern": "～V可能形ようになる",
+  "romaji": "",
+  "meaning": {
+   "en": "Become able to do"
+  },
+  "formation": "",
+  "explanation": "Describes acquiring an ability or reaching circumstances in which an action becomes possible.",
+  "examples": [
+   {
+    "ja": "ひらがなが<b><u><ruby>読<rt>よ</rt></ruby>めるようになりました</u></b>。",
+    "en": "I have become able to read hiragana."
+   },
+   {
+    "ja": "<ruby>練習<rt>れんしゅう</rt></ruby>して、<ruby>一人<rt>ひとり</rt></ruby>で<b><u><ruby>泳<rt>およ</rt></ruby>げるようになりました</u></b>。",
+    "en": "After practising, I became able to swim on my own."
+   },
+   {
+    "ja": "<ruby>弟<rt>おとうと</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>で<ruby>服<rt>ふく</rt></ruby>を<b><u><ruby>着<rt>き</rt></ruby>られるようになりました</u></b>。",
+    "en": "My younger brother has become able to dress himself."
+   },
+   {
+    "ja": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>道<rt>みち</rt></ruby>ができて、<ruby>駅<rt>えき</rt></ruby>まで<ruby>早<rt>はや</rt></ruby>く<b><u><ruby>行<rt>い</rt></ruby>けるようになりました</u></b>。",
+    "en": "A new road opened, so we can now get to the station more quickly."
+   },
+   {
+    "ja": "<ruby>日本語<rt>にほんご</rt></ruby>で<ruby>簡単<rt>かんたん</rt></ruby>なメールが<b><u><ruby>書<rt>か</rt></ruby>けるようになりました</u></b>。",
+    "en": "I have become able to write simple emails in Japanese."
+   }
+  ],
+  "related": [
+   "grammar-176",
+   "grammar-194",
+   "youninaru",
+   "ninaru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-193"
+ },
+ {
+  "id": "grammar-194",
+  "pattern": "～Ｖるようになる",
+  "romaji": "",
+  "meaning": {
+   "en": "Begin to do regularly; come to do"
+  },
+  "formation": "V dictionary form + ようになる; Vない + ようになる",
+  "explanation": "Describes a change in behavior or a developing tendency. The positive form means starting to do something, and the negative form can mean coming not to do it.",
+  "examples": [
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>する<b><u>ようになりました</u></b>。",
+    "en": "Recently, I have started exercising every morning."
+   },
+   {
+    "ja": "<ruby>大学<rt>だいがく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってから、<ruby>本<rt>ほん</rt></ruby>をよく<ruby>読<rt>よ</rt></ruby>む<b><u>ようになりました</u></b>。",
+    "en": "Since entering university, I have come to read books often."
+   },
+   {
+    "ja": "<ruby>健康<rt>けんこう</rt></ruby>のために、<ruby>野菜<rt>やさい</rt></ruby>をたくさん<ruby>食<rt>た</rt></ruby>べる<b><u>ようになりました</u></b>。",
+    "en": "For my health, I have started eating plenty of vegetables."
+   },
+   {
+    "ja": "<ruby>日本<rt>にっぽん</rt></ruby>に<ruby>来<rt>き</rt></ruby>てから、<ruby>電車<rt>でんしゃ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<b><u>ようになりました</u></b>。",
+    "en": "Since coming to Japan, I have started using trains regularly."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>は<ruby>夜<rt>よる</rt></ruby><ruby>遅<rt>おそ</rt></ruby>くまで<ruby>起<rt>お</rt></ruby>きていない<b><u>ようになりました</u></b>。",
+    "en": "Recently, I have stopped staying up late at night."
+   }
+  ],
+  "related": [
+   "grammar-176",
+   "grammar-193",
+   "youninaru",
+   "ninaru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/grammar-194"
+ },
+ {
+  "id": "naiyounisuru",
+  "pattern": "～ないようにする",
+  "romaji": "nai you ni suru",
+  "meaning": {
+   "en": "Make an effort not to; so that"
+  },
+  "formation": "Vない + ようにする; V dictionary form / Vない + ように; Vます + ように for wishes",
+  "explanation": "ないようにする means taking care to avoid an action. Related ように clauses express a purpose or desired state, and ますように can express a wish.",
+  "examples": [
+   {
+    "ja": "<ruby>皆<rt>みな</rt></ruby>さまに<ruby>楽<rt>たの</rt></ruby>しんでいただける<b><u>ように</u></b><ruby>頑張<rt>がんば</rt></ruby>ります。",
+    "en": "I will do my best so that everyone can enjoy themselves."
+   },
+   {
+    "ja": "<ruby>寝坊<rt>ねぼう</rt></ruby>しない<b><u>ように</u></b><ruby>早<rt>はや</rt></ruby>めにおやすみなさい。",
+    "en": "Go to bed early so that you do not oversleep."
+   },
+   {
+    "ja": "この<ruby>服<rt>ふく</rt></ruby>が<ruby>似合<rt>にあ</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>になれる<b><u>よう</u></b><ruby>痩<rt>や</rt></ruby>せなきゃ。",
+    "en": "I need to lose weight so that these clothes will suit me."
+   },
+   {
+    "ja": "<ruby>体調<rt>たいちょう</rt></ruby>を<ruby>崩<rt>くず</rt></ruby>さない<b><u>ように</u></b><ruby>皆<rt>みな</rt></ruby>さん<ruby>気<rt>き</rt></ruby>をつけて<ruby>下<rt>くだ</rt></ruby>さい。",
+    "en": "Everyone, please take care not to get ill."
+   },
+   {
+    "ja": "ちょっとした<ruby>不注意<rt>ふちゅうい</rt></ruby>で<ruby>怪我<rt>けが</rt></ruby>しない<b><u>ように</u></b>してください。",
+    "en": "Please take care not to injure yourself through a moment of carelessness."
+   },
+   {
+    "ja": "お<ruby>腹<rt>なか</rt></ruby><ruby>冷<rt>ひ</rt></ruby>えない<b><u>ように</u></b><ruby>気<rt>き</rt></ruby>をつけてください。",
+    "en": "Please take care not to let your stomach get cold."
+   },
+   {
+    "ja": "みんなに<ruby>聞<rt>き</rt></ruby>こえる<b><u>ように</u></b><ruby>大<rt>おお</rt></ruby>きい<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>してください。",
+    "en": "Please speak loudly so that everyone can hear."
+   },
+   {
+    "ja": "<ruby>可愛<rt>かわい</rt></ruby>くなれる<b><u>ように</u></b><ruby>努力<rt>どりょく</rt></ruby>する。",
+    "en": "I will work hard to become more attractive."
+   },
+   {
+    "ja": "<ruby>皆<rt>みな</rt></ruby><ruby>様<rt>さま</rt></ruby>の<ruby>支<rt>ささ</rt></ruby>えに<ruby>少<rt>すこ</rt></ruby>しでもなれる<b><u>よう</u></b><ruby>頑張<rt>がんば</rt></ruby>ります。",
+    "en": "I will do my best to be even a little support to everyone."
+   },
+   {
+    "ja": "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をしない<b><u>よう</u></b><ruby>注意<rt>ちゅうい</rt></ruby>してください。",
+    "en": "Please take care not to leave anything behind."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>のテスト、うまくいき<b><u>ますように</u></b>。",
+    "en": "May tomorrow's test go well."
+   },
+   {
+    "ja": "<ruby>病気<rt>びょうき</rt></ruby>が<ruby>治<rt>なお</rt></ruby>り<b><u>ますように</u></b>。",
+    "en": "May your illness be cured."
+   },
+   {
+    "ja": "<ruby>明日<rt>あす</rt></ruby>いい<ruby>天気<rt>てんき</rt></ruby>になり<b><u>ますように</u></b>。",
+    "en": "May the weather be nice tomorrow."
+   },
+   {
+    "ja": "<ruby>第一<rt>だいいち</rt></ruby><ruby>志望<rt>しぼう</rt></ruby>の<ruby>大学<rt>だいがく</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できる<b><u>ように</u></b><ruby>神社<rt>じんじゃ</rt></ruby>でお<ruby>祈<rt>いの</rt></ruby>りをした。",
+    "en": "I prayed at a shrine so that I could pass the entrance exam for my first-choice university."
+   }
+  ],
+  "related": [
+   "ni-nareru",
+   "younisuru",
+   "youni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/naiyounisuru"
+ },
+ {
+  "id": "tabakari",
+  "pattern": "〜たばかり",
+  "romaji": "tabakari",
+  "meaning": {
+   "en": "Have just done"
+  },
+  "formation": "Vた + ばかりだ; Vた + ばかりの + N",
+  "explanation": "Presents an action as having happened recently from the speaker's perspective. The elapsed time is relative to the context, not a fixed number of minutes.",
+  "examples": [
+   {
+    "ja": "<ruby>動物園<rt>どうぶつえん</rt></ruby>では、<b><u><ruby>生<rt>う</rt></ruby>まれたばかり</u></b>のトラの<ruby>赤<rt>あか</rt></ruby>ちゃんに<ruby>見<rt>み</rt></ruby>えます。",
+    "en": "At the zoo, you can see a tiger cub that has just been born."
+   },
+   {
+    "ja": "この<ruby>店<rt>みせ</rt></ruby>で<b><u><ruby>働<rt>はたら</rt></ruby>き<ruby>始<rt>はじ</rt></ruby>めたばかり</u></b>のとき、あの<ruby>先輩<rt>せんぱい</rt></ruby>にはとてもお<ruby>世話<rt>せわ</rt></ruby>になりました。",
+    "en": "When I had just started working at this shop, that senior colleague helped me a great deal."
+   },
+   {
+    "ja": "<b><u><ruby>買<rt>か</rt></ruby>ったばかり</u></b>の<ruby>白<rt>しろ</rt></ruby>いスカートに、<ruby>醤油<rt>しょうゆ</rt></ruby>がかかってしまいました。",
+    "en": "Soy sauce spilled onto the white skirt I had just bought."
+   },
+   {
+    "ja": "A「いつから<ruby>日本<rt>にっぽん</rt></ruby>にいますか？」B「３<ruby>日<rt>か</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<b><u><ruby>来<rt>き</rt></ruby>たばかり</u></b>です。」",
+    "en": "A: How long have you been in Japan? B: I only arrived three days ago."
+   },
+   {
+    "ja": "10<ruby>分<rt>ふん</rt></ruby><ruby>前<rt>まえ</rt></ruby>に<b><u><ruby>覚<rt>おぼ</rt></ruby>えたばかり</u></b>の<ruby>単語<rt>たんご</rt></ruby>を、もう<ruby>忘<rt>わす</rt></ruby>れてしまいました。",
+    "en": "I have already forgotten a word I learned only ten minutes ago."
+   }
+  ],
+  "related": [
+   "tate",
+   "grammar-178",
+   "grammar-182",
+   "maeni"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tabakari"
+ },
+ {
+  "id": "youninaru",
+  "pattern": "〜ようになる",
+  "romaji": "youninaru",
+  "meaning": {
+   "en": "Come to; become able to; a change of habit"
+  },
+  "formation": "V dictionary form / Vない + ようになる; potential verb + ようになる",
+  "explanation": "Shows a change into a new state of ability, possibility or habitual behavior. Read the verb before ようになる to determine which meaning is intended.",
+  "examples": [
+   {
+    "ja": "<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せるようになりました。",
+    "en": "I have become able to speak Japanese."
+   },
+   {
+    "ja": "<ruby>納豆<rt>なっとう</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いでしたけど、<ruby>今<rt>いま</rt></ruby>は<ruby>食<rt>た</rt></ruby>べられるようになりました。",
+    "en": "I used to dislike natto, but now I can eat it."
+   },
+   {
+    "ja": "<ruby>最近<rt>さいきん</rt></ruby>は、よく<ruby>寝<rt>ね</rt></ruby>られるようになりました。",
+    "en": "Recently, I have been able to sleep well."
+   },
+   {
+    "ja": "<ruby>部屋<rt>へや</rt></ruby>でインターネットが<ruby>使<rt>つか</rt></ruby>えるようになりました。",
+    "en": "I can now use the internet in my room."
+   },
+   {
+    "ja": "お<ruby>給料<rt>きゅうりょう</rt></ruby>をもらったので、<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby>に<ruby>行<rt>い</rt></ruby>けるようになりました。",
+    "en": "I received my salary, so I can now go to the drinking party."
+   }
+  ],
+  "related": [
+   "grammar-176",
+   "grammar-193",
+   "grammar-194",
+   "ninaru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/youninaru"
+ },
+ {
+  "id": "madeni",
+  "pattern": "までに",
+  "romaji": "madeni",
+  "meaning": {
+   "en": "By a deadline; before a limit"
+  },
+  "formation": "Time / date + までに; V dictionary form + までに",
+  "explanation": "Specifies a time limit by which an action must be completed. It often occurs with finishing, submitting, returning or preparing something.",
+  "examples": [
+   {
+    "ja": "<ruby>暗<rt>くら</rt></ruby>くなるまでに、<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りましょう。",
+    "en": "Let us get home before it gets dark."
+   },
+   {
+    "ja": "<ruby>教室<rt>きょうしつ</rt></ruby>に<ruby>先生<rt>せんせい</rt></ruby>がくるまでに、<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>終<rt>お</rt></ruby>わらせるつもりです。",
+    "en": "I plan to finish my homework before the teacher comes to the classroom."
+   },
+   {
+    "ja": "<ruby>次<rt>つぎ</rt></ruby>に<ruby>彼氏<rt>かれし</rt></ruby>に<ruby>会<rt>あ</rt></ruby>うまでに、３キロぐらい<ruby>痩<rt>や</rt></ruby>せたい。",
+    "en": "I want to lose about three kilograms before I next see my boyfriend."
+   },
+   {
+    "ja": "<ruby>死<rt>し</rt></ruby>ぬまでに、<ruby>世界中<rt>せかいじゅう</rt></ruby>を<ruby>旅行<rt>りょこう</rt></ruby>してみたいです。",
+    "en": "I would like to travel around the world before I die."
+   },
+   {
+    "ja": "<ruby>子<rt>こ</rt></ruby>どもが３<ruby>歳<rt>さい</rt></ruby>になるまでに、<ruby>北海道<rt>ほっかいどう</rt></ruby>に<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>したい。",
+    "en": "I want to move to Hokkaido before my child turns three."
+   }
+  ],
+  "related": [
+   "de",
+   "nihe",
+   "ni",
+   "kara-made"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/madeni"
+ },
+ {
+  "id": "tokatoka",
+  "pattern": "〜とか〜とか",
+  "romaji": "toka toka",
+  "meaning": {
+   "en": "Such as; things like; saying things such as"
+  },
+  "formation": "N / plain clause + とか、N / plain clause + とか",
+  "explanation": "Lists examples in a conversational, non-exhaustive way. It can list objects, actions or quoted statements.",
+  "examples": [
+   {
+    "ja": "<ruby>隣<rt>となり</rt></ruby>の<ruby>席<rt>せき</rt></ruby>の<ruby>山田<rt>やまだ</rt></ruby>さんは、<ruby>文句<rt>もんく</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い。いつも<ruby>疲<rt>つか</rt></ruby>れた<b><u>とか</u></b><ruby>仕事<rt>しごと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<b><u>とか</u></b><ruby>言<rt>い</rt></ruby>っている。",
+    "en": "Mr. Yamada, who sits next to me, complains a lot. He is always saying he is tired or has too much work."
+   },
+   {
+    "ja": "<ruby>皮肉<rt>ひにく</rt></ruby><b><u>とか</u></b><ruby>嫌味<rt>いやみ</rt></ruby><b><u>とか</u></b>、そういうつもりで<ruby>言<rt>い</rt></ruby>ったんじゃないです。",
+    "en": "I did not mean it as sarcasm or an insult."
+   },
+   {
+    "ja": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>に<ruby>遊<rt>あそ</rt></ruby>ぶ<ruby>友達<rt>ともだち</rt></ruby><b><u>とか</u></b>いない。",
+    "en": "I do not have friends or anyone to hang out with on my days off."
+   },
+   {
+    "ja": "<ruby>将来<rt>しょうらい</rt></ruby>は<ruby>漫画家<rt>まんがか</rt></ruby><b><u>とか</u></b><ruby>作家<rt>さっか</rt></ruby><b><u>とか</u></b>になりたい。",
+    "en": "In the future, I want to become a manga artist, a writer or something like that."
+   },
+   {
+    "ja": "<ruby>新生活<rt>しんせいかつ</rt></ruby>が<ruby>始<rt>はじ</rt></ruby>まるし、<ruby>家具<rt>かぐ</rt></ruby><b><u>とか</u></b><ruby>買<rt>か</rt></ruby>わないといけない。",
+    "en": "I am starting a new life, so I need to buy furniture and things."
+   },
+   {
+    "ja": "すぐ<ruby>自慢<rt>じまん</rt></ruby>する<ruby>奴<rt>やつ</rt></ruby><b><u>とか</u></b><ruby>嫌<rt>きら</rt></ruby>い。",
+    "en": "I dislike people who immediately start boasting and the like."
+   }
+  ],
+  "related": [
+   "wohajime",
+   "nante",
+   "mo-ba-mo-mo-nara-mo",
+   "yara-yara"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tokatoka"
+ },
+ {
+  "id": "ikokei",
+  "pattern": "いこうけい",
+  "romaji": "ikokei",
+  "meaning": {
+   "en": "Volitional verb form; let us; I will"
+  },
+  "formation": "Group 1: o-row + う; group 2: remove る + よう; する→しよう; 来る→来よう",
+  "explanation": "Expresses an intention or an invitation in plain speech. It also forms constructions such as ようと思う for a plan.",
+  "examples": [
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>から<ruby>自転車<rt>じてんしゃ</rt></ruby>で<ruby>学校<rt>がっこう</rt></ruby>に<b><u><ruby>行<rt>い</rt></ruby>こう</u></b>。",
+    "en": "Starting today, let us cycle to school."
+   },
+   {
+    "ja": "もうおそくなったので、<ruby>早<rt>はや</rt></ruby>く<b><u><ruby>寝<rt>ね</rt></ruby>よう</u></b>。",
+    "en": "It is late already, so let us go to bed soon."
+   },
+   {
+    "ja": "<ruby>重<rt>おも</rt></ruby>たそうだね。<b><u><ruby>手伝<rt>てつだ</rt></ruby>おうか</u></b>。",
+    "en": "That looks heavy. Shall I help you?"
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>食堂<rt>しょくどう</rt></ruby>で<ruby>昼食<rt>ちゅうしょく</rt></ruby>を<b><u><ruby>食<rt>た</rt></ruby>べよう</u></b>。",
+    "en": "Let us have lunch at the cafeteria today."
+   },
+   {
+    "ja": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>週末<rt>しゅうまつ</rt></ruby>ですから、<ruby>飲<rt>の</rt></ruby>みに<b><u><ruby>行<rt>い</rt></ruby>こう</u></b>。",
+    "en": "It is the weekend, so let us go out for a drink."
+   }
+  ],
+  "related": [
+   "kotoninaru",
+   "kotoninatteiru",
+   "youtoomou",
+   "tsumori"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/ikokei"
+ },
+ {
+  "id": "siekikatachi",
+  "pattern": "しえきかたち",
+  "romaji": "siekikatachi",
+  "meaning": {
+   "en": "The causative form; make or let"
+  },
+  "formation": "Group 1: a-row + せる; group 2: remove る + させる; する→させる; 来る→来させる",
+  "explanation": "Describes causing or allowing another person to act. The context tells whether the person was forced, encouraged or permitted.",
+  "examples": [
+   {
+    "ja": "<ruby>赤<rt>あか</rt></ruby>ちゃんがなかなか<ruby>寝<rt>ね</rt></ruby>ない<ruby>時<rt>とき</rt></ruby>は、<ruby>赤<rt>あか</rt></ruby>ちゃんにクラシック<ruby>音楽<rt>おんがく</rt></ruby>を <b><u><ruby>聞<rt>き</rt></ruby>かせる</u></b> とよく<ruby>寝<rt>ね</rt></ruby>ると<ruby>聞<rt>き</rt></ruby>いた。",
+    "en": "I heard that when a baby will not sleep, playing classical music for them helps them sleep well."
+   },
+   {
+    "ja": "<ruby>部下<rt>ぶか</rt></ruby>に<ruby>今日<rt>きょう</rt></ruby>は<ruby>残業<rt>ざんぎょう</rt></ruby>せず<ruby>帰<rt>かえ</rt></ruby>りたいと<ruby>言<rt>い</rt></ruby>われたのですぐ<b><u><ruby>帰<rt>かえ</rt></ruby>らせた</u></b>。",
+    "en": "My subordinate said they wanted to go home without working overtime today, so I let them leave immediately."
+   },
+   {
+    "ja": "<ruby>子供<rt>こども</rt></ruby>がやりたいと<ruby>言<rt>い</rt></ruby>ったことは<b><u>やらせてあげたい</u></b>。",
+    "en": "I want to let my child do the things they say they want to do."
+   },
+   {
+    "ja": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>子<rt>こ</rt></ruby>どもにごはんを<ruby>食<rt>た</rt></ruby>べさせた。",
+    "en": "She had the child eat a meal."
+   },
+   {
+    "ja": "<ruby>私<rt>わたくし</rt></ruby>は<ruby>病気<rt>びょうき</rt></ruby>をしたので、<ruby>両親<rt>りょうしん</rt></ruby>を<b><u><ruby>心配<rt>しんぱい</rt></ruby>させました</u></b>。",
+    "en": "I became ill and made my parents worry."
+   }
+  ],
+  "related": [
+   "grammar-155",
+   "grammar-157",
+   "grammar-158",
+   "grammar-159"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/siekikatachi"
+ },
+ {
+  "id": "tekuru",
+  "pattern": "てくる",
+  "romaji": "tekuru",
+  "meaning": {
+   "en": "Come toward; develop up to now"
+  },
+  "formation": "",
+  "explanation": "Describes movement toward the speaker or a change developing from the past toward the present. It can also describe going to do something and returning.",
+  "examples": [
+   {
+    "ja": "だんだん<ruby>寒<rt>さむ</rt></ruby>くなっ<b><u>てきましたね</u></b>。",
+    "en": "It has gradually been getting colder, hasn't it?"
+   },
+   {
+    "ja": "<ruby>昔<rt>むかし</rt></ruby>よりも、<ruby>子供<rt>こども</rt></ruby>の<ruby>数<rt>かず</rt></ruby>がだんだん<ruby>減<rt>へ</rt></ruby>っ<b><u>てきています</u></b>。",
+    "en": "The number of children has gradually decreased compared with the past."
+   },
+   {
+    "ja": "<ruby>以前<rt>いぜん</rt></ruby>よりも、<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>学<rt>まな</rt></ruby>ぶ<ruby>人<rt>ひと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>え<b><u>てきました</u></b>。",
+    "en": "More people have started learning Japanese than before."
+   },
+   {
+    "ja": "<ruby>少<rt>すこ</rt></ruby>し<ruby>太<rt>ふと</rt></ruby>っ<b><u>てきたから</u></b>、ダイエットを<ruby>始<rt>はじ</rt></ruby>めようと<ruby>思<rt>おも</rt></ruby>います。",
+    "en": "I have put on a little weight, so I am thinking of going on a diet."
+   },
+   {
+    "ja": "<ruby>社会人<rt>しゃかいじん</rt></ruby>になって、<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>していないので、<ruby>太<rt>ふと</rt></ruby>っ<b><u>てきた</u></b>。",
+    "en": "Since starting work, I have not exercised at all and have put on weight."
+   },
+   {
+    "ja": "２０<ruby>年間<rt>ねんかん</rt></ruby>、<ruby>息子<rt>むすこ</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>に<ruby>育<rt>そだ</rt></ruby>て<b><u>てきました</u></b>。",
+    "en": "I have lovingly raised my son for twenty years."
+   },
+   {
+    "ja": "<ruby>知<rt>し</rt></ruby>らない<ruby>男<rt>おとこ</rt></ruby>が、<ruby>私<rt>わたくし</rt></ruby>のほうへ<ruby>走<rt>はし</rt></ruby>っ<b><u>てきた</u></b>。",
+    "en": "An unfamiliar man came running toward me."
+   },
+   {
+    "ja": "ポチがボールをくわえて、<ruby>走<rt>はし</rt></ruby>っ<b><u>てきた</u></b>。",
+    "en": "Pochi came running with a ball in his mouth."
+   },
+   {
+    "ja": "<ruby>山田<rt>やまだ</rt></ruby>さんの<ruby>荷物<rt>にもつ</rt></ruby>、<ruby>持<rt>も</rt></ruby>っ<b><u>てきましたよ</u></b>。",
+    "en": "I brought Mr. Yamada's luggage."
+   }
+  ],
+  "related": [
+   "grammar-176",
+   "grammar-193",
+   "grammar-194",
+   "youninaru"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tekuru"
+ },
+ {
+  "id": "suryou-mo",
+  "pattern": "数量も",
+  "romaji": "suryou mo",
+  "meaning": {
+   "en": "As many as; as much as"
+  },
+  "formation": "Number + appropriate counter + も",
+  "explanation": "Emphasizes that a quantity is surprisingly large or exceeds expectations. The counter still follows the ordinary counting rules.",
+  "examples": [
+   {
+    "ja": "トムさんは<ruby>漫画<rt>まんが</rt></ruby>を<b><u>１００<ruby>冊<rt>さつ</rt></ruby>も</u></b><ruby>持<rt>も</rt></ruby>っています。",
+    "en": "Tom has as many as a hundred manga volumes."
+   },
+   {
+    "ja": "メアリーさんは<b><u>５<ruby>匹<rt>ひき</rt></ruby>も</u></b><ruby>猫<rt>ねこ</rt></ruby>を<ruby>飼<rt>か</rt></ruby>っています。",
+    "en": "Mary keeps as many as five cats."
+   },
+   {
+    "ja": "<ruby>木村<rt>きむら</rt></ruby>さんは<ruby>毎月<rt>まいつき</rt></ruby><b><u>２０<ruby>冊<rt>さつ</rt></ruby>も</u></b><ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>むそうです。",
+    "en": "I hear Mr. Kimura reads as many as twenty books every month."
+   },
+   {
+    "ja": "<ruby>田中<rt>たなか</rt></ruby>さんはもう<b><u>３０<ruby>年<rt>ねん</rt></ruby>も</u></b><ruby>日本語<rt>にほんご</rt></ruby>の<ruby>研究<rt>けんきゅう</rt></ruby>をしている。",
+    "en": "Mr. Tanaka has been researching Japanese for as long as thirty years."
+   },
+   {
+    "ja": "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と<ruby>回転寿司<rt>かいてんずし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べにいったんだけど、その<ruby>友達<rt>ともだち</rt></ruby>がなんと<b><u>４０<ruby>皿<rt>さら</rt></ruby>も</u></b><ruby>食<rt>た</rt></ruby>べたんだよ。",
+    "en": "Yesterday I went to a conveyor-belt sushi restaurant with a friend, and that friend ate an astonishing forty plates."
+   },
+   {
+    "ja": "マークさんは１<ruby>日<rt>にち</rt></ruby>に<b><u>５<ruby>回<rt>かい</rt></ruby>も</u></b><ruby>食事<rt>しょくじ</rt></ruby>をするそうだ。",
+    "en": "I hear Mark eats as many as five meals a day."
+   }
+  ],
+  "related": [
+   "gaarimasu",
+   "gaimasu",
+   "dongtusoku",
+   "ni-kai"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/suryou-mo"
+ },
+ {
+  "id": "tyau",
+  "pattern": "～ちゃう",
+  "romaji": "chau",
+  "meaning": {
+   "en": "End up doing; finish doing, casually"
+  },
+  "formation": "Vてしまう→Vちゃう; Vでしまう→Vじゃう; past ちゃった / じゃった",
+  "explanation": "A conversational contraction of てしまう or でしまう. It retains the meanings of completion or an unintended, regrettable result.",
+  "examples": [
+   {
+    "ja": "<ruby>宿題<rt>しゅくだい</rt></ruby>を<b><u>しちゃう</u></b>。",
+    "en": "I will get my homework finished."
+   },
+   {
+    "ja": "<ruby>妻<rt>つま</rt></ruby>:「あ、もう10<ruby>時<rt>じ</rt></ruby>だよ。<ruby>急<rt>いそ</rt></ruby>がないと<ruby>新幹線<rt>しんかんせん</rt></ruby>が<ruby>出発<rt>しゅっぱつ</rt></ruby><b><u>しちゃう</u></b> 。」",
+    "en": "Wife: Oh, it is already ten. If we do not hurry, the shinkansen will leave."
+   },
+   {
+    "ja": "<ruby>夫<rt>おっと</rt></ruby>:「<ruby>本当<rt>ほんとう</rt></ruby>だ。<ruby>急<rt>いそ</rt></ruby>ごう。」",
+    "en": "Husband: You are right. Let us hurry."
+   },
+   {
+    "ja": "<ruby>彼女<rt>かのじょ</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>られ<b><u>ちゃった</u></b>。",
+    "en": "My girlfriend dumped me."
+   }
+  ],
+  "related": [
+   "kotoninatteiru",
+   "sudeni",
+   "hajimeru",
+   "naosu"
+  ],
+  "source": "https://dethitiengnhat.com/en/detailgrammar/tyau"
+ }
+]

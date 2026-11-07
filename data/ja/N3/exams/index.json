@@ -1,0 +1,194 @@
+{
+ "level": "N3",
+ "exams": [
+  {
+   "id": "1",
+   "kind": "jlpt",
+   "n": 1,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 39,
+    "listening": 28
+   }
+  },
+  {
+   "id": "2",
+   "kind": "jlpt",
+   "n": 2,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "3",
+   "kind": "jlpt",
+   "n": 3,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 39,
+    "listening": 28
+   }
+  },
+  {
+   "id": "4",
+   "kind": "jlpt",
+   "n": 4,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "5",
+   "kind": "jlpt",
+   "n": 5,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 39,
+    "listening": 28
+   }
+  },
+  {
+   "id": "6",
+   "kind": "jlpt",
+   "n": 6,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "7",
+   "kind": "jlpt",
+   "n": 7,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "8",
+   "kind": "jlpt",
+   "n": 8,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "9",
+   "kind": "jlpt",
+   "n": 9,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "10",
+   "kind": "jlpt",
+   "n": 10,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "11",
+   "kind": "jlpt",
+   "n": 11,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 27
+   }
+  },
+  {
+   "id": "27",
+   "kind": "jlpt",
+   "n": 27,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38
+   }
+  },
+  {
+   "id": "28",
+   "kind": "jlpt",
+   "n": 28,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "29",
+   "kind": "jlpt",
+   "n": 29,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "30",
+   "kind": "jlpt",
+   "n": 30,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "31",
+   "kind": "jlpt",
+   "n": 31,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "32",
+   "kind": "jlpt",
+   "n": 32,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 38,
+    "listening": 28
+   }
+  },
+  {
+   "id": "t1",
+   "kind": "practice",
+   "n": 1,
+   "counts": {
+    "vocab": 33,
+    "grammar_reading": 39,
+    "listening": 32
+   }
+  },
+  {
+   "id": "t2",
+   "kind": "practice",
+   "n": 2,
+   "counts": {
+    "vocab": 35,
+    "grammar_reading": 39,
+    "listening": 27
+   }
+  }
+ ]
+}

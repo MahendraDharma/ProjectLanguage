@@ -79,7 +79,7 @@ export async function render() {
     main.innerHTML = `<div class="page doc"><div class="empty"><p>${t('load_error')}</p><code class="meta">${esc(e.message)}</code></div></div>`;
   }
   const titleEl = main.querySelector('h1');
-  document.title = (titleEl ? titleEl.textContent.trim() + ' · ' : '') + 'Michi N3';
+  document.title = (titleEl ? titleEl.textContent.trim() + ' · ' : '') + 'Michi';
 }
 
 export function levelPicker() {

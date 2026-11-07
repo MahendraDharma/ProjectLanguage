@@ -130,7 +130,7 @@
       }
      ],
      "part": "lang",
-     "card": "writing"
+     "card": "reading"
     },
     {
      "instruction": "もんだい２_____ の ことばは どう かきますか。１・２・３・４から\nいちばん いい ものを ひとつ えらんで ください。",
@@ -423,7 +423,8 @@
        "explanation": null
       }
      ],
-     "part": "lang"
+     "part": "lang",
+     "card": "synonym"
     },
     {
      "instruction": "もんだい５ つぎの ことばの つかいかたで いちばん いい ものを\n１・２・３・４から ひとつ えらんで ください。",
@@ -853,7 +854,7 @@
        "explanation": null
       }
      ],
-     "part": "read"
+     "part": "lang"
     },
     {
      "instruction": "もんだい４ つぎの１から４の文章を読んで、質問に答えてください。答えは、\n１・２・３・４から、いちばんいいものを一つえらんでください。",
