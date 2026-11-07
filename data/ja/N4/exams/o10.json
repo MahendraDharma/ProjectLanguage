@@ -1,0 +1,670 @@
+{
+ "id": "o10",
+ "level": "N4",
+ "kind": "open",
+ "n": 10,
+ "license": "CC BY-SA 4.0",
+ "attribution": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba",
+ "sections": {
+  "vocab": {
+   "groups": [
+    {
+     "instruction": "問題1 ＿＿＿の ことばは ひらがなで どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "1. うちの<u>赤ん坊</u>は口をきくようになってきました。",
+       "options": [
+        "あかんぼう",
+        "あっかんぼう",
+        "あがんぼう",
+        "あかんぼ"
+       ],
+       "answer": 1,
+       "explanation": "赤ん坊（あかんぼう）: baby<br>うちの赤ん坊は口をきくようになってきました。<br>Our baby is learning to speak.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "2. 今朝は出かけたくない<u>気持ち</u>だ。",
+       "options": [
+        "きもぢ",
+        "きもっち",
+        "きもうち",
+        "きもち"
+       ],
+       "answer": 4,
+       "explanation": "気持ち（きもち）: feeling; mood<br>今朝は出かけたくない気持ちだ。<br>I don't feel like going out this morning.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "3. <u>夫</u>はいつもベッドで本を読むんです。",
+       "options": [
+        "おと",
+        "おっと",
+        "おっど",
+        "おっとう"
+       ],
+       "answer": 2,
+       "explanation": "夫（おっと）: husband<br>夫はいつもベッドで本を読むんです。<br>My husband is always reading in bed.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "4. あなたは<u>小学校</u>に通っているの？",
+       "options": [
+        "じょうがっこう",
+        "しょうがつこう",
+        "しょうがっこ",
+        "しょうがっこう"
+       ],
+       "answer": 4,
+       "explanation": "小学校（しょうがっこう）: elementary school<br>あなたは小学校に通っているの？<br>Do you go to an elementary school?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "5. どのようにして<u>生活</u>していきますか。",
+       "options": [
+        "せいかつう",
+        "ぜいかつ",
+        "せいかっ",
+        "せいかつ"
+       ],
+       "answer": 4,
+       "explanation": "生活（せいかつ）: to live<br>どのようにして生活していきますか。<br>How are you getting along?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "6. <u>星</u>は町の明かりでかすんで見える。",
+       "options": [
+        "ぽし",
+        "ぼし",
+        "ほっし",
+        "ほし"
+       ],
+       "answer": 4,
+       "explanation": "星（ほし）: star<br>星は町の明かりでかすんで見える。<br>The stars look dim because of the city lights.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "7. 春先だから<u>客</u>もあまりいませんでした。",
+       "options": [
+        "きゃぐ",
+        "きやく",
+        "きゃくう",
+        "きゃく"
+       ],
+       "answer": 4,
+       "explanation": "客（きゃく）: guest; customer<br>春先だから客もあまりいませんでした。<br>It was early spring, so there weren't many customers.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "8. それは<u>引き出し</u>に入れておきました。",
+       "options": [
+        "ひきだじ",
+        "ひきだし",
+        "ひぎだし",
+        "ひきだっし"
+       ],
+       "answer": 2,
+       "explanation": "引き出し（ひきだし）: drawer; drawing out<br>それは引き出しに入れておきました。<br>I put it in the drawer.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "9. トムは<u>小説</u>を読んでいる。",
+       "options": [
+        "しょうせつ",
+        "しょうせつう",
+        "しょうぜつ",
+        "しょせつ"
+       ],
+       "answer": 1,
+       "explanation": "小説（しょうせつ）: novel<br>トムは小説を読んでいる。<br>Tom is reading a novel.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "reading"
+    },
+    {
+     "instruction": "問題2 ＿＿＿の ことばは どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "10. 青空<u>いがい</u>には何も見られなかった。",
+       "options": [
+        "以外",
+        "以写",
+        "以死",
+        "外外"
+       ],
+       "answer": 1,
+       "explanation": "以外（いがい）: with the exception of<br>青空以外には何も見られなかった。<br>Nothing was to be seen but the blue sky.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "11. 秋にはたくさんの鳥が南に<u>むかう</u>。",
+       "options": [
+        "度かう",
+        "向かう",
+        "週かう",
+        "映かう"
+       ],
+       "answer": 2,
+       "explanation": "向かう（むかう）: to face<br>秋にはたくさんの鳥が南に向かう。<br>In the fall, many birds head for the south.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "12. これは<u>けっして</u>小さなことではない。",
+       "options": [
+        "族して",
+        "運して",
+        "決して",
+        "集して"
+       ],
+       "answer": 3,
+       "explanation": "決して（けっして）: never<br>これは決して小さなことではない。<br>It's no small matter.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "13. その<u>うんどう</u>をして若返った。",
+       "options": [
+        "動動",
+        "以動",
+        "運動",
+        "牛動"
+       ],
+       "answer": 3,
+       "explanation": "運動（うんどう）: to exercise<br>その運動をして若返った。<br>The exercise took years off me.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "14. 人間はいつ<u>どうぐ</u>を使い始めたのか。",
+       "options": [
+        "道近",
+        "道方",
+        "道具",
+        "動具"
+       ],
+       "answer": 3,
+       "explanation": "道具（どうぐ）: tool; means<br>人間はいつ道具を使い始めたのか。<br>When did man start to use tools?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "15. すべての<u>てん</u>であなたに同意します。",
+       "options": [
+        "野",
+        "夜",
+        "点",
+        "族"
+       ],
+       "answer": 3,
+       "explanation": "点（てん）: point; dot<br>すべての点であなたに同意します。<br>I agreed with you in all your views.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "writing"
+    },
+    {
+     "instruction": "問題3 （　　）に なにを いれますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "16. 父は（　　）で電車を待とうといった。",
+       "options": [
+        "絹",
+        "皆",
+        "ケーキ",
+        "指輪"
+       ],
+       "answer": 2,
+       "explanation": "皆（みな）: everybody<br>父は皆で電車を待とうといった。<br>My father insisted on our waiting for the train.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "17. （　　）、みんなに仲間もできるしね。",
+       "options": [
+        "それに",
+        "それで",
+        "だから",
+        "すると"
+       ],
+       "answer": 1,
+       "explanation": "それに（それに）: moreover<br>それに、みんなに仲間もできるしね。<br>And, we get each other's company to boot.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "18. たくさんの鳥が（　　）にとまっている。",
+       "options": [
+        "教育",
+        "枝",
+        "新聞社",
+        "星"
+       ],
+       "answer": 2,
+       "explanation": "枝（えだ）: branch; twig<br>たくさんの鳥が枝にとまっている。<br>Many birds are on the branch.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "19. 歯医者に行く（　　）はないですよ。",
+       "options": [
+        "必要",
+        "特別",
+        "ソフト",
+        "確か"
+       ],
+       "answer": 1,
+       "explanation": "必要（ひつよう）: necessary<br>歯医者に行く必要はないですよ。<br>You don't need to go to the dentist's.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "20. 近いうちに（　　）にうかがいます。",
+       "options": [
+        "経験",
+        "味噌",
+        "割合",
+        "お宅"
+       ],
+       "answer": 4,
+       "explanation": "お宅（おたく）: (polite) your house<br>近いうちにお宅にうかがいます。<br>We'll visit you one of these days.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "21. 私は（　　）を探していました。",
+       "options": [
+        "忘れ物",
+        "下宿",
+        "理由",
+        "舟"
+       ],
+       "answer": 2,
+       "explanation": "下宿（げしゅく）: lodging<br>私は下宿を探していました。<br>I was on the hunt for lodgings.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "22. 私はこの犬の（　　）をするつもりです。",
+       "options": [
+        "水泳",
+        "世話",
+        "明日",
+        "具合"
+       ],
+       "answer": 2,
+       "explanation": "世話（せわ）: to look after<br>私はこの犬の世話をするつもりです。<br>I'll take care of this dog.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "23. 私はいつも（　　）を３冊手元に置いています。",
+       "options": [
+        "為",
+        "辞典",
+        "レポート",
+        "火"
+       ],
+       "answer": 2,
+       "explanation": "辞典（じてん）: dictionary<br>私はいつも辞典を３冊手元に置いています。<br>I always keep three dictionaries at hand.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "24. 急げば何とか（　　）と思います。",
+       "options": [
+        "手伝う",
+        "間に合う",
+        "行う",
+        "かまう"
+       ],
+       "answer": 2,
+       "explanation": "間に合う（まにあう）: to be in time for<br>急げば何とか間に合うと思います。<br>I think we'll make it if we hurry.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "25. （　　）ものすべてが金ではない。",
+       "options": [
+        "滑る",
+        "変わる",
+        "直る",
+        "光る"
+       ],
+       "answer": 4,
+       "explanation": "光る（ひかる）: to shine; to glitter<br>光るものすべてが金ではない。<br>All that glitters is not gold.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "26. 天文学は天体の（　　）である。",
+       "options": [
+        "科学",
+        "校長",
+        "客",
+        "葉"
+       ],
+       "answer": 1,
+       "explanation": "科学（かがく）: science<br>天文学は天体の科学である。<br>Astronomy is the science of heavenly bodies.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "context"
+    },
+    {
+     "instruction": "問題4 ＿＿＿の ことばの いみ（English）として いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "27. <u>科学</u>（かがく）",
+       "options": [
+        "steam train",
+        "stereo",
+        "preparation for a lesson",
+        "science"
+       ],
+       "answer": 4,
+       "explanation": "科学（かがく）: science<br>私は、ずっと科学を習っている。<br>I have been learning a science.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "28. <u>大学生</u>（だいがくせい）",
+       "options": [
+        "university student",
+        "meaning",
+        "bell",
+        "outskirts"
+       ],
+       "answer": 1,
+       "explanation": "大学生（だいがくせい）: university student<br>その大学生は工学を学んでいます。<br>That college student is studying engineering.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "29. <u>すっと</u>（すっと）",
+       "options": [
+        "straight",
+        "for example",
+        "at last",
+        "to that extent"
+       ],
+       "answer": 1,
+       "explanation": "すっと（すっと）: straight; all of a sudden<br>彼の首筋を血がすっと伝った。<br>A trickle of blood ran down his neck.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "30. <u>もっとも</u>（もっとも）",
+       "options": [
+        "never",
+        "extremely",
+        "greatly",
+        "first of all"
+       ],
+       "answer": 2,
+       "explanation": "もっとも（もっとも）: extremely<br>もっともやさしい問題から始めた方がいい。<br>You had better begin with easier questions.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "31. <u>飛行場</u>（ひこうじょう）",
+       "options": [
+        "airport",
+        "reason",
+        "countryside",
+        "typhoon"
+       ],
+       "answer": 1,
+       "explanation": "飛行場（ひこうじょう）: airport<br>父がついでに私を飛行場まで送ってくれることになっている。<br>My father is dropping me off at the airport along the way.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "32. <u>鳴る</u>（なる）",
+       "options": [
+        "to be discovered",
+        "to change",
+        "(polite) to eat",
+        "to sound"
+       ],
+       "answer": 4,
+       "explanation": "鳴る（なる）: to sound",
+       "points": 1,
+       "passage": null
+      }
+     ]
+    }
+   ],
+   "passages": [],
+   "source": "https://github.com/evanclan/OpenJLPT",
+   "sourceName": "OpenJLPT (CC BY-SA 4.0)",
+   "title": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba"
+  },
+  "grammar_reading": {
+   "groups": [
+    {
+     "instruction": "問題5 つぎの 文の （　　）に 何を 入れますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "1. 今日は来（　　）いて、ありがとうございました。",
+       "options": [
+        "けど",
+        "ていただ",
+        "と思う",
+        "がする"
+       ],
+       "answer": 2,
+       "explanation": "〜てくださる / 〜ていただく: (honorific) someone kindly does for me; (humble) I receive the favor of someone doing<br>今日は来ていただいて、ありがとうございました。<br>Thank you very much for coming today.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "2. こちらが、お部屋のかぎ（　　）。",
+       "options": [
+        "でございます",
+        "んです",
+        "ていただけませんか",
+        "てくれませんか"
+       ],
+       "answer": 1,
+       "explanation": "〜でございます: is; am; are (very polite copula)<br>こちらが、お部屋のかぎでございます。<br>Here is your room key.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "3. 財布に五百円（　　）。",
+       "options": [
+        "しかない",
+        "と思う",
+        "ことがあ",
+        "目"
+       ],
+       "answer": 1,
+       "explanation": "〜しか〜ない: only; nothing but<br>財布に五百円しかない。<br>I only have 500 yen in my wallet.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "4. 会議は三時に終わる（　　）です。",
+       "options": [
+        "ちゃ",
+        "ことができ",
+        "予定",
+        "て"
+       ],
+       "answer": 3,
+       "explanation": "〜予定: plan to; be scheduled to<br>会議は三時に終わる予定です。<br>The meeting is scheduled to end at three.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "5. 兄は辛い料理が食べ（　　）ない。",
+       "options": [
+        "させる",
+        "られ",
+        "ろ",
+        "よう"
+       ],
+       "answer": 2,
+       "explanation": "〜える / 〜られる（potential）: can; be able to (potential form)<br>兄は辛い料理が食べられない。<br>My older brother can't eat spicy food.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "6. ちょっと休んで、コーヒー（　　）飲みませんか。",
+       "options": [
+        "てしま",
+        "ことにな",
+        "でも",
+        "けど"
+       ],
+       "answer": 3,
+       "explanation": "〜でも（suggestion）: or something (softening a suggestion)<br>ちょっと休んで、コーヒーでも飲みませんか。<br>Why don't we take a break and have a coffee or something?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "7. 早く春が来（　　）なあ。",
+       "options": [
+        "そう",
+        "てほしい",
+        "てい",
+        "など"
+       ],
+       "answer": 2,
+       "explanation": "〜てほしい: want someone to do<br>早く春が来てほしいなあ。<br>I wish spring would hurry up and come.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "8. 友達の結婚式で、私がスピーチをする（　　）りました。",
+       "options": [
+        "ことにな",
+        "間に",
+        "ても",
+        "と思"
+       ],
+       "answer": 1,
+       "explanation": "〜ことになる: it has been decided that; it turns out that<br>友達の結婚式で、私がスピーチをすることになりました。<br>It turns out I'll be giving a speech at my friend's wedding.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "9. 妹の宿題を手伝っ（　　）ました。",
+       "options": [
+        "てみ",
+        "ばかり",
+        "たばかり",
+        "てあげ"
+       ],
+       "answer": 4,
+       "explanation": "〜てあげる: do something for someone (as a favor)<br>妹の宿題を手伝ってあげました。<br>I helped my little sister with her homework.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "10. 日本では食べる前に「いただきます」（　　）います。",
+       "options": [
+        "やすい",
+        "と言",
+        "ろ",
+        "ことがある"
+       ],
+       "answer": 2,
+       "explanation": "〜と言う: say that; tell (quotation)<br>日本では食べる前に「いただきます」と言います。<br>In Japan, people say \"itadakimasu\" before eating.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "11. いくら練習し（　　）、なかなか上手になりません。",
+       "options": [
+        "ても",
+        "かしら",
+        "られ",
+        "目"
+       ],
+       "answer": 1,
+       "explanation": "〜ても / 〜でも: even if; even though<br>いくら練習しても、なかなか上手になりません。<br>No matter how much I practice, I just don't get any better.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "12. 週末、一緒に映画を見（　　）よ。",
+       "options": [
+        "られ",
+        "よう",
+        "させる",
+        "ろ"
+       ],
+       "answer": 2,
+       "explanation": "〜おう / 〜よう: let's (casual); I'll (volitional form)<br>週末、一緒に映画を見ようよ。<br>Let's watch a movie together this weekend.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "13. 赤ちゃんが少しずつ話せる（　　）ってきた。",
+       "options": [
+        "ところ",
+        "もら",
+        "ようにな",
+        "なくちゃ"
+       ],
+       "answer": 3,
+       "explanation": "〜ようになる: come to; reach the point where (change in ability or habit)<br>赤ちゃんが少しずつ話せるようになってきた。<br>Our baby is gradually learning to talk.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "14. 出発は朝八時の（　　）です。",
+       "options": [
+        "けれども",
+        "こと",
+        "と思う",
+        "予定"
+       ],
+       "answer": 4,
+       "explanation": "〜予定: plan to; be scheduled to<br>出発は朝八時の予定です。<br>Departure is scheduled for eight in the morning.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "15. 電車に傘を忘れ（　　）いました。",
+       "options": [
+        "なくちゃ",
+        "けれども",
+        "みたい",
+        "てしま"
+       ],
+       "answer": 4,
+       "explanation": "〜てしまう / 〜ちゃう: finish completely; do by accident; end up doing (with regret)<br>電車に傘を忘れてしまいました。<br>I left my umbrella on the train.",
+       "points": 1,
+       "passage": null
+      }
+     ]
+    }
+   ],
+   "passages": [],
+   "source": "https://github.com/evanclan/OpenJLPT",
+   "sourceName": "OpenJLPT (CC BY-SA 4.0)",
+   "title": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba"
+  }
+ }
+}

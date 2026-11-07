@@ -1,0 +1,670 @@
+{
+ "id": "o7",
+ "level": "N5",
+ "kind": "open",
+ "n": 7,
+ "license": "CC BY-SA 4.0",
+ "attribution": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba",
+ "sections": {
+  "vocab": {
+   "groups": [
+    {
+     "instruction": "問題1 ＿＿＿の ことばは ひらがなで どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "1. このホールには人が二<u>千</u>人入れる。",
+       "options": [
+        "せん",
+        "まち",
+        "あね",
+        "ふく"
+       ],
+       "answer": 1,
+       "explanation": "千（せん）: thousand<br>このホールには人が二千人入れる。<br>Two thousand people fit into this hall.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "2. <u>もう一度</u>ゆっくりお話しください。",
+       "options": [
+        "もいちど",
+        "もういちど",
+        "もうういちど",
+        "もういっちど"
+       ],
+       "answer": 2,
+       "explanation": "もう一度（もういちど）: again<br>もう一度ゆっくりお話しください。<br>Could you please repeat it slowly?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "3. <u>九</u>ページを開きなさい。",
+       "options": [
+        "きゆう",
+        "ぎゅう",
+        "きゅう",
+        "きゅうう"
+       ],
+       "answer": 3,
+       "explanation": "九（きゅう）: nine<br>九ページを開きなさい。<br>Open your book to page nine.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "4. ボールは<u>丸い</u>。",
+       "options": [
+        "なくす",
+        "まるい",
+        "コップ",
+        "でぐち"
+       ],
+       "answer": 2,
+       "explanation": "丸い（まるい）: round; circular<br>ボールは丸い。<br>Balls are round.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "5. <u>奥さん</u>がカンカンだぞ。",
+       "options": [
+        "おぐさん",
+        "おくうさん",
+        "おくさん",
+        "おくざん"
+       ],
+       "answer": 3,
+       "explanation": "奥さん（おくさん）: (honorable) wife<br>奥さんがカンカンだぞ。<br>Your wife is mad at you.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "6. いや<u>結構</u>です。たくさんいただきました。",
+       "options": [
+        "けっこう",
+        "けっごう",
+        "げっこう",
+        "けこう"
+       ],
+       "answer": 1,
+       "explanation": "結構（けっこう）: splendid; enough<br>いや結構です。たくさんいただきました。<br>No more, thank you. I'm full.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "7. あなたの<u>名前</u>はリストからはずされた。",
+       "options": [
+        "すこし",
+        "なまえ",
+        "うすい",
+        "やさい"
+       ],
+       "answer": 2,
+       "explanation": "名前（なまえ）: name<br>あなたの名前はリストからはずされた。<br>Your name was dropped from the list.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "8. テーブルの上に<u>花瓶</u>がある。",
+       "options": [
+        "かびん",
+        "あかい",
+        "かてい",
+        "ひだり"
+       ],
+       "answer": 1,
+       "explanation": "花瓶（かびん）: a vase<br>テーブルの上に花瓶がある。<br>There is a vase on the table.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "9. ちょっとそこまで<u>散歩</u>に出よう。",
+       "options": [
+        "ごはん",
+        "きいろ",
+        "さんぽ",
+        "ひとり"
+       ],
+       "answer": 3,
+       "explanation": "散歩（さんぽ）: to stroll<br>ちょっとそこまで散歩に出よう。<br>Let's step out for a short walk.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "reading"
+    },
+    {
+     "instruction": "問題2 ＿＿＿の ことばは どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "10. 彼は<u>じょうぶ</u>だったそうです。",
+       "options": [
+        "夫夫",
+        "丈夫",
+        "丈大",
+        "丈十"
+       ],
+       "answer": 2,
+       "explanation": "丈夫（じょうぶ）: strong; durable<br>彼は丈夫だったそうです。<br>He is said to have been strong.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "11. <u>もくようび</u>よりむしろ金曜日においでいただきたい。",
+       "options": [
+        "曜曜日",
+        "木曜日",
+        "木曜金",
+        "金曜日"
+       ],
+       "answer": 2,
+       "explanation": "木曜日（もくようび）: Thursday<br>木曜日よりむしろ金曜日においでいただきたい。<br>I would rather you came on Friday than on Thursday.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "12. <u>むこう</u>の大きなビルをごらんなさい。",
+       "options": [
+        "天こう",
+        "向こう",
+        "聞こう",
+        "書こう"
+       ],
+       "answer": 2,
+       "explanation": "向こう（むこう）: over there<br>向こうの大きなビルをごらんなさい。<br>Look at the large building over there.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "13. <u>かいしゃ</u>をクビにならなきゃいいけどね。",
+       "options": [
+        "会時",
+        "会火",
+        "友社",
+        "会社"
+       ],
+       "answer": 4,
+       "explanation": "会社（かいしゃ）: company<br>会社をクビにならなきゃいいけどね。<br>I hope I can hold on to my job.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "14. あのハンサムな<u>おとこのこ</u>を見て。",
+       "options": [
+        "男の四",
+        "男の西",
+        "子の子",
+        "男の子"
+       ],
+       "answer": 4,
+       "explanation": "男の子（おとこのこ）: boy<br>あのハンサムな男の子を見て。<br>Look at that good-looking boy.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "15. テーブルの上に<u>かびん</u>がある。",
+       "options": [
+        "七瓶",
+        "三瓶",
+        "花男",
+        "花瓶"
+       ],
+       "answer": 4,
+       "explanation": "花瓶（かびん）: a vase<br>テーブルの上に花瓶がある。<br>There is a vase on the table.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "writing"
+    },
+    {
+     "instruction": "問題3 （　　）に なにを いれますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "16. 私は新しい（　　）を買った。",
+       "options": [
+        "写真",
+        "背広",
+        "向こう",
+        "鶏肉"
+       ],
+       "answer": 2,
+       "explanation": "背広（せびろ）: business suit<br>私は新しい背広を買った。<br>I bought a new suit of clothes.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "17. ビルは（　　）の秋に私に会いに来た。",
+       "options": [
+        "一人",
+        "黒",
+        "去年",
+        "町"
+       ],
+       "answer": 3,
+       "explanation": "去年（きょねん）: last year<br>ビルは去年の秋に私に会いに来た。<br>Bill came to see me last autumn.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "18. 彼の話はいろいろなところへ（　　）。",
+       "options": [
+        "飛ぶ",
+        "遊ぶ",
+        "呼ぶ",
+        "並ぶ"
+       ],
+       "answer": 1,
+       "explanation": "飛ぶ（とぶ）: to fly; to hop<br>彼の話はいろいろなところへ飛ぶ。<br>He frequently jumps from one topic to another while he is talking.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "19. 私はその（　　）の名前を知っている。",
+       "options": [
+        "テレビ",
+        "動物",
+        "春",
+        "ラジオ"
+       ],
+       "answer": 2,
+       "explanation": "動物（どうぶつ）: animal<br>私はその動物の名前を知っている。<br>I know the name of this animal.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "20. （　　）にはなにがよろしいですか。",
+       "options": [
+        "御飯",
+        "兄弟",
+        "夕飯",
+        "朝ごはん"
+       ],
+       "answer": 4,
+       "explanation": "朝ごはん（あさごはん）: breakfast<br>朝ごはんにはなにがよろしいですか。<br>What would you like for breakfast?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "21. （　　）の六月はあまり雨の日がなかった。",
+       "options": [
+        "塩",
+        "今年",
+        "再来年",
+        "零"
+       ],
+       "answer": 2,
+       "explanation": "今年（ことし）: this year<br>今年の六月はあまり雨の日がなかった。<br>There were not many rainy days in June this year.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "22. お（　　）は食べられません。",
+       "options": [
+        "肉",
+        "テープ",
+        "たばこ",
+        "絵"
+       ],
+       "answer": 1,
+       "explanation": "肉（にく）: meat<br>お肉は食べられません。<br>I can't eat meat.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "23. どういう（　　）を見学したいですか。",
+       "options": [
+        "町",
+        "本棚",
+        "所",
+        "カレー"
+       ],
+       "answer": 3,
+       "explanation": "所（ところ）: place<br>どういう所を見学したいですか。<br>What kind of places would you like to see?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "24. 何か（　　）に入れてから出かけなさい。",
+       "options": [
+        "眼鏡",
+        "緑",
+        "おなか",
+        "近く"
+       ],
+       "answer": 3,
+       "explanation": "おなか（おなか）: stomach<br>何かおなかに入れてから出かけなさい。<br>You should put something in your stomach before you go.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "25. どうもご（　　）な言いわけだよ。",
+       "options": [
+        "大丈夫",
+        "好き",
+        "りっぱ",
+        "嫌"
+       ],
+       "answer": 3,
+       "explanation": "りっぱ（りっぱ）: splendid<br>どうもごりっぱな言いわけだよ。<br>That is a fine excuse.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "26. トッピングは（　　）のせて下さい。",
+       "options": [
+        "自動車",
+        "全部",
+        "テレビ",
+        "問題"
+       ],
+       "answer": 2,
+       "explanation": "全部（ぜんぶ）: all<br>トッピングは全部のせて下さい。<br>I want everything on it.",
+       "points": 1,
+       "passage": null
+      }
+     ],
+     "card": "context"
+    },
+    {
+     "instruction": "問題4 ＿＿＿の ことばの いみ（English）として いちばん いい ものを ひとつ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "27. <u>あの</u>（あの）",
+       "options": [
+        "such",
+        "that over there",
+        "this",
+        "that"
+       ],
+       "answer": 2,
+       "explanation": "あの（あの）: that over there<br>この本はあの本ほどやさしくない。<br>This book is not as easy as that one.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "28. <u>しょうゆ</u>（しょうゆ）",
+       "options": [
+        "soy sauce",
+        "stairs",
+        "hand",
+        "Wednesday"
+       ],
+       "answer": 1,
+       "explanation": "しょうゆ（しょうゆ）: soy sauce",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "29. <u>教える</u>（おしえる）",
+       "options": [
+        "to teach",
+        "to put on from the shoulders down",
+        "to work for someone",
+        "to tie"
+       ],
+       "answer": 1,
+       "explanation": "教える（おしえる）: to teach; to tell",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "30. <u>それから</u>（それから）",
+       "options": [
+        "after that",
+        "girl",
+        "in that situation",
+        "I beg your pardon"
+       ],
+       "answer": 1,
+       "explanation": "それから（それから）: after that<br>それからすっきりきれいにしてくれ。<br>Then clean it really well.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "31. <u>ボールペン</u>（ボールペン）",
+       "options": [
+        "tobacco",
+        "electric train",
+        "height",
+        "ball-point pen"
+       ],
+       "answer": 4,
+       "explanation": "ボールペン（ボールペン）: ball-point pen<br>ボールペンのインクがなくなった。<br>My ballpoint pen just ran out of ink.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "32. <u>晴れ</u>（はれ）",
+       "options": [
+        "bath",
+        "last year",
+        "clear weather",
+        "a glass"
+       ],
+       "answer": 3,
+       "explanation": "晴れ（はれ）: clear weather<br>ロンドンの天気は晴れです。<br>The weather is fine in London.",
+       "points": 1,
+       "passage": null
+      }
+     ]
+    }
+   ],
+   "passages": [],
+   "source": "https://github.com/evanclan/OpenJLPT",
+   "sourceName": "OpenJLPT (CC BY-SA 4.0)",
+   "title": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba"
+  },
+  "grammar_reading": {
+   "groups": [
+    {
+     "instruction": "問題5 つぎの 文の （　　）に 何を 入れますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。",
+     "part": "lang",
+     "questions": [
+      {
+       "stem": "1. 猫は今どこ（　　）いますか。",
+       "options": [
+        "と",
+        "に",
+        "で",
+        "を"
+       ],
+       "answer": 2,
+       "explanation": "〜に（place of existence）: in; at; on (where someone or something is)<br>猫は今どこにいますか。<br>Where is the cat now?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "2. 毎日2時間（　　）勉強します。",
+       "options": [
+        "と",
+        "くなかった",
+        "ましょうか",
+        "くらい"
+       ],
+       "answer": 4,
+       "explanation": "〜くらい / 〜ぐらい（approximately）: about; approximately (an amount or length of time)<br>毎日2時間くらい勉強します。<br>I study for about two hours every day.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "3. 明日はテストがあります（　　）。",
+       "options": [
+        "を",
+        "まで",
+        "よ",
+        "で"
+       ],
+       "answer": 3,
+       "explanation": "〜よ: you know; I tell you (giving new information or emphasis)<br>明日はテストがありますよ。<br>There's a test tomorrow, you know.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "4. 私は歌（　　）です。",
+       "options": [
+        "が下手",
+        "この",
+        "てください",
+        "てから"
+       ],
+       "answer": 1,
+       "explanation": "〜が上手 / 〜が下手: good at; bad at<br>私は歌が下手です。<br>I'm bad at singing.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "5. 明日、公園を散歩し（　　）。",
+       "options": [
+        "で",
+        "だけ",
+        "くて",
+        "ませんか"
+       ],
+       "answer": 4,
+       "explanation": "〜ませんか: won't you ...?; would you like to ...? (polite invitation)<br>明日、公園を散歩しませんか。<br>How about a walk in the park tomorrow?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "6. 母は料理をするの（　　）です。",
+       "options": [
+        "じゃない",
+        "この",
+        "てください",
+        "が好き"
+       ],
+       "answer": 4,
+       "explanation": "〜が好き / 〜が嫌い: like; dislike<br>母は料理をするのが好きです。<br>My mother likes cooking.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "7. 週末、海へ泳ぎ（　　）きました。",
+       "options": [
+        "という",
+        "に行",
+        "まで",
+        "て"
+       ],
+       "answer": 2,
+       "explanation": "〜に行く: go (somewhere) to do<br>週末、海へ泳ぎに行きました。<br>I went to the beach to swim on the weekend.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "8. 今日は休み（　　）。",
+       "options": [
+        "に行",
+        "が下手",
+        "じゃない",
+        "くて"
+       ],
+       "answer": 3,
+       "explanation": "〜ではありません / 〜じゃない: is not; am not; are not<br>今日は休みじゃない。<br>Today isn't a day off.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "9. スーパーで肉（　　）野菜を買いました。",
+       "options": [
+        "から",
+        "より",
+        "まで",
+        "や"
+       ],
+       "answer": 4,
+       "explanation": "〜や: and (giving some examples out of more); ... and so on<br>スーパーで肉や野菜を買いました。<br>I bought meat, vegetables and other things at the supermarket.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "10. 今日は学校へ行か（　　）。",
+       "options": [
+        "だ",
+        "ない",
+        "ます",
+        "くて"
+       ],
+       "answer": 2,
+       "explanation": "〜ない: do not; will not (plain negative of verbs)<br>今日は学校へ行かない。<br>I'm not going to school today.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "11. トイレはどこです（　　）。",
+       "options": [
+        "や",
+        "の",
+        "を",
+        "か"
+       ],
+       "answer": 4,
+       "explanation": "〜か（question）: (question marker) turns a sentence into a question<br>トイレはどこですか。<br>Where is the restroom?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "12. いっしょに昼ご飯を食べ（　　）。",
+       "options": [
+        "どこ",
+        "ます",
+        "ませんでした",
+        "ませんか"
+       ],
+       "answer": 4,
+       "explanation": "〜ませんか: won't you ...?; would you like to ...? (polite invitation)<br>いっしょに昼ご飯を食べませんか。<br>Would you like to have lunch together?",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "13. 子どものころ、野菜がきらい（　　）。",
+       "options": [
+        "ます",
+        "ません",
+        "てください",
+        "でした"
+       ],
+       "answer": 4,
+       "explanation": "〜でした: was; were (polite past copula)<br>子どものころ、野菜がきらいでした。<br>When I was a child, I didn't like vegetables.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "14. 心配し（　　）。",
+       "options": [
+        "ないでください",
+        "その",
+        "あれ",
+        "だけ"
+       ],
+       "answer": 1,
+       "explanation": "〜ないでください: please don't (do)<br>心配しないでください。<br>Please don't worry.",
+       "points": 1,
+       "passage": null
+      },
+      {
+       "stem": "15. 音楽を聞き（　　）勉強します。",
+       "options": [
+        "ながら",
+        "が好き",
+        "より",
+        "へ"
+       ],
+       "answer": 1,
+       "explanation": "〜ながら（while）: while (doing two actions at the same time)<br>音楽を聞きながら勉強します。<br>I study while listening to music.",
+       "points": 1,
+       "passage": null
+      }
+     ]
+    }
+   ],
+   "passages": [],
+   "source": "https://github.com/evanclan/OpenJLPT",
+   "sourceName": "OpenJLPT (CC BY-SA 4.0)",
+   "title": "Soal dibuat otomatis dari OpenJLPT (CC BY-SA 4.0), yang memakai JMdict & KANJIDIC2 (EDRDG), daftar JLPT Jonathan Waller, dan kalimat Tatoeba"
+  }
+ }
+}

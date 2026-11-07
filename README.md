@@ -8,8 +8,8 @@ Antarmuka tersedia dalam tiga bahasa: **日本語 / Bahasa Indonesia / English**
 
 | Level | Tes | Soal | Tata bahasa | Catatan |
 |---|---|---|---|---|
-| N5 | 2 tes latihan | 189 | 61 pola | sumber hanya menyediakan tes latihan |
-| N4 | 2 tes latihan | 170 | 80 pola | sumber hanya menyediakan tes latihan |
+| N5 | 2 tes latihan + 10 tes OpenJLPT | 659 | 61 pola | tes OpenJLPT dibuat otomatis (kosakata & tata bahasa) |
+| N4 | 2 tes latihan + 10 tes OpenJLPT | 640 | 80 pola | tes OpenJLPT dibuat otomatis (kosakata & tata bahasa) |
 | N3 | 17 ujian simulasi + 2 tes latihan | 1.896 | 73 pola | |
 | N2 | 15 ujian simulasi | 1.535 | 141 pola | |
 | N1 | 7 ujian simulasi | 628 | 172 pola | 2 set tanpa bagian mendengarkan di sumber |
@@ -65,12 +65,23 @@ Soal ujian simulasi dan kamus tata bahasa diambil dari [dethitiengnhat.com/en](h
 untuk belajar pribadi; setiap bagian ujian dan pola tata bahasa menyimpan tautan ke halaman sumbernya.
 Arti tata bahasa dalam Bahasa Indonesia (`data/ja/<level>/grammar.id.json`) diterjemahkan khusus untuk proyek ini.
 
+### Soal OpenJLPT (N5, N4)
+
+Karena situs sumber hanya punya 2 tes latihan untuk N5 dan N4, ada 10 tes tambahan per level yang
+dibuat otomatis dari dataset [OpenJLPT](https://github.com/evanclan/OpenJLPT) (CC BY-SA 4.0; memakai
+JMdict/KANJIDIC2 dari EDRDG, daftar JLPT Jonathan Waller, dan kalimat Tatoeba). Tiap tes berisi 47 soal:
+cara baca kanji, penulisan kanji, kata dalam konteks, arti kata (pilihan dalam bahasa Inggris), dan isian
+tata bahasa dari kalimat contoh. Tidak ada soal membaca panjang dan mendengarkan. Karena dibuat otomatis,
+sesekali ada soal dengan dua jawaban yang wajar. File-file ini dirilis dengan lisensi CC BY-SA 4.0, lihat
+`data/ja/LICENSE-openjlpt.md`.
+
 Memperbarui data:
 
 ```bash
 pip install beautifulsoup4 lxml pillow
 python3 scripts/scrape_dethitiengnhat.py                 # semua level (pakai cache di .cache/)
 python3 scripts/scrape_dethitiengnhat.py --levels N3 --only exams
+python3 scripts/build_openjlpt_tests.py                    # tes OpenJLPT N5/N4
 ```
 
 ## Desain

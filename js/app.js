@@ -22,8 +22,8 @@ const NAV = [
 const ROUTES = [
   [/^\/$/, home],
   [/^\/exams$/, examList],
-  [/^\/exam\/(N[1-5]-t?\d+)\/(vocab|grammar_reading|listening)$/, examRun],
-  [/^\/report\/(N[1-5]-t?\d+)$/, examReport],
+  [/^\/exam\/(N[1-5]-[a-z]?\d+)\/(vocab|grammar_reading|listening)$/, examRun],
+  [/^\/report\/(N[1-5]-[a-z]?\d+)$/, examReport],
   [/^\/grammar$/, grammarList],
   [/^\/grammar\/quiz$/, grammarQuiz],
   [/^\/grammar\/(N[1-5])\/([\w-]+)$/, grammarDetail],

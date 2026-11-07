@@ -10,6 +10,7 @@ import { stop as stopTts } from '../tts.js';
 
 
 /* ───────────────────────── list ───────────────────────── */
+const KINDS = ['jlpt', 'practice', 'open'];
 export async function examList(main, _, params) {
   const L = level();
   const idx = await examIndex();
@@ -36,8 +37,12 @@ export async function examList(main, _, params) {
         `<button type="button" data-f="${f}" aria-pressed="${filter === f}">${t('filter_' + f)}</button>`).join('')}</div>
       <span class="meta">${SECTIONS.map(x => `${secLabel(x)} ${LEVELS[L].minutes[x]} ${t('minutes')}`).join(' · ')}</span>
     </div>
+    ${KINDS.map(kind => { const list = exams.filter(e => (e.kind || 'jlpt') === kind); if (!list.length) return '';
+      return `<section class="stack" aria-label="${t('kind_' + kind)}">
+      <div class="stack flush"><h2 class="h3">${t('kind_' + kind)} <span class="faint">${list.length}</span></h2>
+        ${kind === 'open' ? `<p class="small muted">${t('open_note')} <a class="link" href="https://github.com/evanclan/OpenJLPT" target="_blank" rel="noopener">OpenJLPT</a></p>` : ''}</div>
     <div class="exam-grid">
-      ${exams.map(e => {
+      ${list.map(e => {
         const full = SECTIONS.every(sec => !e.counts[sec] || s.attempts.some(a => a.exam === K(e) && a.section === sec && a.mode === 'exam'));
         return `<div class="panel exam-card">
         <div class="head"><b>${testName(e)}</b>
@@ -47,7 +52,7 @@ export async function examList(main, _, params) {
             <span class="k" lang="ja">${secKanji(sec)}</span><span>${secLabel(sec)}</span>
             <span class="meta">${!n ? t('not_available') : b != null ? `${b}% ${t('best')}` : `${n}`}</span></a>`; }).join('')}
       </div>`; }).join('')}
-    </div>
+    </div></section>`; }).join('')}
   </div>`;
   main.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { location.hash = `#/exams?f=${b.dataset.f}`; });
 }
@@ -143,7 +148,7 @@ export async function examRun(main, [id, section], params) {
         ${showSummary ? summaryHtml() : ''}
         <div>${bodyHtml()}</div>
         <div class="row between">
-          <a class="meta link" href="${esc(ex.sections[section].source)}" target="_blank" rel="noopener">${t('source')}: dethitiengnhat.com</a>
+          <a class="meta link" href="${esc(ex.sections[section].source)}" target="_blank" rel="noopener">${t('source')}: ${esc(ex.sections[section].sourceName || 'dethitiengnhat.com')}</a>
           <button type="button" class="btn sm ghost" data-restart>${t('restart')}</button>
         </div>
       </div>`;

@@ -192,6 +192,11 @@ const S = {
   sec_reading: { ja: '読解', id: 'Membaca', en: 'Reading' },
   part_langread: { ja: '言語知識・読解', id: 'Pengetahuan Bahasa & Membaca', en: 'Language Knowledge & Reading' },
   practice_n: { ja: '練習テスト{n}', id: 'Tes latihan {n}', en: 'Practice test {n}' },
+  open_n: { ja: 'OpenJLPT {n}', id: 'OpenJLPT {n}', en: 'OpenJLPT {n}' },
+  kind_jlpt: { ja: '模擬試験', id: 'Ujian simulasi', en: 'Mock tests' },
+  kind_practice: { ja: '練習テスト', id: 'Tes latihan', en: 'Practice tests' },
+  kind_open: { ja: '自動生成の問題', id: 'Soal buatan otomatis', en: 'Generated questions' },
+  open_note: { ja: 'OpenJLPT（CC BY-SA 4.0）の語彙・文法データから自動で作った問題です。読解と聴解はありません。まれに正解が二つある問題があります。データ：', id: 'Soal kosakata dan tata bahasa yang dibuat otomatis dari data OpenJLPT (CC BY-SA 4.0). Tanpa membaca panjang dan mendengarkan; sesekali ada soal dengan dua jawaban yang wajar. Data:', en: 'Vocabulary and grammar questions generated from OpenJLPT data (CC BY-SA 4.0). No reading passages or listening; now and then a question has two reasonable answers. Data:' },
 };
 
 let current = 'id';
